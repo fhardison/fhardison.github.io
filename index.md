@@ -30,8 +30,8 @@ I love reading, learning, and sharing what I've learned. On the blog, you'll fin
 
 Some random scribblings for your general amusement or in case you need a writer.
 
-* [Thoughts on learning Bahasa Indonesia (personal blog)](/jekyll-theme-prologue/2018/05/17/Thoughts-on-learning-Bahasa-Indonesia.html)
-* [What is language? (personal blog)](/jekyll-theme-prologue/2018/05/17/What-is-language.html)
+* [Thoughts on learning Bahasa Indonesia (personal blog)](/2018/05/17/Thoughts-on-learning-Bahasa-Indonesia.html)
+* [What is language? (personal blog)](/2018/05/17/What-is-language.html)
 * [My Master's Thesis](https://arts-sciences.und.edu/summer-institute-of-linguistics/theses/2013-hardison-trafton.cfm)
 
 
