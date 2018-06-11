@@ -11,9 +11,10 @@ layout: home
     table, th, td {
     border: 0px solid black
     }
+    h2  {text-align: center;}
 </style>
 <table>
-    <tr><td style="vertical-align:middle" ><h2 class="alt">Hi! I'm Fletcher Hardison: thinker, writer, language enthusiast</h2></td>
+    <tr><td style="vertical-align:middle" ><h2 class="alt">Hi! I'm Fletcher Hardison: thinker, writer, and language enthusiast</h2></td>
     <td style="vertical-align:middle"><img src="assets/images/tfh.jpg"/></td></tr>
 </table>
   
@@ -25,9 +26,9 @@ I love reading, learning, and sharing what I've learned. On the blog, you'll fin
 
 ---
 
-# Portfolio
+## Portfolio
 
-Some random scribblings for your general amusement.
+Some random scribblings for your general amusement or in case you need a writer.
 
 * [Thoughts on learning Bahasa Indonesia (personal blog)](/jekyll-theme-prologue/2018/05/17/Thoughts-on-learning-Bahasa-Indonesia.html)
 * [What is language? (personal blog)](/jekyll-theme-prologue/2018/05/17/What-is-language.html)
@@ -36,7 +37,7 @@ Some random scribblings for your general amusement.
 
 ---
 
-# Contact
+## Contact
 
 <p>If you want to chat or I can help you, write something for you, provide coaching for your language or learning project, don't hesitate to contact me.</p>
 <p><a href="mailto:fhardison@gmail.com?subject=[A%20Mind%20for%20Language]:">fhardison [at] gmail.com</a></p>
