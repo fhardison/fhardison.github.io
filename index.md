@@ -12,10 +12,10 @@ layout: home
     border: 0px solid black
     }
 </style>
- <table>
-<tr><td style="vertical-align:middle" ><h2 class="alt">Hi! I'm Fletcher Hardison: Thinker, writer, language enthusiast</h2></td>
-<td style="vertical-align:middle"><img src="assets/images/tfh.jpg"/></td></tr>
-  </table>
+<table>
+    <tr><td style="vertical-align:middle" ><h2 class="alt">Hi! I'm Fletcher Hardison: thinker, writer, language enthusiast</h2></td>
+    <td style="vertical-align:middle"><img src="assets/images/tfh.jpg"/></td></tr>
+</table>
   
 
 Welcome to A Mind for Language.
