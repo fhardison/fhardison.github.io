@@ -2,10 +2,13 @@
 title: How to memorize Scripture and have fun doing it
 description: This course teaches you how to memorize Scripture, in less time and remember it for the long term.
 layout: post
+permalink: /courses/how-to-memorize-scripture.html
 tags: [Theory, Method, Memory, Scripture]
 ---
 
 What if I told you it's possible to memorize Scripture without boring repetition? You might think I'm crazy. 
+
+![](/assets/images/bibleImageGeneric.jpeg)
 
 It is possible. 
 

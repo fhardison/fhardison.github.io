@@ -3,3 +3,7 @@ show_downloads: false
 google_analytics:
 theme: 
 url: "http://amindforlanguage.com"
+collections:
+  courses:
+    output: true
+    permalink: /:collection/:name

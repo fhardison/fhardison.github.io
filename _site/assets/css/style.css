@@ -817,8 +817,8 @@ a {
       font-size: 1rem; } }
   .main-content img {
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto; }
+    display: block;
+    margin: 0 auto; }
   .main-content h1,
   .main-content h2,
   .main-content h3,

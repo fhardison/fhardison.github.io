@@ -14,7 +14,7 @@ layout: home
     h1  {text-align: center;}
 </style>
 <table>
-    <tr><td style="vertical-align:middle" ><h2 class="alt">Hi! I'm Fletcher Hardison: thinker, writer, and language enthusiast</h2></td>
+    <tr><td style="vertical-align:middle" ><h2 class="alt">Hi! I'm Fletcher Hardison: thinker, translator, writer, and language enthusiast</h2></td>
     <td style="vertical-align:middle"><img src="assets/images/tfh.jpg"/></td></tr>
 </table>
   
@@ -66,4 +66,4 @@ I love to read and to share what I've learned with others. Learning new things k
 # Contact
 
 <p>If you want to chat or I can help you, write something for you, provide coaching for your language or learning project, don't hesitate to contact me.</p>
-<p><a href="mailto:fletcher@amindforlanguage.com?subject=[A%20Mind%20for%20Language]:">fletcher [at] gmail.com</a></p>
+<p><a href="mailto:fletcher@amindforlanguage.com?subject=[A%20Mind%20for%20Language]:">fletcher [at] amindforlanguage.com</a></p>
