@@ -57,6 +57,7 @@ I love to read and to share what I've learned with others. Learning new things k
 * Learning techniques
 * Programming and computers
 * Diet and Exercise
+* Culture
 * Reading (non-fiction, fantasy, sci-fi, just to name a few)
 * Open source authoring tools (markdown, Pandoc, etc)
 
