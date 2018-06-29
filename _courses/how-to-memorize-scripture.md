@@ -200,4 +200,8 @@ This method is not *difficult*, but does take some getting used to. For me the h
 
 Happy memorizing!
 
+# P.S.
+
+I'm more than happy to teach this method in a workshop format to your group (large or small). Sometimes you just need someone to walk you through the process and answer questions. Email me at <a href="mailto:fletcher@amindforlanguage.com?subject=[A%20Mind%20for%20Language]:">fletcher@amindforlanguage.com</a> and we can figure out what's right for you and your group.
+
 
