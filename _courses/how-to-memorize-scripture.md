@@ -10,9 +10,7 @@ What if I told you it's possible to memorize Scripture without boring repetition
 
 ![](/assets/images/bibleImageGeneric.jpeg)
 
-It is possible. 
-
-In fact, it becomes a creative, almost gamelike process.
+It is possible, however. In fact, it becomes a creative, almost gamelike process.
 
 The problem is that most of us approach memorization without a mnemonic method. What is a mnemonic method you say?
 
