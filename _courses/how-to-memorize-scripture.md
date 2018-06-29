@@ -1,5 +1,5 @@
 ---
-title: How to memorize Scripture and have fun doing it
+title: How to Memorize Scripture and Have Fun Doing it
 description: This course teaches you how to memorize Scripture, in less time and remember it for the long term.
 layout: post
 permalink: /courses/how-to-memorize-scripture.html
