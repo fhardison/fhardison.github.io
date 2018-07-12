@@ -54,6 +54,8 @@ If you guessed "Blessed are" and "for", you're right. The patterns in this text 
 
 # Pick keywords
 
+![](/assets/images/black-and-white-dark-keys-792031.jpg)
+
 The first step in memorizing a verse of Scripture is to **determine what words you need to encode (covert into images) in order to accurately recall the verse.** We call these words "keywords". Don't worry about what "encoding" means just yet. We'll cover that in the next section.
 
 We will apply the following principles to help determine what keywords we need to encode:
@@ -76,6 +78,8 @@ So my keyword list is: consider, calling, brothers, not many, wise, worldly stan
 **Homework**: Pick a verse you want to memorize and identify the keywords you will need to accurately recall the verse.
 
 # Encode keywords as mental images
+
+![](/assets/images/art-close-up-comic-16516.jpg)
 
 Now that we have our keywords, we need to **encode them as memory friendly images.** This is the fun and difficult part. It takes some practice and trial and error to learn how to do this, but it is worth it.
 
@@ -114,6 +118,8 @@ Another tip I've learned is *notice what details you're imagining as you imagine
 
 
 # Link images to a memorable location
+
+![](/assets/images/boat-chain-dawn-119562.jpg)
 
 The third step is to **link the images to a memorable location**. The goal is to provide structure and order to the images so that we have a way to mentally "look" for them. By linking our mental images to a physical location or object, we have a way to locate them when we need them. For example, if I know that John 1 is linked to places in my living room, then I can mentally look there when I want to recall John 1. 
 
@@ -165,6 +171,8 @@ Now that you have your images linked to the stations of a journey or supporting 
 
 
 # Fixing images for long term retention
+
+![](/assets/images/board-broken-builder-209235.jpg)
 
 The final step of the method is to **fix the images in long term memory**. 
 
