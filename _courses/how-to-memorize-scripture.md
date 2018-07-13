@@ -85,7 +85,7 @@ Now that we have our keywords, we need to **encode them as memory friendly image
 
 Different memory teachers teach encoding different ways. Some say that images should include action, emotion, and involve as many of the senses as possible. Others say that simpler, clear images are sufficient. I'm generally in the later camp. I find them easier to create and picture in detail.
 
-A memory friendly image is one that has the following characteristics (from [here](http://www.sevensigma.info/articles/4memory.html)), which we can remember with the phrase "TeDDy'S CaFe." Imagine a Winnie the Pooh having a coffee in Starbucks.
+A [memory friendly image](/2018/07/13/a-good-mnemonic-image.html) is one that has the following characteristics (from [here](http://www.sevensigma.info/articles/4memory.html)), which we can remember with the phrase "TeDDy'S CaFe." Imagine a Winnie the Pooh having a coffee in Starbucks.
 
 * It's ***T**hree dimensional*, not flat
 * It's ***D**istinct* and has clear contours (sharp angles are a bonus too)
