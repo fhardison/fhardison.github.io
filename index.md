@@ -21,7 +21,7 @@ layout: home
 
 Welcome to A Mind for Language.
 
-I'm a teacher, translator, writer, and linguist. I love reading, learning, and sharing what I've learned. On the blog, you'll find my thoughts on languages, language learning, memory techniques, and other things I've been learning or find interesting. I thrive on learning new things and want to be a blessing to others. This is just one way I do that.
+I'm a translator, teacher, amateur writer, and linguist. I love reading, learning, and sharing what I've learned. On the blog, you'll find my thoughts on languages, language learning, memory techniques, and other things I've been learning or find interesting. I thrive on learning new things and want to be a blessing to others. This is just one way I do that.
 
 
 ---
