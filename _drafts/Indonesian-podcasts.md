@@ -12,6 +12,7 @@ description: Good resources are worth sharing. This post shares some interesting
 
 # Talk
 
+* [Awal Minggu Podcast]()
 * [Ibu-ibu Yakult](https://soundcloud.com/ibuibuyakult)
 
 
