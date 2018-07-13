@@ -85,11 +85,12 @@ Now that we have our keywords, we need to **encode them as memory friendly image
 
 Different memory teachers teach encoding different ways. Some say that images should include action, emotion, and involve as many of the senses as possible. Others say that simpler, clear images are sufficient. I'm generally in the later camp. I find them easier to create and picture in detail.
 
-A memory friendly image is one that has the following characteristics (from [here](http://www.sevensigma.info/articles/4memory.html)), which we can remember with the phrase "TeDDy CaFe." Imagine a Winnie the Pooh having a coffee in Starbucks.
+A memory friendly image is one that has the following characteristics (from [here](http://www.sevensigma.info/articles/4memory.html)), which we can remember with the phrase "TeDDy'S CaFe." Imagine a Winnie the Pooh having a coffee in Starbucks.
 
 * It's ***T**hree dimensional*, not flat
 * It's ***D**istinct* and has clear contours (sharp angles are a bonus too)
 * It's ***D**etailed*
+* It's ***S**till*
 * it's *in **C**olor*
 * It's the ***F**irst image I think up* that has the above characteristics
 
@@ -114,7 +115,7 @@ For "Brothers", you could imagine something reminds you of your own brother. I'v
 Another tip I've learned is *notice what details you're imagining as you imagine an image.* Even if you just think to imagine a book, your brain is probably thinking of a specific book. So take a minute and see what book you are seeing in your mind? Chronicles of Narnia? Lord of the Rings? Oxford English Dictionary? For another example, I wanted to use a knight to remember England (I was memorizing World Cup wins at the time). As I paid attention to the details, I realized that I was imagining a crusader knight with the red cross and white tunic over his armor. These details make the image "sticky" mentally. 
 
 
-**Homework**: Encode the keywords from your verse using the TeDDy CaFe principles. You might also want to write down what images you came up, but you don't have to.
+**Homework**: Encode the keywords from your verse using the TeDDy'S CaFe principles. You might also want to write down what images you came up, but you don't have to.
 
 
 # Link images to a memorable location
@@ -204,7 +205,7 @@ You can add reminders to your calendar so you won't forget the reviews. Another 
 
 # Summary
 
-Congratulations, you've just learned a method to memorize Scripture faster and remember it longer (KEy LoaF). Instead of rote repetition, we identify **keywords**,  **encode** them as memory friendly images (TeDDy CaFe), **link** them to a memorable location, and **fix** them in long term memory by recalling them on a specific schedule. 
+Congratulations, you've just learned a method to memorize Scripture faster and remember it longer (KEy LoaF). Instead of rote repetition, we identify **keywords**,  **encode** them as memory friendly images (TeDDy'S CaFe), **link** them to a memorable location, and **fix** them in long term memory by recalling them on a specific schedule. 
 
 This method is not *difficult*, but does take some getting used to. For me the hardest part is thinking up images to encode keywords, but this gets easier with practice.
 
