@@ -1,5 +1,5 @@
 ---
-title: How to create mnemonic images
+title: What makes a good mnemonic images
 description: What are the characteristics of good, memory friendly mnemonic image
 tags: [Theory, Method, Memory]
 ---
