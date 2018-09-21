@@ -22,7 +22,7 @@ Enter [Where Are Your Keys](https://whereareyourkeys.org/) (WAYK) &ndash; a meth
 
 By using props, gestures, and Sign Language, we can make messages understandable even if we don't understand the grammar or vocabulary of the utterance. 
 
-Think about it. This is how we communicate with young children. We hold up an object and say its name. Then we say something about it. These things create context and we can guess the intended meaning. Thus we have comprehensible input and our brains can acquire the language naturally and without all the mental anguish associated with aforementioned code and cryptography approach.
+Think about it. This is how we communicate with young children. We hold up an object and say its name. Then we say something about it. These things create context and we can guess the intended meaning. Thus we have comprehensible input and our brains can acquire the language naturally and without all the mental anguish associated with the aforementioned code and cryptography approach.
 
 # The Plan
 
