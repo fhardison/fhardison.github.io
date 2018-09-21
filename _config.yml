@@ -7,3 +7,6 @@ collections:
   courses:
     output: true
     permalink: /:collection/:name
+  greek:
+    output: true
+    permalink: /:collection/:name

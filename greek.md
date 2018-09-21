@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Greek
-permalink: /blog/
+permalink: /greek/
 ---
 
 <h2>Latest Posts</h2>
