@@ -17,7 +17,7 @@ I listened to everything of Ribbing's that I could find and finally decided to l
 
 # Characteristic of a memory friendly image
 
-The core of many memory techniques is converting information into an image. Ribbing has his on take on how to do this based on the [Giordano Memory System](http://www.sevensigma.info/articles/4memory.html). 
+The core of many memory techniques is converting information into an image. Ribbing has his own take on how to do this based on the [Giordano Memory System](http://www.sevensigma.info/articles/4memory.html). 
 
 ![](/assets/images/art-close-up-comic-16516.jpg)
 
@@ -27,13 +27,13 @@ Ribbing says "To be able to quickly create good couplings [of images], we need t
 
 > This means images of physical objects that we can see in front of us in the room, big, in color, three-dimensional and detailed. The images must also have contours that clearly delimit them from the environment (Ribbing 2011, *translation mine*).
 
-He also adds that we should use the first images that comes to mind that has these criteria and that the image should be still.
+He also adds that we should use the first image that comes to mind that fulfills these criteria. Finally, that image should be *still*.
 
 If this sounds like a lot, that's ok. It becomes nearly automatic with practice. 
 
 ## The principles
 
-I have rephrased his criteria so that they can be remembered with the phrase "TeDDy'S CaFe." Imagine a Winnie the Pooh having a coffee in Starbucks or your café of choice.
+I have rephrased his criteria so that they can be remembered with the phrase "TeDDy'S CaFe." Imagine Winnie the Pooh having a coffee in Starbucks or your café of choice.
 
 * It's ***T**hree dimensional*, not flat
 * It's ***D**istinct* and has clear contours (sharp angles are a bonus too)
@@ -52,11 +52,15 @@ Two final points from Ribbing and my own experience:
 
 **Try to imagine the image in front of you taking up space.** This takes some practice but I think it pays off. I often look to where various parts of it would be if it were really in front of me. Ribbing has said in some of his talks that this helps (find out more [here](https://www.youtube.com/watch?v=_CFtPOUx7Hk) and [here](https://www.youtube.com/watch?v=6e9PxI66tyI)). I agree. 
 
-**When you visualize an image, take a few seconds to really see it. Notice what details that your mind provides.** Even if you just think to imagine a book, your brain is probably thinking of a specific book. So take the time to see what book you are seeing in your mind. Chronicles of Narnia? Lord of the Rings? Oxford English Dictionary? For another example, I wanted to use a knight to remember England (I was memorizing World Cup wins at the time). As I paid attention to the details, I realized that I was imagining a crusader knight with a red cross and white tunic over his armor. These details make the image "sticky" mentally.
+**When you visualize an image, take a few seconds to really see it. Notice what details that your mind provides.** Even if you just imagine a book, your brain is probably thinking of a specific book. So take the time to see what book you are seeing in your mind. Chronicles of Narnia? Lord of the Rings? Oxford English Dictionary? 
+
+For example, I wanted to use a knight to remember England (I was memorizing World Cup wins at the time). As I paid attention to the details, I realized that I was imagining a crusader knight with a red cross and white tunic over his armor. These details make the image "sticky" mentally.
 
 # Encoding techniques
 
-Thinking up images can be challenging when we first begin. Ribbing describes three kinds of encoding strategies that we can use to convert information to images. I don't consciously think "Oh, I'm using a symbollic encoding right now," but knowing that these three techniques are solid strategies can give direction when you don't know how to encode something and give you assurance that you are doing things the right way when you have doubts. They are as follows:
+Thinking up images can be challenging when we first begin. Ribbing describes three kinds of encoding strategies that we can use to convert information to images. I don't consciously think "Oh, I'm using a symbolic encoding right now," but knowing that these three techniques are solid strategies can give direction when you don't know how to encode something. They can also give you assurance that you are doing things the right way when you have doubts. Doubt is something I think we all experience when learning memory techinques.
+
+They are as follows:
 
 1. Consonance encoding (*A* sounds like *B*)
 2. Symbolic encoding (*A* is closely associated with *B*)
@@ -82,11 +86,11 @@ Regardless of the technique you choose, the image you create should follow the "
 
 # Summary
 
-Many memory technique teachers recommend using bright, action-filled stories to convert information to something that can stick in long-term memory. However, that's not the case for all memory teachers. I personally find creating such images difficult and all the action makes them hard to visualize.  
+Many memory technique teachers recommend using bright, action-filled stories to convert information into something that can stick in long-term memory. However, that's not the case for all memory teachers. I personally find creating such images difficult and that all the action makes them hard to visualize.  
 
-I prefer to use "TeDDy'S CaFe" style images. I find them less stressful to work with and more effective for me. When looking for images, we can encode information using a rhyming technique, symbolic association technique, or a experiential encoding technique. 
+I prefer to use "TeDDy'S CaFe" style images. I find them less stressful to work with and more effective for me. When looking for images, we can encode information using one of three time tested teqniques: rhyming, symbolic association, or by using something from our own experience.
 
-No matter where you come down on action filled or still images, the other principles of what makes a memory-friendly (mnemonic) image will help you strengthen your skills as a mnemonist and help you memorize things faster and remember them for longer.
+No matter where you come down on action filled or still images, the other principles of what makes a memory-friendly (mnemonic) image will help you strengthen your skills as a mnemonist, help you memorize things faster, and remember them for longer.
 
 Happy memorizing!
 
