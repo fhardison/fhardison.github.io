@@ -1,3 +1,9 @@
+---
+title: Lesson 1 Notes
+layout: post
+permalink: /greek/lesson-one-notes.html
+---
+
 Lesson 1
 ========
 
