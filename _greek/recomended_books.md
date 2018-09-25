@@ -5,7 +5,7 @@ permalink: /greek/books-on-koine-greek.html
 ---
 
 
-Below are some books that I like, have used, or want to use as well as my thoughts on them.
+Below are some books that I like, have used, or want to use as well as my thoughts on them. hopefully, I'll update this page as I find more resrouces.
 
 # Basic Grammars
 
