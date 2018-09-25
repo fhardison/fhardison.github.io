@@ -1,5 +1,5 @@
 ---
-title: Recomended books on koine greek
+title: Recomended books on Koine Greek
 layout: post
 permalink: /greek/books-on-koine-greek.html
 ---
@@ -32,3 +32,18 @@ I have not used this book (available [here](https://www.amazon.com/Learn-Read-Ne
 This is my favorite Greek book because it explains how Koine Greek communicates. Unlike other grammars, it doesn't forcus the nuts and bolts of verbs or the case system, rather this books explores how Greek forms larger unites of thought. As readers of Koine Greek, our ultimate goal is to understand what the author is trying to say, how it is being said, and what he/she is trying to emphasize. This book unlocks these aspect of the language. 
 
 I also love it because Runge's book sits at the crossroads of Koine Greek studies and [discourse analysis](https://www.linguisticsociety.org/resource/discourse-analysis-what-speakers-do-conversation). I think that it is one of many books that we are seeing and will see in the future that take insightes from the field of linguistics and applies them to Koine Greek. Runge takes lingistic [discourse analysis](https://en.wikipedia.org/wiki/Discourse_analysis) and applies it to Koine Greek in a way that is easy to understand &ndash; even if you aren't a linguist. He uses lots of examples and works through them so you can how the ideas he is talking about work out in practice.
+
+# Online Courses 
+
+## Video
+
+* Leonard Muellner and Belisi Gillespie present a [video serious on Ancient Greek](https://www.youtube.com/playlist?list=PLq5ea-jR9u2puDaLoRL-nBkpwrkURbLjT) and use [Greek: An Intensive Course](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised-dp-0823216632/dp/0823216632/ref=mt_paperback?_encoding=UTF8&me=&qid=) as their textbook. I have not watched this course in full or used this book, but I wanted to mention it as a resource if you are looking for an online course in Ancient Greek. 
+
+
+## University of Texas at Arlington courses
+
+The University of Texas at Arlington has online courses (or lessons) that introduce many ancient languages including Classical and Koine Greek. I have looked at them before, though I have never worked through them all the way. I am noting them here for reference. Both the Classical and Koine Greek course provide an overview of the language and some lessons based on Greek texts. 
+
+* [Classical Greek Online](https://lrc.la.utexas.edu/eieol/grkol) 
+
+* [New Testament Greek Online](https://lrc.la.utexas.edu/eieol/ntgol)
