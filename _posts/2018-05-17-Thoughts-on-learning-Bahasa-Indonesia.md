@@ -1,6 +1,7 @@
 ---
 title: 5 Tips on learning Indonesian
 layout: post
+excerpt: Indonesian or Bahasa Indonesia is a Malay language spoken in the Indonesian Archipelago. It's the national language of Indonesia and is thus the de facto lingua fraca for around 250 million people, though not all of them speak it well. 
 description: Tips for learning Bahasa Indonesia from someone who has done it whether you live in Asia or not.
 ---
 
