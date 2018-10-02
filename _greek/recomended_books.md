@@ -60,3 +60,4 @@ The University of Texas at Arlington has online courses (or lessons) that introd
     - Finally he has worked out a curriculum for WAYK and Greek and posted it [here](https://sites.google.com/site/intensiveaudiolanguages/greek-course) along with an interesting lexicon of a variety of languages that is available [here](https://sites.google.com/site/intensiveaudiolanguages/home/out-of-control-lexicon)
     - He also has a [podcast](https://www.podomatic.com/podcasts/odianuktosdialogos) in Ancient Greek 
 * Greek and Latin [online chat via Google Hangouts](https://latinandgreekchats.weebly.com/). I personally have never participated, but it is something that is worth knowing about.  
+* [Greek-English phrasebook](http://www.letsreadgreek.com/phrasebook/greekenglishphrasebook.pdf) (pdf download) translated from the German [*Sprechen sie Atisch*](https://archive.org/details/sprechensieatti00johngoog/page/n5)
