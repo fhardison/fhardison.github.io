@@ -1,5 +1,5 @@
 ---
-title: Recommended books on Koine Greek
+title: Recommended resources on Koine Greek
 layout: post
 excerpt: Below are some resources that I like, have used, or want to use as well as my thoughts on them.
 permalink: /greek/books-on-koine-greek.html
@@ -48,3 +48,15 @@ The University of Texas at Arlington has online courses (or lessons) that introd
 * [Classical Greek Online](https://lrc.la.utexas.edu/eieol/grkol) 
 
 * [New Testament Greek Online](https://lrc.la.utexas.edu/eieol/ntgol)
+
+# Where Are Your Keys (WAYK)
+
+[Where Are Your Keys](https://whereareyourkeys.org/) is one of the main methods that I will be trying out in my Greek course in Fall 2018. Below are links that I have found related to WAYK and Greek.
+
+*  Seumas McDonald has a number of interesting resources. 
+    - His current site [The Patrologist](https://thepatrologist.com/) has a lot of interesting thoughts on Greek and Latin. 
+    - He also has a few intro videos on Youtube demonstrating how to use WAYK with Koine Greek (see [here](https://youtu.be/-ETMt_qjfz0) and [here](https://youtu.be/Xk-hdIEqXuw)).
+    - His old blog has a page about [WAYK and Greek](http://jeltzz.blogspot.com/2012/05/wayk-greek.html)
+    - Finally he has worked out a curriculum for WAYK and Greek and posted it [here](https://sites.google.com/site/intensiveaudiolanguages/greek-course) along with an interesting lexicon of a variety of languages that is available [here](https://sites.google.com/site/intensiveaudiolanguages/home/out-of-control-lexicon)
+    - He also has a [podcast](https://www.podomatic.com/podcasts/odianuktosdialogos) in Ancient Greek 
+   
