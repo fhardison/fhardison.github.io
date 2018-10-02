@@ -12,17 +12,17 @@ On this page you will find resources related to Classical and Koine Greek. I am 
 
 <ul class="post-list">
   {% for post in site.greek %}
-    <li>
+<li>
 
-      {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
+{% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+<span class="post-meta">{{ post.date | date: date_format }}</span>
 
-      <h2>
-        <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
-      </h2>
+<h2>
+  <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+</h2>
 
-      <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
+<span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
 
-    </li>
-  {% endfor %}
+</li>
+{% endfor %}
 </ul>
