@@ -38,7 +38,7 @@ I also love it because Runge's book sits at the crossroads of Koine Greek studie
 
 ## Video
 
-* Leonard Muellner and Belisi Gillespie present a [video serious on Ancient Greek](https://www.youtube.com/playlist?list=PLq5ea-jR9u2puDaLoRL-nBkpwrkURbLjT) and use [Greek: An Intensive Course](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised-dp-0823216632/dp/0823216632/ref=mt_paperback?_encoding=UTF8&me=&qid=) as their textbook. I have not watched this course in full or used this book, but I wanted to mention it as a resource if you are looking for an online course in Ancient Greek. 
+* Leonard Muellner and Belisi Gillespie present a [video series on Ancient Greek](https://www.youtube.com/playlist?list=PLq5ea-jR9u2puDaLoRL-nBkpwrkURbLjT) and use [Greek: An Intensive Course](https://www.amazon.com/Greek-Intensive-Course-2nd-Revised-dp-0823216632/dp/0823216632/ref=mt_paperback?_encoding=UTF8&me=&qid=) as their textbook. I have not watched this course in full or used this book, but I wanted to mention it as a resource if you are looking for an online course in Ancient Greek. 
 
 
 ## University of Texas at Arlington courses
