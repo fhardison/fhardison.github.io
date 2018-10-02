@@ -1,6 +1,5 @@
 ---
 title: Grammar is a resource
-description: Grammar is a means to communicate, not something that stands in our way as learners.
 excerpt: After years of working with and learning languages, I realized something. It's nothing profound, but it's something to keep in mind when approaching a new language. 
 tags: [Theory, Grammar]
 ---

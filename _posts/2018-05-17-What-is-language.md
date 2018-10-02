@@ -1,6 +1,6 @@
 ---
 title: What is a language really?
-description: Language is a Complex Adaptive System. This gives us principles that we can apply in our language learning to learn more efficiently.
+excerpt: Language is a Complex Adaptive System. This gives us principles that we can apply in our language learning to learn more efficiently.
 layout: post
 tags: [Theory, Method, Linguistics, Tips]
 ---
