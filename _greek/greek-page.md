@@ -1,5 +1,6 @@
 ---
 title: Introduction to Greek Course
+excerpt: Wouldn't it be great to be able to read Greek? To read the New Testament, Plato, or other Greek writers in their original language? Wouldn't it be great to be free of translations and experience the artistry of the originals?...
 layout: post
 permalink: /greek/intro-to-greek.html
 ---
