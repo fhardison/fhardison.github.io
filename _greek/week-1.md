@@ -22,11 +22,11 @@ We had four conversations and learned how to:
 
 Grammar introduced:
 
-* Nominative and Dative case for 1st and 2nd declention nouns and their adjectives.
-* Genitive case for 1st and 2nd person pronouns.
-* Present, 3rd person singular of the 'to be' verb.
-* Movable-nu
-* Dative case prepositions
+* Nominative and Dative case for 1st and 2nd declention nouns and their adjectives,
+* Genitive case for 1st and 2nd person pronouns,
+* Present, 3rd person singular of the 'to be' verb,
+* Movable-nu, and
+* Dative case prepositions.
 
 
   
