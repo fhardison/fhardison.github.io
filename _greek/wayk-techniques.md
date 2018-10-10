@@ -6,7 +6,7 @@ permalink: /greek/techniques.html
 
 ---
 
-NOTE: All quotes and sign images on this page are from the ([WAYK Techniques Glossary](https://whereareyourkeys.org/technique-glossary/)) unless otherwise noted. They are reproduced here for ease of reference for my WAYK group.
+NOTE: All quotes and sign images on this page are from the [WAYK Techniques Glossary](https://whereareyourkeys.org/technique-glossary/) unless otherwise noted. They are reproduced here for ease of reference for my WAYK group.
 
 
 
@@ -25,7 +25,7 @@ I've devided the technqiques into groups based on their function in the game our
 |:--|:--|:--|
 [Full Sentences](https://whereareyourkeys.org/tq-full-sentences/) | Try to speak in full sentences while playing the game even if you can say something with less words. | ![](https://whereareyourkeys.org/wp-content/uploads/2014/11/full-sentences.gif) |
 |[Copy Cat](https://whereareyourkeys.org/7-copy-cat-the-top-20-wayk-techniques/)| "Copy and repeat exactly what the person who calls this TQ is doing. It’s a way for the learner to engage with the texture of the language without having to think about what things mean. “Copy what I say and what I do and you’ll figure it out.”   | ![](https://whereareyourkeys.org/wp-content/uploads/2014/11/full-sentences.gif) | 
-| [Mumble](http://whereareyourkeys.org/technique-glossary/#mumble) | This technique lets you say something that you aren't sure is correct without working about people jumping on you. "A learner signals Mumble to create a correction-free space when they’re uncertain about a piece of language." ( | ![](https://whereareyourkeys.org/wp-content/uploads/2014/09/mumble.gif)|
+| [Mumble](http://whereareyourkeys.org/technique-glossary/#mumble) | This technique lets you say something that you aren't sure is correct without working about people jumping on you. "A learner signals Mumble to create a correction-free space when they’re uncertain about a piece of language."  | ![](https://whereareyourkeys.org/wp-content/uploads/2014/09/mumble.gif)|
 | [Setup](http://whereareyourkeys.org/technique-glossary/#setup) | "WAYK players use Set Ups instead of textbooks, worksheets, and dictionaries to extract language from real situations. A Set Up might take the shape of objects on a table, drawings, pictures, or people acting out a scene...Players can signal Set Up to request a physical scenario that exemplifies the target language. You can also signal Set Up to let other players know if you’re about to construct an example for the language, so they don’t get confused when you run around the room or out the door to gather props....." | ![](https://whereareyourkeys.org/wp-content/uploads/2014/09/set-up.gif)|
 
 
