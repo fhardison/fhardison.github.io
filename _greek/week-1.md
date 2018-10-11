@@ -29,5 +29,16 @@ Grammar introduced:
 * Movable-nu, and
 * Dative case prepositions.
 
+# Homework
+
+If you were in class, try to play the WAYK game with a stone, cup, and rocks. You can follow along with the Conversations handout, but try to create some original sentences.
+
+If you were not in class then watch the following videos from Seumas McDonald. Don't worry if you don't understand all the words/grammar, focus on understanding the message:
+
+* [WAYK Ancient Greek 1](https://www.youtube.com/watch?v=Xk-hdIEqXuw&feature=youtu.be)
+* [WAYK Ancient Greek 2](https://www.youtube.com/watch?v=uwA5OMaE5xU&list=PLUqyJQtzjxMAPYnDpRa0DmvEZyF_J64B4&index=2)
+* [WAYK Ancient Greek 3](https://www.youtube.com/watch?v=UcHm_SOokBY&index=3&list=PLUqyJQtzjxMAPYnDpRa0DmvEZyF_J64B4)
+* [WAYK Ancient Greek 4](https://www.youtube.com/watch?v=xy7DcSVuaoU&list=PLUqyJQtzjxMAPYnDpRa0DmvEZyF_J64B4&index=4) (This one's extra)
+
 
   
