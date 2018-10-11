@@ -10,6 +10,7 @@ This week we began learning Koine Greek with Where Are Your Keys.
 Here are the handouts:
 
 * [Conversations week 1](/assets/pdf-lesson-1-out.pdf)
+* [Techniques handout](/assets/pdf-techniques-handout.pdf)
 
 We had four conversations and learned how to:
 

@@ -16,7 +16,7 @@ WAYK is a cooperative learning game, where learners and teachers work together t
 
 > Techniques, or TQs for short, are the essence of WAYK. TQs are a collection of tested strategies for maximizing the speed, ease, and efficiency of language transfer. Throwing a TQ elicits a specific action or reaction that streamlines learning. Any player (teacher or student, learner or leader) can throw TQs at any time. Signaling Technique provides a time out to make suggestions or discuss how to further the game or improve the interaction. As a community, we have developed TQs for immersion, documentation, classroom management, community organizing, curriculum development, and more.
 
-I've devided the technqiques into groups based on their function in the game our group is playing. You can download a list of the techniques you will want to use in class [here](/assets/techniques-handout.pdf). Some of the ones listed here are for your information and will be used primarily by the group leader.
+I've devided the technqiques into groups based on their function in the game our group is playing. You can download a list of the techniques you will want to use in class [here](/assets/pdf-techniques-handout.pdf). Some of the ones listed here are for your information and will be used primarily by the group leader.
 
 
 # How to play
