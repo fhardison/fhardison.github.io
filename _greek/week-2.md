@@ -11,4 +11,7 @@ I'll upload the handouts and more info soon.
 
 You can review by watching the Youtube videos posted here:
 
+* [Conversation 1](https://youtu.be/-KYWs0fSxtY)
+* [Conversation 2](https://youtu.be/dnIsvFQmMi8)
+* [Conversation 3](https://youtu.be/6rUt0Mia28I)
   
