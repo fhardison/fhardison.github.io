@@ -22,7 +22,9 @@ I've fiddled with this book. It's not too hard, but it *dumps* new vocabulary on
 
 I have not used this book (available [here](https://www.amazon.com/Learn-Read-New-Testament-Greek/dp/0805444939)), but Black is one of the pioneers in bringing the insights of modern linguistics to Koine Greek studies &ndash; at least from my perspective. I would like to look through it one day. And though I have not read it, I would recommend it based on the reputation of its author.
 
+# Greek readers
 
+The [Simonides Project](https://simonidesproject.github.io/SimonidesPage/index.html) has reformatted [Greek](https://simonidesproject.github.io/SimonidesPage/book.greek.html) and Latin readers that are out of print and no longer under copyright. They are free and look fantastic.
 
 # Reference Works
 
