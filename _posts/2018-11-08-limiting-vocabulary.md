@@ -19,7 +19,7 @@ I have been listening to [Tea with BVP](http://www.teawithbvp.com/) and their ne
 
 *Thinking about this brought me to the realization that I need to consider each form a word to be a separate word for the purpose of limiting vocabulary.*
 
-# What does this mean
+# What does this mean?
 
 ![](/assets/cynthiadelrio.jpg)
 
