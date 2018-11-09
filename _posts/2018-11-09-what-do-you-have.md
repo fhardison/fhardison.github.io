@@ -1,5 +1,5 @@
 ---
-title: What do you have?: a input task for introducing new vocab in Greek
+title: What do you have? &ndash; a input task for introducing new vocab in Greek
 layout: post
 tags: [Greek, tasks, teaching, vocab]
 ---
