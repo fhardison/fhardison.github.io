@@ -14,8 +14,7 @@ On this page you will find resources related to Classical and Koine Greek. I am 
   {% for post in site.greek %}
 <li>
 
-{% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-<span class="post-meta">{{ post.date | date: date_format }}</span>
+<div>
 
 <h2>
   <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
@@ -23,6 +22,7 @@ On this page you will find resources related to Classical and Koine Greek. I am 
 
 <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
 
+</div>
 </li>
 {% endfor %}
 </ul>
