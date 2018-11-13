@@ -3,8 +3,6 @@ title: Israel at the time of Jesus in Koine Greek
 layout: post
 ---
 
-# Introduction
-
 In this page you will find an introduction to the Land of Israel at the Time of Jesus. It does not cover all the cities, provinces, and rivers, but does discuss some of them. Read the passage and answer the questions (ideally in Greek, ναί is 'yes' and ουχί is 'no'). Note that I am not marking breathing marks unless relevant to distinguish meaning. They weren't pronounced during the Koine period most likely anyway. Also I'm not an expert in the accentuation rules. I have marked them as best as I can. I have not converted the acute accent (ά) a grave (ὰ) as would usually be done unless it directly precedes punctuation or a pause.
 
 Enjoy!

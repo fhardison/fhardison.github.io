@@ -11,7 +11,7 @@ On this page you will find resources related to Classical and Koine Greek. I am 
 <div>&nbsp;</div>
 
 <ul class="post-list">
-  {% for post in site.greek %}
+  {% for post in site.greek reversed %}
 <li>
 
 <div>
