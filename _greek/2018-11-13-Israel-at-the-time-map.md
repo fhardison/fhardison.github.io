@@ -40,8 +40,7 @@ Enjoy!
 
 ᾶρα θάλασσα έστιν η Ναζαρέθ? ουχί, αύτη πόλις έστιν, ου έστιν θάλασσα. ποῦ κεῖται η Θάλασσα Νεκρά? Κεῖται εν Ιουδαίᾳ αύτη. ᾶρα Θάλασσα τῆς Γαλιλαίας κεῖται παρά τῳ Ισραήλ? ουχί, ου κεῖται παρά τῳ Ισραήλ αύτη αλλά κεῖται εν τῳ Ισραήλ εν τῃ Γαλιλαίᾳ.  
 
-[^weknow]: 'we know'
-[^them]: 'them' (ACC case)
+
 
 
 
@@ -50,3 +49,8 @@ Enjoy!
 # Download
 
 You can download the preceding as a PDF [here](/assets/Koine-Israel-at-the-time-of-Jesus.pdf).
+
+---
+
+[^weknow]: 'we know'
+[^them]: 'them' (ACC case)
