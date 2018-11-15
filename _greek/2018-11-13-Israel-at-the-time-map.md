@@ -56,6 +56,7 @@ Enjoy!
 * λίθ**ος**
 
 αι μορφαί είσιν:
+
 * ενικόν: -ς (-ος)
 * πληθυντικόν: -οι
 
@@ -77,8 +78,8 @@ Enjoy!
   
 αι μορφαί είσιν:
 
-ενικόν: -ν
-πληθυντικόν: -α
+* ενικόν: -ν
+* πληθυντικόν: -α
 
 
 
@@ -96,7 +97,7 @@ You can download the preceding as a PDF [here](/assets/Koine-Israel-at-the-time-
 [^weknow]: 'we know'
 [^them]: 'them' (ACC case)
 [^also]: When καἰ comes first in a clause it usually means 'and', when it comes after a word like Σαμάρεια και it can mean 'also'.
-[^or]: When η has an accent (ή)it means 'or'. When it does not have an accent (η) it usually means 'the' (i.e. feminine, nominative, singular, definite article).
+[^or]: When η has an accent (ή) it means 'or'. When it does not have an accent (η) it usually means 'the' (i.e. feminine, nominative, singular, definite article).
 [^thesame]: πόλεις 'cities' and πόλις 'city' would have been pronounced the same.
 [^pluralsub]: πολλαί πόλεις is the subject of the verb. We know this because κέονται means 'they lay'.
 [^grammarvocab]: η πρόταση 'sentence', τό ὑποκείμενον 'subject', Ελλενιστί 'Greek', γλώσσα 'language', γενός 'gender', ἑνικόν 'singular', πληθυντικόν 'plural', ἀρσενικόν 'masculine', θηλυκόν 'feminine', οὐδέτερον 'neuter' , λόγος 'word'
