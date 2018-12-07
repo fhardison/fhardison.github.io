@@ -5,8 +5,8 @@ title: Zacharia has a family
 
 <html>
 <head><meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="mystyle.css">
-<link rel="stylesheet" type="text/css" href="tufte.css">
+<link rel="stylesheet" type="text/css" href="/assets/mystyle.css">
+<link rel="stylesheet" type="text/css" href="/assets/tufte.css">
 </head>
 <body>
 <style>
