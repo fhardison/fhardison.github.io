@@ -150,13 +150,13 @@ newword-wrapper {
 
 @font-face {
 	font-family: greek;
-	src: local('NewAthenaUnicode'), url(/assets/newathu5_5.wotf);
+	src: local('NewAthenaUnicode'), url(/assets/newathu5_5.woff);
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: greek;
-	src: url(/assets/newathuItalic5_5.wotf), local('NewAthenaUnicodeItalic');
+	src: url(/assets/newathuItalic5_5.woff), local('NewAthenaUnicodeItalic');
 	font-weight: italic;
 }
   	/*body {
