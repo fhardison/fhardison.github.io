@@ -1,0 +1,247 @@
+@page {
+	size: Letter;
+	margin: 0.5in;
+}
+
+
+	
+	.greek {
+		font-family: greek;
+	}
+
+  img.leftimage {
+	float:left;  
+	clear:both;
+	width: 35%;
+	margin: 8px; 
+  }
+  
+  img.rightimage {
+	float:right;  
+	clear:both;
+	width: 35% ;
+	margin: 8px;
+  }
+  /** Image has to be wrapped in div. This creates a shiv to bump down the image and all text to wrap **/
+  .rightimage:before {
+	content: '' ;
+	display:block;
+	float: right;
+	/*height: 200px; */
+	
+  }
+  
+  .leftimage:before {
+	content: '' ;
+	display:block;
+	float: left;
+	/* height: 200px; */
+	
+  }
+
+  .fish > p {
+	float:right;  
+	clear:both;
+
+	  width:65%;
+	  
+  }
+  .fish > p:before {
+	
+	width:65%;
+	content: '' ;
+	display:block;
+	float: right;
+	
+}
+
+  .fish > figure:before {
+	content: '' ;
+	display:block;
+	float: right;
+  }
+  .fish > figure {
+	float:left;  
+	clear:both;
+	width: 35%;
+	margin: 8px; 
+	
+  }
+
+  .center {
+	  margin: auto;
+	  width: 50%;
+  }
+	
+	@media print  {
+
+		@font-face {
+			font-family: firago;
+			src: local('ETBembo RomanLF');
+			font-weight: normal;
+		}
+		
+		@font-face {
+			font-family: greek;
+			src: local('NewAthenaUnicode');
+			font-weight: normal;
+		}
+		
+		@font-face {
+			font-family: greek;
+			src: local('NewAthenaUnicodeItalic');
+			font-style: italic;
+		}
+
+		@page {
+			size: Letter; /* Change from the default size of A4 */
+			margin: 0.5in; /* Set margin on each page */
+		}
+
+    body {
+			width:100%;
+			font-size: 12pt;
+			line-height: 1.3em;
+			font-family:firago; 
+			text-rendering: optimizeLegibility;
+		}
+		
+
+}
+
+@page {
+	size: Letter; /* Change from the default size of A4 */
+	margin: 0.5in; /* Set margin on each page */
+}
+
+.new-vocab-list {
+	
+	margin-bottom: 2em;
+}
+
+.new-vocab-list > div {
+	width: auto;
+	display: inline-block;
+}
+
+newword-wrapper {	
+	float: left;
+}
+.newwordword {
+	margin-right:1em;
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+.newword-gloss {
+ margin-right: 2em;
+ font-family: firago;
+}
+
+@media screen {
+
+		
+@font-face {
+	font-family: firago;
+	src: url(/assets/et-book-roman-line-figures.woff), local('ETBembo RomanLF');
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: greek;
+	src: local('NewAthenaUnicode'), url(/assets/newathu5_5.wotf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: greek;
+	src: url(/assets/newathuItalic5_5.wotf), local('NewAthenaUnicodeItalic');
+	font-weight: italic;
+}
+  	/*body {
+		font-size: 15pt;
+		line-height: 1.3em;
+		font-family:firago;
+		width:100%;
+  		text-rendering: optimizeLegibility;
+	}
+
+root {
+		display:block;
+		margin-left: 18.5vw;
+		margin-right:18.5vw;
+		width:63vw;
+	}*/
+
+	
+}
+  
+  p {
+	  /*margin-top:0.5em;
+	  margin-bottom:0.5em; */
+	
+  }
+  
+  
+  .column { 
+	  float: left;
+  }
+  
+  .columnleft {
+	  float: left;
+	  width: 30%;
+	  min-width: 30%;
+	  text-align: center;
+  }
+  
+  
+  .columnright {
+	  width: 70%;
+	  float: left;
+  }
+  
+  .row {
+	  content: " ";
+	  display: table;
+	  clear: both;
+  
+  }
+	
+.grmn {
+	text-align: center;
+	padding-bottom: 1em;	
+	padding-left: 0.75em;
+}
+
+.marginnote {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+  .text {
+  
+	  padding-left: 1em;
+  }
+	
+	.form-focus {
+		font-style: italic;
+	}
+
+	.newword {
+		font-style: normal;
+		font-weight: bold;
+	}
+
+  figure{
+  
+	text-align: center;
+	
+	text-indent: 0;
+  }
+
+  figcaption {
+	  margin: auto;
+	  width: 70%;
+	}
+	
