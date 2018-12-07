@@ -150,7 +150,7 @@ newword-wrapper {
 
 @font-face {
 	font-family: greek;
-	src: local('NewAthenaUnicode'), url(/assets/newathu5_5.woff);
+	src: 	url(/assets/newathu5_5.woff);
 	font-weight: normal;
 }
 
