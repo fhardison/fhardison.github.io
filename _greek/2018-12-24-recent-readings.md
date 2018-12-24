@@ -9,13 +9,13 @@ Here are some of the readings that we have done in class or that I have sent by 
 
 ## Zechariah and family
 
-![Download](/assets/zacharaia-and-family.pdf)
+[Download](/assets/zacharaia-and-family.pdf)
 
 ## Zechariah in the Temple 
 
-![Download](/assets/zecharaia-in-the-temple.pdf)
+[Download](/assets/zecharaia-in-the-temple.pdf)
 
 
 ## Announcement to Mary
 
-![Download](/assets/mary.pdf)
+[Download](/assets/mary.pdf)
