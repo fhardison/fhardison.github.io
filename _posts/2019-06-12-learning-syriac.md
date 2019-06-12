@@ -1,5 +1,5 @@
 ---
-title: Learning Syriac &ndash; project index 
+title: Learning Syriac - project index 
 layout: post
 tags: [Syriac, studying, techniques, principles, Anki]
 ---
