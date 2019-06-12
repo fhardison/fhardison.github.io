@@ -1,5 +1,5 @@
 ---
-title: Learning Syriac: a saga 
+title: Learning Syriac &ndash; project index 
 layout: post
 tags: [Syriac, studying, techniques, principles, Anki]
 ---
