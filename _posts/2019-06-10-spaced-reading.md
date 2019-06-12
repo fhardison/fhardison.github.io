@@ -4,7 +4,6 @@ layout: post
 tags: [Greek, studying, flashcards, Anki]
 ---
 
-# Spaced repetition software
 
 Spaced repetition software is perhaps the most effective way to study using flashcards. The idea is that we review new material right before we forget it, then we wait longer before reviewing it again. 
 
