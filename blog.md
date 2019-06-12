@@ -19,7 +19,8 @@ permalink: /blog/
 <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
 </h2>
 
-<span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span> <span>({% for tag in post.tags%}{{tag }} {% endfor %})</span>
+{{ post.excerpt | markdownify | truncatewords: 30 }}</br> 
+ <span>[Tags: {% for tag in post.tags%}{{tag }} {% endfor %}]</span>
 
 </li>
 {% endfor %}
