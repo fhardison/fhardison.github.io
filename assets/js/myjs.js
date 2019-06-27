@@ -15,7 +15,7 @@ Vue.component('text-col', {
 Vue.component('footnote', {
 	props: ['num'],
 	template: `<a class="footnote"><sup>{{ num }}</sup><span><slot></slot></span></a>`});
-
+/*
 Vue.component('greek-text', {
 	props: ['text'],
-	template: `<span>{{ betaCodeToGreek(text) }}</span>`});
+	template: `<span>{{ betaCodeToGreek(text) }}</span>`}); */ 
