@@ -14,4 +14,4 @@ Vue.component('text-col', {
 
 Vue.component('footnote', {
 	props: ['num'],
-	template: `<a class="footnote"><sup>{{ num }}</sup><span><slot></slot></a>`});
+	template: `<a class="footnote"><sup>{{ num }}</sup><span><slot></slot></span></a>`});
