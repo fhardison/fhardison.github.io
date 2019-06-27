@@ -10,7 +10,7 @@ Vue.component('column-comment', {
 Vue.component('column-note', {
 	template: `<div class="column-note"><slot></slot></div>`});
 Vue.component('text-col', {
-	template: `<div class="column"><blockquote><slot></slot></div>`});
+	template: `<div class="column"><blockquote><slot></slot></blockquote></div>`});
 
 Vue.component('footnote', {
 	props: ['num'],
