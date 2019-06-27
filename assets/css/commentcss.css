@@ -14,18 +14,17 @@
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-	  margin-top: 0.5em;
-		  margin-bottom:0.5em;
-			  padding:0.25em;
+  margin-top: 0.5em;
+  margin-bottom:0.5em;
+  padding:0.25em;
 }
 .column-comment {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-	  margin-top: 0.5em;
-		  margin-bottom:0.5em;
-			  padding:0.25em;
-  background:lightgray;
+  margin-top: 0.5em;
+  margin-bottom:0.5em;
+  padding:0.25em;
 }
 
 .column-note {
@@ -33,21 +32,21 @@
   flex-direction: column;
   flex-basis: 100%;
   margin-top: 0.5em;
-		  margin-bottom:0.5em;
-			  padding:0.25em;
-				  background:lightblue;
+  margin-bottom:0.5em;
+  padding:0.25em;
+  background:lightgray;
 }
 
-	@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) {
   .column, .column-comment {
     flex: 1;
-   min-width:65%;
-	   max-width:65%;
+    min-width:65%;
+    max-width:65%;
   }
   .column-note {
-  flex: 1;
-  margin-left:2em;
-  max-width:35%;
+   flex: 1;
+   margin-left:2em;
+   max-width:35%;
   }
   .double-column {
     flex: 2
