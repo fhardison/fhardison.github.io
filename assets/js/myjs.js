@@ -18,4 +18,4 @@ Vue.component('footnote', {
 
 Vue.component('greek-text', {
 	props: ['text'],
-	template: `<span>{{ betaCodeToGreek(text) }}</span>`});
+	template: `<span>{{ betaCodeToGreek('text') }}</span>`});
