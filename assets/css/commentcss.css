@@ -1,0 +1,55 @@
+
+.page-wrapper {
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+	  margin-top: 0.5em;
+		  margin-bottom:0.5em;
+			  padding:0.25em;
+}
+.column-comment {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+	  margin-top: 0.5em;
+		  margin-bottom:0.5em;
+			  padding:0.25em;
+  background:lightgray;
+}
+
+.column-note {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  margin-top: 0.5em;
+		  margin-bottom:0.5em;
+			  padding:0.25em;
+				  background:lightblue;
+}
+
+	@media screen and (min-width: 800px) {
+  .column, .column-comment {
+    flex: 1;
+   min-width:65%;
+	   max-width:65%;
+  }
+  .column-note {
+  flex: 1;
+  margin-left:2em;
+  max-width:35%;
+  }
+  .double-column {
+    flex: 2
+  }
+}
