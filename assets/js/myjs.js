@@ -4,6 +4,9 @@ Vue.component('row', {
 Vue.component('column', {
 	template: `<div class="column"><slot></slot></div>`});
 
+Vue.component('textcolumn', {
+	template: `<div class="column"><blockquote><slot></slot></blockquote></div>`});
+
 Vue.component('column-comment', {
 	template: `<div class="column-comment"><slot></slot></div>`});
 
@@ -15,7 +18,3 @@ Vue.component('text-col', {
 Vue.component('footnote', {
 	props: ['num'],
 	template: `<a class="footnote"><sup>{{ num }}</sup><span><slot></slot></span></a>`});
-/*
-Vue.component('greek-text', {
-	props: ['text'],
-	template: `<span>{{ betaCodeToGreek(text) }}</span>`}); */ 
