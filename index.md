@@ -14,25 +14,14 @@ layout: home
     h1  {text-align: center;}
 </style>
 <table>
-    <tr><td style="vertical-align:middle" ><h2 class="alt">Hi! I'm Fletcher Hardison: thinker, translator, writer, and language enthusiast</h2></td>
+    <tr><td style="vertical-align:middle" ><h2 class="alt">Hi! I'm Fletcher Hardison: avid reader, translator, and language enthusiast</h2></td>
     <td style="vertical-align:middle"><img src="assets/images/tfh.jpg"/></td></tr>
 </table>
-  
+
 
 Welcome to A Mind for Language.
 
-I'm a translator, teacher, amateur writer, and linguist. I love reading, learning, and sharing what I've learned. On the blog, you'll find my thoughts on languages, language learning, memory techniques, and other things I've been learning or find interesting. I thrive on learning new things and want to be a blessing to others. This is just one way I do that.
-
-
----
-
-# Portfolio
-
-Some random scribblings for your general amusement or in case you need a writer.
-
-* [Thoughts on learning Bahasa Indonesia (personal blog)](/2018/05/17/Thoughts-on-learning-Bahasa-Indonesia.html)
-* [What is language? (personal blog)](/2018/05/17/What-is-language.html)
-* [My Master's Thesis](https://arts-sciences.und.edu/summer-institute-of-linguistics/theses/2013-hardison-trafton.cfm)
+I'm a translator, teacher, amateur writer, and linguist. I love reading, learning, and tinkering with programming. On the blog, you'll find my thoughts on languages, language learning, memory techniques, and other things I've been learning or find interesting.
 
 
 ---
@@ -41,13 +30,18 @@ Some random scribblings for your general amusement or in case you need a writer.
 # About
 
 
-I've got a B.A. and M.A. in linguistics so I'm a thinker, a reader, and a writer. It also means I know how to communicate. Linguistics prefers terse, clear, and down-to-earth prose. No need for fluff. We ain't got no time for that anyway.
+I've got a B.A. and M.A. in linguistics so I'm a thinker, a reader, and a writer. I've lived overseas and learned a world language or two. It's a hobby. My main interest now is classical languages and how to learn and teach them more efficiently.
 
-I love to read and to share what I've learned with others. Learning new things keeps me motivated and excited. I've learned Search Engine Optimization (SEO), memory techniques, and multiple programming languages without the benefit of formal classes. I also regularly write a email newsletter to keep donors and interested parties engaged in the work of a non-profit.
+I'm a self-taught programmer and love to fiddle with scripts and ideas to make learning and teaching languages better. Some of the things I've tinkered with are on [GitHub](https://github.com/fhardison) (a lot of these are currently inactive).
+
+Current, active projects I'm involved with include:
+
+* [Grammar and Exercises for Lingua Graecae Per Se Illustrata](https://github.com/fhardison/lgpsi-melethma)
+* [Rouse's A Greek Boy at Home](https://github.com/fhardison/rouse-a-greek-boy-at-home)
 
 ## Education
 
-* B.A. Applied Linguistics - Moody Bible Institute, 2009
+* B.A. Applied Linguistics - Moody, 2009
 * M.A. Linguistics - University of North Dakota, 2013
 
 ## Interests
@@ -65,5 +59,5 @@ I love to read and to share what I've learned with others. Learning new things k
 
 # Contact
 
-<p>If you want to chat or I can help you, write something for you, provide coaching for your language or learning project, don't hesitate to contact me.</p>
+<p>If you want to chat or I can help you, provide coaching for your language or learning project, don't hesitate to contact me.</p>
 <p><a href="mailto:fletcher@amindforlanguage.com?subject=[A%20Mind%20for%20Language]:">fletcher [at] amindforlanguage.com</a></p>
