@@ -30,7 +30,93 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">May 16, 2019</h4>
+        <div id="content">            <h4 class="date">Nov 14, 2019</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="/fun-with-jtaubers-vocabulary-tools.html" rel="bookmark" title="Permanent Link to &quot;Fun with JTauber's vocabulary tools&quot;">Fun with JTauber's vocabulary tools</a>
+                </h2>
+
+                
+                
+
+                <p>James Tauber has written a set of <a href="https://github.com/jtauber/vocabulary-tools">vocabulary tools</a> for the Greek New Testament (GNT).</p>
+<p>I wanted to read Acts 10 and thought I'd see what the words occur there that occur less than 10 times in the GNT overall. The code in <code>Listing 1</code> will get that list and print the word and its total GNT count to a text file.</p>
+<h3>Listing 1</h3>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<span class="kn">from</span> <span class="nn">gnt_data</span> <span class="kn">import</span> <span class="n">get_tokens</span><span class="p">,</span> <span class="n">get_tokens_by_chunk</span><span class="p">,</span> <span class="n">TokenType</span><span class="p">,</span> <span class="n">ChunkType</span>
+<span class="kn">import</span> <span class="nn">pprint</span>
+
+<span class="n">BOOK_ABBV</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;GLA&quot;</span><span class="p">:</span> <span class="s2">&quot;69&quot;</span><span class="p">,</span> <span class="s2">&quot;1JN&quot;</span> <span class="p">:</span> <span class="s2">&quot;83&quot;</span><span class="p">,</span> <span class="s2">&quot;ACT&quot;</span><span class="p">:</span> <span class="s2">&quot;65&quot;</span><span class="p">}</span>
+
+<span class="n">gnt_lemmas</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">get_tokens</span><span class="p">(</span><span class="n">TokenType</span><span class="o">.</span><span class="n">lemma</span><span class="p">))</span>
+
+<span class="n">ACT_10_lemmas</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">get_tokens</span><span class="p">(</span><span class="n">TokenType</span><span class="o">.</span><span class="n">lemma</span><span class="p">,</span> <span class="n">ChunkType</span><span class="o">.</span><span class="n">chapter</span><span class="p">,</span> <span class="n">BOOK_ABBV</span><span class="p">[</span><span class="s1">&#39;ACT&#39;</span><span class="p">]</span><span class="o">+</span> <span class="s2">&quot;10&quot;</span><span class="p">))</span>
+
+
+<span class="k">def</span> <span class="nf">getNTFreq</span><span class="p">(</span><span class="n">nt</span><span class="p">,</span> <span class="n">tgt</span><span class="p">):</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tgt</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">lemma</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">lemma</span> <span class="ow">in</span> <span class="n">nt</span><span class="p">:</span>
+            <span class="n">out</span><span class="p">[</span><span class="n">lemma</span><span class="p">]</span> <span class="o">=</span> <span class="n">nt</span><span class="p">[</span><span class="n">lemma</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">out</span>
+
+<span class="n">ACT_NT_FREQ</span> <span class="o">=</span> <span class="n">getNTFreq</span><span class="p">(</span><span class="n">gnt_lemmas</span><span class="p">,</span> <span class="n">ACT_10_lemmas</span><span class="p">)</span>
+
+<span class="n">freq</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">&lt;</span> <span class="mi">10</span>
+
+
+
+<span class="n">TGT</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="n">freq</span><span class="p">,</span><span class="n">ACT_NT_FREQ</span><span class="o">.</span><span class="n">items</span><span class="p">())),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">TGT</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">TGT</span><span class="p">))</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;act_10.txt&quot;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;UTF-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">TGT</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;{l[0]}</span><span class="se">\t\t</span><span class="s2">{l[1]}&quot;</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">f</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Done!&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>I then wanted the glosses for these words.</p>
+<p>I have a list of glosses extracted from the Abbot-Smith NT Greek lexicon (<a href="https://github.com/fhardison/abbot-smith-gloss-list">the list is available here</a>). So I wrote some code to read the output from the previous file, grab the glosses, and add them to the file.</p>
+<h3>Listing 2</h3>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="n">GLOSSES</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;gloss-dict.tab&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;UTF-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+  <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">parts</span> <span class="o">=</span> <span class="n">l</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">maxsplit</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">parts</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">GLOSSES</span><span class="p">[</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="n">ARGS</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">ARGS</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;UTF-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">ARGS</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;UTF-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">g</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">word</span> <span class="o">=</span> <span class="n">l</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">maxsplit</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">in</span> <span class="n">GLOSSES</span><span class="p">:</span>
+                <span class="n">rest</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">word</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
+                <span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;{word[0]}</span><span class="se">\t</span><span class="s2">{GLOSSES[word[0]]}</span><span class="se">\t</span><span class="s2">{rest}&quot;</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">g</span><span class="p">)</span>
+</pre></div>
+
+
+<p>I printed the resulting file out and I'm off reading. It's nice to a have cheat sheet of less common vocab for the chapter.</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="/fun-with-jtaubers-vocabulary-tools.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/greek.html" rel="tag">greek</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="/tag/greek.html" class="tags selected">greek</a>
+                    &nbsp;<a href="/tag/python.html" class="tags">python</a>
+                </div>
+            </article>            <h4 class="date">May 16, 2019</h4>
 
             <article class="post">
                 <h2 class="title">
