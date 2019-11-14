@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A Mind for Language - about</title><link href="https://amindforlanguage.com/" rel="alternate"></link><link href="https://amindforlanguage.com/feeds/about.atom.xml" rel="self"></link><id>https://amindforlanguage.com/</id><updated>2018-01-01T00:00:00-05:00</updated><entry><title>About</title><link href="https://amindforlanguage.com/about.html" rel="alternate"></link><published>2018-01-01T00:00:00-05:00</published><updated>2018-01-01T00:00:00-05:00</updated><author><name>Fletcher Hardison</name></author><id>tag:amindforlanguage.com,2018-01-01:/about.html</id><summary type="html">&lt;style&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Mind for Language - about</title><link href="/" rel="alternate"></link><link href="/feeds/about.atom.xml" rel="self"></link><id>/</id><updated>2018-01-01T00:00:00-05:00</updated><entry><title>About</title><link href="/about.html" rel="alternate"></link><published>2018-01-01T00:00:00-05:00</published><updated>2018-01-01T00:00:00-05:00</updated><author><name>Fletcher Hardison</name></author><id>tag:None,2018-01-01:/about.html</id><summary type="html">&lt;style&gt;
     table, th, td {
     border: 0px solid black
     }
