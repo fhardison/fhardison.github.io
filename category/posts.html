@@ -44,7 +44,8 @@
 
                 <p>Vocabulary acquisition requires repeated exposure to a word in order for our brains to acquire that word. In other words, we need encounter a given word repeatedly to acquire it. Reading texts that cover similar topics is a great way to do this. Since the topic is similar, the likelihood that there will be repeated vocabulary between the texts is higher.</p>
 <p>For those of us interested in New Testament Greek and acquiring vocabulary, reading the GNT would be a good way to do this. Read the whole thing and you will certainly have acquired a good deal of vocab. But sometimes, biblical texts don't address the same topic with enough repetition for us to naturally get the repeated exposure we need to acquire a word within a short period of time.</p>
-<p>What if we could read passages that have a high degree of shared vocab? That should provide the repetition. But how do we find these passages? Enter the dragon... I mean, enter <a href="https://github.com/jtauber/vocabulary-tools">James Tauber's vocabulary tools for the GNT</a>.</p>
+<p>What if we could read passages that have a high degree of shared vocab? That should provide the repetition. But how do we find these passages?</p>
+<p>Enter the dragon... I mean, enter <a href="https://github.com/jtauber/vocabulary-tools">James Tauber's vocabulary tools for the GNT</a>.</p>
 <h1>The code</h1>
 <p>The following code loops through each verse in the GNT and then gets set of all lemmas found there. It then loops through every verse in the GNT, and figures out what lemmas are not common to those two verses. If the number lemmas that aren't shared is below a given limit (in this case 5), it saves them to be output.</p>
 <div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">gnt_data</span> <span class="kn">import</span> <span class="n">get_tokens</span><span class="p">,</span> <span class="n">get_tokens_by_chunk</span><span class="p">,</span> <span class="n">TokenType</span><span class="p">,</span> <span class="n">ChunkType</span>
@@ -111,7 +112,7 @@
 </pre></div>
 
 
-<p>Which returns the following passages. I had to write <a href="/images/get-verses.py">some extra code</a>  to convert the output into the human readable passages (you'll need <a href="/images/pericope_map.txt">this file</a> too if you want to run this bit).</p>
+<p>Which returns the following passages. I had to write some extra code to convert the pericope codes into the normal passage references so you'll want <a href="/images/get-verses.py">this file</a> and <a href="/images/pericope_map.txt">this file</a> if you want to run this part yourself.</p>
 <div class="highlight"><pre><span></span><span class="n">Mark</span> <span class="mi">10</span><span class="p">:</span><span class="mi">13</span> <span class="o">-</span> <span class="n">Mark</span> <span class="mi">10</span><span class="p">:</span><span class="mi">16</span>
     <span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">15</span> <span class="o">-</span> <span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">17</span>
 <span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">15</span> <span class="o">-</span> <span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">17</span>
