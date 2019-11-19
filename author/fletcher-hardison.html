@@ -31,7 +31,198 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">Nov 14, 2019</h4>
+        <div id="content">            <h4 class="date">Nov 19, 2019</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="/more-fun-with-jtaubers-vocab-tools-finding-verses-and-pericopes-with-shared-vocab.html" rel="bookmark" title="Permanent Link to &quot;More fun with JTauber's vocab tools: Finding verses and pericopes with shared vocab&quot;">More fun with JTauber's vocab tools: Finding verses and pericopes with shared vocab</a>
+                </h2>
+
+                
+                
+
+                <p>Vocabulary acquisition requires repeated exposure to a word in order for our brains to acquire that word. In other words, we need encounter a given word repeatedly to acquire it. Reading texts that cover similar topics is a great way to do this. Since the topic is similar, the likelihood that there will be repeated vocabulary between the texts is higher.</p>
+<p>For those of us interested in New Testament Greek and acquiring vocabulary, reading the GNT would be a good way to do this. Read the whole thing and you will certainly have acquired a good deal of vocab. But sometimes, biblical texts don't address the same topic with enough repetition for us to naturally get the repeated exposure we need to acquire a word within a short period of time.</p>
+<p>What if we could read passages that have a high degree of shared vocab? That should provide the repetition. But how do we find these passages? Enter the dragon... I mean, enter <a href="https://github.com/jtauber/vocabulary-tools">James Tauber's vocabulary tools for the GNT</a>.</p>
+<h1>The code</h1>
+<p>The following code loops through each verse in the GNT and then gets set of all lemmas found there. It then loops through every verse in the GNT, and figures out what lemmas are not common to those two verses. If the number lemmas that aren't shared is below a given limit (in this case 5), it saves them to be output.</p>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">gnt_data</span> <span class="kn">import</span> <span class="n">get_tokens</span><span class="p">,</span> <span class="n">get_tokens_by_chunk</span><span class="p">,</span> <span class="n">TokenType</span><span class="p">,</span> <span class="n">ChunkType</span>
+<span class="kn">from</span> <span class="nn">greekutils.verse_ref</span> <span class="kn">import</span> <span class="n">bcv_to_verse_ref</span>
+
+<span class="n">reffer</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">bcv_to_verse_ref</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="mi">61</span><span class="p">)</span>
+
+
+<span class="n">gnt_verses</span> <span class="o">=</span> <span class="n">get_tokens_by_chunk</span><span class="p">(</span><span class="n">TokenType</span><span class="o">.</span><span class="n">lemma</span><span class="p">,</span> <span class="n">ChunkType</span><span class="o">.</span><span class="n">verse</span><span class="p">)</span>
+
+<span class="n">commons</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+<span class="n">LIM</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="k">for</span> <span class="n">verse</span><span class="p">,</span> <span class="n">lemma</span> <span class="ow">in</span> <span class="n">gnt_verses</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">reffer</span><span class="p">(</span><span class="n">verse</span><span class="p">))</span>
+    <span class="n">verse_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">lemma</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">v</span><span class="p">,</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">gnt_verses</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="n">verse</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">vset</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
+        <span class="n">u</span> <span class="o">=</span> <span class="n">verse_set</span><span class="o">.</span><span class="n">union</span><span class="p">(</span><span class="n">vset</span><span class="p">)</span>
+        <span class="n">intr</span> <span class="o">=</span> <span class="n">verse_set</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="n">vset</span><span class="p">)</span>
+        <span class="n">not_common</span> <span class="o">=</span> <span class="n">u</span> <span class="o">-</span> <span class="n">intr</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">not_common</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">LIM</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">verse</span> <span class="ow">in</span> <span class="n">commons</span><span class="p">:</span>
+                <span class="n">commons</span><span class="p">[</span><span class="n">verse</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">commons</span><span class="p">[</span><span class="n">verse</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">v</span><span class="p">]</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;common_list_verses.txt&quot;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">g</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">commons</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">reffer</span><span class="p">(</span><span class="n">k</span><span class="p">),</span> <span class="nb">file</span><span class="o">=</span><span class="n">g</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">v</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="n">reffer</span><span class="p">(</span><span class="n">i</span><span class="p">),</span> <span class="nb">file</span><span class="o">=</span><span class="n">g</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;DONE!&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Here's a snippet of <a href="/images/common_list_verses.txt">the results</a>:</p>
+<div class="highlight"><pre><span></span><span class="n">Matt</span> <span class="mi">4</span><span class="p">:</span><span class="mi">14</span>
+    <span class="n">Matt</span> <span class="mi">2</span><span class="p">:</span><span class="mi">17</span>
+    <span class="n">Matt</span> <span class="mi">12</span><span class="p">:</span><span class="mi">17</span>
+    <span class="n">Matt</span> <span class="mi">21</span><span class="p">:</span><span class="mi">4</span>
+</pre></div>
+
+
+<p>Now let's compare them:</p>
+<p>Matt 4:14 is <code>ἵνα πληρωθῇ τὸ ῥηθὲν διὰ Ἠσαΐου τοῦ προφήτου λέγοντος·</code></p>
+<ul>
+<li>Matt 2:17 &ndash; <code>τότε ἐπληρώθη τὸ ῥηθὲν ⸀διὰ Ἰερεμίου τοῦ προφήτου λέγοντος</code></li>
+<li>Matt 12:17 &ndash; <code>⸀ἵνα πληρωθῇ τὸ ῥηθὲν διὰ Ἠσαΐου τοῦ προφήτου λέγοντος·</code></li>
+<li>Matt 21:4 &ndash;<code>Τοῦτο ⸀δὲ γέγονεν ἵνα πληρωθῇ τὸ ῥηθὲν διὰ τοῦ προφήτου λέγοντος·</code></li>
+</ul>
+<h1>What about larger units of text</h1>
+<p>Ok, but who wants to skip around reading random verses? By making a few tweaks to the code above we can compare pericopes.</p>
+<div class="highlight"><pre><span></span><span class="nv">gnt_verses</span> <span class="o">=</span> <span class="nv">get_tokens_by_chunk</span><span class="ss">(</span><span class="nv">TokenType</span>.<span class="nv">lemma</span>, <span class="nv">ChunkType</span>.<span class="nv">pericope</span><span class="ss">)</span>
+...
+
+<span class="nv">LIM</span> <span class="o">=</span> <span class="mi">10</span>
+...
+<span class="nv">with</span> <span class="nv">open</span><span class="ss">(</span><span class="s2">&quot;</span><span class="s">common_list_pericope.txt</span><span class="s2">&quot;</span>, <span class="s1">&#39;</span><span class="s">w</span><span class="s1">&#39;</span><span class="ss">)</span> <span class="nv">as</span> <span class="nv">g</span>:
+    <span class="k">for</span> <span class="nv">k</span>,<span class="nv">v</span> <span class="nv">in</span> <span class="nv">commons</span>.<span class="nv">items</span><span class="ss">()</span>:
+        <span class="nv">print</span><span class="ss">(</span><span class="nv">k</span>, <span class="nv">file</span><span class="o">=</span><span class="nv">g</span><span class="ss">)</span>
+        <span class="k">for</span> <span class="nv">i</span> <span class="nv">in</span> <span class="nv">v</span>:
+            <span class="nv">print</span><span class="ss">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="nv">i</span>, <span class="nv">file</span><span class="o">=</span><span class="nv">g</span><span class="ss">)</span>
+</pre></div>
+
+
+<p>Which returns the following passages. I had to write <a href="/images/get-verses.py">some extra code</a>  to convert the output into the human readable passages (you'll need <a href="/images/pericope_map.txt">this file</a> too if you want to run this bit).</p>
+<div class="highlight"><pre><span></span><span class="n">Mark</span> <span class="mi">10</span><span class="p">:</span><span class="mi">13</span> <span class="o">-</span> <span class="n">Mark</span> <span class="mi">10</span><span class="p">:</span><span class="mi">16</span>
+    <span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">15</span> <span class="o">-</span> <span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">17</span>
+<span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">15</span> <span class="o">-</span> <span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">17</span>
+    <span class="n">Mark</span> <span class="mi">10</span><span class="p">:</span><span class="mi">13</span> <span class="o">-</span> <span class="n">Mark</span> <span class="mi">10</span><span class="p">:</span><span class="mi">16</span>
+<span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+<span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+</pre></div>
+
+
+<p>By changing <code>LIM</code> to <code>15</code> we get the following list.</p>
+<div class="highlight"><pre><span></span><span class="n">Mark</span> <span class="mi">10</span><span class="p">:</span><span class="mi">13</span> <span class="o">-</span> <span class="n">Mark</span> <span class="mi">10</span><span class="p">:</span><span class="mi">16</span>
+    <span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">15</span> <span class="o">-</span> <span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">17</span>
+<span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">15</span> <span class="o">-</span> <span class="n">Luke</span> <span class="mi">18</span><span class="p">:</span><span class="mi">17</span>
+    <span class="n">Mark</span> <span class="mi">10</span><span class="p">:</span><span class="mi">13</span> <span class="o">-</span> <span class="n">Mark</span> <span class="mi">10</span><span class="p">:</span><span class="mi">16</span>
+<span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Phil</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Phil</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="mi">2</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+<span class="n">Phil</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Phil</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+<span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Phil</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Phil</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="mi">2</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+<span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Phil</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Phil</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="mi">1</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">1</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="mi">2</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Phlm</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Phlm</span> <span class="mi">1</span><span class="p">:</span><span class="mi">3</span>
+<span class="mi">1</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">1</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="mi">2</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+<span class="mi">2</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Eph</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Col</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+    <span class="mi">1</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">1</span> <span class="n">Tim</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+<span class="n">Phlm</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="n">Phlm</span> <span class="mi">1</span><span class="p">:</span><span class="mi">3</span>
+    <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">Thess</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span>
+</pre></div>
+
+
+<h1>κ.τ.λ.</h1>
+<p><code>ChunkType</code> could also be changed to <code>chapter</code> if you'd like to compare chapter.</p>
+<p>All of the above uses lemmas. If you are interested in forms, then simply replacing <code>TokenType.lemma</code> form <code>TokenType.form</code> in this line will do the trick.</p>
+<div class="highlight"><pre><span></span><span class="n">gnt_verses</span> <span class="o">=</span> <span class="n">get_tokens_by_chunk</span><span class="p">(</span><span class="n">TokenType</span><span class="p">.</span><span class="n">form</span><span class="p">,</span> <span class="n">ChunkType</span><span class="p">.</span><span class="n">pericope</span><span class="p">)</span>
+</pre></div>
+
+
+<p>I doubt this will change your life as a student or as a teacher, but it is certainly interesting to know which verses or passages share vocabulary. This could help us develop better reading assignments for students or direct us to which passages could be interesting reading to grow our own vocabulary.</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="/more-fun-with-jtaubers-vocab-tools-finding-verses-and-pericopes-with-shared-vocab.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/posts.html" rel="tag">posts</a>
+                </div>
+            </article>            <h4 class="date">Nov 18, 2019</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="/howd-you-get-here-an-interview-with-seumas-mcdonnald.html" rel="bookmark" title="Permanent Link to &quot;How'd you get here: an interview with Seumas McDonnald&quot;">How'd you get here: an interview with Seumas McDonnald</a>
+                </h2>
+
+                
+                
+
+                <p>On 18/19 Nov 2019 (depending on your time zone) Dr. Seumas McDonnald and I chatted about Greek and how he got to his current level in Greek. Seumas is a Greek teacher and researcher who runs The Patrologist.com. He is working on a number of projects to create Greek teaching/learning materials that reflect what linguistics has taught us about how humans learn languages.</p>
+<p>One thing he repeated a few times was that it took him a lot longer than it needed to, because of the methods used and that using proper CI based methods, it shoudn't take near as long.</p>
+<h1>It starts</h1>
+<p>Like many of us, Seumas started in traditional grammar-translation type classes. He began with Mounce's <em>Basics of Biblical Greek</em> which he worked through on his own before entering a theological degree. In that program, he was required to take four years. The first year was largely what he covered in Mounce's book and then the second year moved on to Wallace's Greek Grammar Beyond the Basics. The last two years would were exegesis classes based on the Greek text. He also began studying Latin on the side during this time. Additional Greek input came from taking some classes at another school on works written in the Attic dialect.</p>
+<h1>Journey to CI</h1>
+<p>It started with <em>Lingua Latin Per Se Illustrata</em>. This book pushed Seumas to realize that there were other ways to learn languages.</p>
+<h1>Last few years</h1>
+<h1>How to brigde teh vobab gap</h1>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="/howd-you-get-here-an-interview-with-seumas-mcdonnald.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/interviews.html" rel="tag">interviews</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="/tag/greek.html" class="tags">greek</a>
+                    &nbsp;<a href="/tag/interview.html" class="tags">interview</a>
+                    &nbsp;<a href="/tag/ci.html" class="tags">ci</a>
+                    &nbsp;<a href="/tag/teaching.html" class="tags">teaching</a>
+                    &nbsp;<a href="/tag/learning.html" class="tags">learning</a>
+                </div>
+            </article>            <h4 class="date">Nov 16, 2019</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="/my-life-in-languages-part-1.html" rel="bookmark" title="Permanent Link to &quot;My life in languages part 1&quot;">My life in languages part 1</a>
+                </h2>
+
+                
+                
+
+                <p>Learning any language requires consistency and dedication. Ancient/Koine Greek is certainly not an <em>easy</em> language. From my perspective, the main trouble is vocabulary. Greek has a rich and wide vocabulary so reading new </p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="/my-life-in-languages-part-1.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/drafts.html" rel="tag">drafts</a>
+                </div>
+            </article>            <h4 class="date">Nov 14, 2019</h4>
 
             <article class="post">
                 <h2 class="title">
@@ -358,154 +549,6 @@
                 <div class="info">
                     <a href="/greek-vowel-contraction-rules-part-1.html">posted at 00:00</a>
                     &nbsp;&middot;&nbsp;<a href="/category/posts.html" rel="tag">posts</a>
-                </div>
-            </article>            <h4 class="date">Nov 09, 2018</h4>
-
-            <article class="post">
-                <h2 class="title">
-                    <a href="/what-do-you-have-an-input-task-for-introducing-new-vocab-in-greek.html" rel="bookmark" title="Permanent Link to &quot;What do you have? - an input task for introducing new vocab in Greek&quot;">What do you have? - an input task for introducing new vocab in Greek</a>
-                </h2>
-
-                
-                
-
-                <p>One of the problems facing learners of Ancient is getting used to the cases of nouns. Below is a simple input task that can be used to introduce new vocabulary. Students are given an item and a card with the name of that item. They are then asked to find out what other students have and if the other students like that item.</p>
-<p>This will allow students to expand their vocabulary as well as encounter that vocabulary in both nominative and accusative case. This should work for nouns, some participles, and adjectives if used in conjunction with a noun.</p>
-<h1>Prep</h1>
-<ul>
-<li>Find props, pictures, or other realia that represents the words to be learned.</li>
-<li>Create a card that has the Greek word for that object. Make sure to include the article and/or genitive singular of the word so that students can correctly identify what gender it belongs to.<ul>
-<li>It may also be necessary to give the accusative case depending on students facility in conjugating the given declension.</li>
-<li>If students are beginners, it may help to give them the sentences they will need to complete this activity (see "Language needed for this activity" below).</li>
-</ul>
-</li>
-</ul>
-<h1>Setup</h1>
-<ul>
-<li>Divide students into groups if necessary. Ideally one or two vocabulary items per student.</li>
-<li>Give students a prop and a card with the new vocabulary item.</li>
-<li>Tell students that they need to learn the name of each object/picture/etc. in their group and whether the person likes it because they will be asked to tell the class this information.</li>
-</ul>
-<h1>Wrap up</h1>
-<p>After students have found the information, the teacher can pick students from the group to tell the class the objects and if the other student liked the item. This also provides a chance to the teacher to repeat the basic questions "τι έχει ...?" and "ᾶρα αυτῄῳ αρέσει ο/η/τό ___?".  </p>
-<h1>Language needed for this activity</h1>
-<ul>
-<li>τι έχεις?</li>
-<li>έχω (ένα/μίαν/έν) ___.</li>
-<li>ᾶρα σοι αρέσει ο/η/τό ___</li>
-<li>μοι (ου) αρέσει ο/η/τό __</li>
-<li>έχει ο/η name-of-student ___.</li>
-<li>αυτῳ/αυτῃ αρέσει ο/η/τό ___</li>
-</ul>
-                <div class="clear"></div>
-
-                <div class="info">
-                    <a href="/what-do-you-have-an-input-task-for-introducing-new-vocab-in-greek.html">posted at 00:00</a>
-                    &nbsp;&middot;&nbsp;<a href="/category/teaching.html" rel="tag">teaching</a>
-                </div>
-            </article>            <h4 class="date">Nov 08, 2018</h4>
-
-            <article class="post">
-                <h2 class="title">
-                    <a href="/limiting-vocabulary-in-highly-inflected-and-irregular-languages.html" rel="bookmark" title="Permanent Link to &quot;Limiting vocabulary in highly inflected (and irregular) languages&quot;">Limiting vocabulary in highly inflected (and irregular) languages</a>
-                </h2>
-
-                
-                
-
-                <p>Ancient/Koine Greek is nothing if not inflected. It is also quite irregular. This is a pain for students because of the many, many forms a given word can take.</p>
-<p>One principle of modern language teaching is to "limit" or "shelter" vocabulary. In other words, don't use too many new words in the course of a lesson and don't teach too many words in the course. The corollary to this is usually not to limit grammar. Thus while students may only hear a small number of new words, they hear normal (complex) grammar.</p>
-<h1>The problem</h1>
-<p><img alt="" src="/images/mark-rasmuson.jpg"></p>
-<p>In my Koine Greek class I have tried to limit the number of vocabulary items. I only add a few new words per lesson, but these words are drawn from each gender: masculine, feminine, and neuter. This gives students a chance to acquire the different declensions and the definite article that goes with them. The trouble is that some of these (quite common) words have stem changes and this adds to what my students have to deal with. Even though this kind of suppletion is common in Greek, I think it is overwhelming for my students.</p>
-<h1>The solution &ndash; maybe</h1>
-<p>I have been listening to <a href="http://www.teawithbvp.com/">Tea with BVP</a> and their new podcast <a href="https://www.classroomtapas.com/talkinl2">Talkin' L2 with BVP</a>. Bill VanPatten (i.e. BVP) notes that paradigms aren't psychologically real. In other words, they don't exist in students' brains. Instead, each form is acquired as a separate word and only after a lot of acquisition has already happened are connections made between forms. BVP also notes that when students want to produce a new form, their brain strips the ending off a word in their mental lexicon and applies it to create the new form (again, no paradigms).</p>
-<p><em>Thinking about this brought me to the realization that I need to consider each form a word to be a separate word for the purpose of limiting vocabulary.</em></p>
-<h1>What does this mean?</h1>
-<p><img alt="" src="/images/cynthiadelrio.jpg"></p>
-<p>I don't think that this means that I should only introduce three to four forms if one word per lesson. I'd never get anywhere with my students. Rather, I should try to introduce words from the same declension so that students don't have to juggle too many new patterns per lesson. This will help expose them to the same kinds of words and hopefully provide the examples and repetition they need to learn the words and make connection between their various forms.</p>
-<p>In upcoming lessons, I will focus introduce words from the same declension (as much as possible). If these words have a stem change, then I may lower the number of new vocabulary items for that lesson and focus on repetitions of the forms with the stem change.</p>
-<p>My hope is that by considering different forms as separate words and by drawing new vocabulary from the same declension, I can reduce the cognitive overwhelm and increate the ease and speed with which my students acquire new vocabulary and grammar.</p>
-                <div class="clear"></div>
-
-                <div class="info">
-                    <a href="/limiting-vocabulary-in-highly-inflected-and-irregular-languages.html">posted at 00:00</a>
-                    &nbsp;&middot;&nbsp;<a href="/category/teaching.html" rel="tag">teaching</a>
-                </div>
-            </article>            <h4 class="date">Oct 06, 2018</h4>
-
-            <article class="post">
-                <h2 class="title">
-                    <a href="/recommended-resources-on-koine-greek.html" rel="bookmark" title="Permanent Link to &quot;Recommended resources on Koine Greek&quot;">Recommended resources on Koine Greek</a>
-                </h2>
-
-                
-                
-
-                <p>Below are some resources that I like, have used, or want to use as well as my thoughts on them. Hopefully, I'll update this page as I find more resources.</p>
-<h1>Basic Grammars</h1>
-<div class="highlight"><pre><span></span><span class="n">Mounce</span><span class="p">,</span> <span class="n">William</span> <span class="n">D</span><span class="p">.</span> <span class="mi">2009</span><span class="p">.</span> <span class="n">Basics</span> <span class="k">of</span> <span class="n">Biblical</span> <span class="n">Greek</span> <span class="n">Grammar</span><span class="p">.</span> <span class="mi">3</span><span class="n">rd</span> <span class="n">Ed</span><span class="p">.</span> <span class="n">Grand</span> <span class="n">Rapids</span><span class="p">:</span> <span class="n">Zondervan</span><span class="p">.</span>
-</pre></div>
-
-
-<p>Mounce's book is what my first Greek class used. There may be other books out there that are better, but I'm fond of this one and would recommend it as an introduction.</p>
-<div class="highlight"><pre><span></span><span class="n">Betts</span><span class="p">,</span> <span class="n">Gavin</span><span class="p">.</span> <span class="mi">2004</span><span class="p">.</span> <span class="n">Teach</span> <span class="n">Yourself</span> <span class="n">Ancient</span> <span class="n">Greek</span> <span class="n">Complete</span> <span class="n">Course</span><span class="p">.</span> <span class="mi">2</span><span class="n">nd</span> <span class="n">Ed</span><span class="p">.</span> <span class="n">Blacklick</span><span class="p">:</span> <span class="n">McGraw</span><span class="o">-</span><span class="n">Hill</span><span class="p">.</span>
-</pre></div>
-
-
-<p>I've fiddled with this book. It's not too hard, but it <em>dumps</em> new vocabulary on you by the train car load and thus brings a huge memorization load. It does have lots of examples from a variety of sources, some of which are longer form content &ndash; which I like. it might be better to work through something else first through. I can't really say, though, because I had already used Mounce's book before I got this one. Hopefully, I'll work all the way through it one of these days.</p>
-<div class="highlight"><pre><span></span><span class="n">Black</span><span class="p">,</span> <span class="n">David</span> <span class="n">Alan</span><span class="p">.</span> <span class="mi">2009</span><span class="p">.</span> <span class="n">Learn</span> <span class="k">to</span> <span class="k">Read</span> <span class="k">New</span> <span class="n">Testament</span> <span class="n">Greek</span><span class="p">.</span> <span class="mi">3</span><span class="n">rd</span> <span class="n">ed</span><span class="p">.</span> <span class="n">Nashville</span><span class="p">:</span> <span class="n">Broadman</span> <span class="o">&amp;</span> <span class="n">Holman</span> <span class="n">Publishers</span><span class="p">.</span>
-</pre></div>
-
-
-<p>I have not used this book (available <a href="https://www.amazon.com/Learn-Read-New-Testament-Greek/dp/0805444939">here</a>), but Black is one of the pioneers in bringing the insights of modern linguistics to Koine Greek studies &ndash; at least from my perspective. I would like to look through it one day. And though I have not read it, I would recommend it based on the reputation of its author.</p>
-<h1>Greek readers</h1>
-<p>The <a href="https://simonidesproject.github.io/SimonidesPage/index.html">Simonides Project</a> has reformatted <a href="https://simonidesproject.github.io/SimonidesPage/book.greek.html">Greek</a> and Latin readers that are out of print and no longer under copyright. They are free and look fantastic.</p>
-<h1>Reference Works</h1>
-<div class="highlight"><pre><span></span><span class="nv">Runge</span>, <span class="nv">Steven</span> <span class="nv">E</span>. <span class="mi">2010</span>. <span class="nv">Discourse</span> <span class="nv">Grammar</span> <span class="nv">of</span> <span class="nv">the</span> <span class="nv">Greek</span> <span class="nv">New</span> <span class="nv">Testament</span>: <span class="nv">A</span> <span class="nv">Practical</span> <span class="nv">Introduction</span> <span class="k">for</span> <span class="nv">Teaching</span> <span class="nv">and</span> <span class="nv">Exegesis</span>. <span class="nv">Peabody</span>: <span class="nv">Hendrickson</span>.
-</pre></div>
-
-
-<p><em>You need read this at some point.</em></p>
-<p>This is my favorite Greek book because it explains how Koine Greek communicates. Unlike other grammars, it doesn't focus the nuts and bolts of verbs or the case system, rather this books explores how Greek forms larger unites of thought. As readers of Koine Greek, our ultimate goal is to understand what the author is trying to say, how it is being said, and what he/she is trying to emphasize. This book unlocks these aspect of the language.</p>
-<p>I also love it because Runge's book sits at the crossroads of Koine Greek studies and <a href="https://www.linguisticsociety.org/resource/discourse-analysis-what-speakers-do-conversation">discourse analysis</a>. I think that it is one of many books that we are seeing and will see in the future that take insights from the field of linguistics and applies them to Koine Greek. Runge takes linguistic <a href="https://en.wikipedia.org/wiki/Discourse_analysis">discourse analysis</a> and applies it to Koine Greek in a way that is easy to understand &ndash; even if you aren't a linguist. He uses lots of examples and works through them so you can how the ideas he is talking about work out in practice.</p>
-<h1>Online Courses</h1>
-<h2>Video</h2>
-<ul>
-<li>Leonard Muellner and Belisi Gillespie present a <a href="https://www.youtube.com/playlist?list=PLq5ea-jR9u2puDaLoRL-nBkpwrkURbLjT">video series on Ancient Greek</a> and use <a href="https://www.amazon.com/Greek-Intensive-Course-2nd-Revised-dp-0823216632/dp/0823216632/ref=mt_paperback?_encoding=UTF8&amp;me=&amp;qid=">Greek: An Intensive Course</a> as their textbook. I have not watched this course in full or used this book, but I wanted to mention it as a resource if you are looking for an online course in Ancient Greek.</li>
-</ul>
-<h2>University of Texas at Arlington courses</h2>
-<p>The University of Texas at Arlington has online courses (or lessons) that introduce many ancient languages including Classical and Koine Greek. I have looked at them before, though I have never worked through them all the way. I am noting them here for reference. Both the Classical and Koine Greek course provide an overview of the language and some lessons based on Greek texts.</p>
-<ul>
-<li>
-<p><a href="https://lrc.la.utexas.edu/eieol/grkol">Classical Greek Online</a></p>
-</li>
-<li>
-<p><a href="https://lrc.la.utexas.edu/eieol/ntgol">New Testament Greek Online</a></p>
-</li>
-</ul>
-<h1>Where Are Your Keys (WAYK)</h1>
-<p><a href="https://whereareyourkeys.org/">Where Are Your Keys</a> is one of the main methods that I will be trying out in my Greek course in Fall 2018. Below are links that I have found related to WAYK and Greek.</p>
-<ul>
-<li>Seumas McDonald has a number of interesting resources.<ul>
-<li>His current site <a href="https://thepatrologist.com/">The Patrologist</a> has a lot of interesting thoughts on Greek and Latin.</li>
-<li>He also has a few intro videos on Youtube demonstrating how to use WAYK with Koine Greek (see <a href="https://youtu.be/-ETMt_qjfz0">here</a> and <a href="https://youtu.be/Xk-hdIEqXuw">here</a>).</li>
-<li>His old blog has a page about <a href="http://jeltzz.blogspot.com/2012/05/wayk-greek.html">WAYK and Greek</a></li>
-<li>Finally he has worked out a curriculum for WAYK and Greek and posted it <a href="https://sites.google.com/site/intensiveaudiolanguages/greek-course">here</a> along with an interesting lexicon of a variety of languages that is available <a href="https://sites.google.com/site/intensiveaudiolanguages/home/out-of-control-lexicon">here</a></li>
-<li>He also has a <a href="https://www.podomatic.com/podcasts/odianuktosdialogos">podcast</a> in Ancient Greek</li>
-</ul>
-</li>
-<li>Greek and Latin <a href="https://latinandgreekchats.weebly.com/">online chat via Google Hangouts</a>. I personally have never participated, but it is something that is worth knowing about.  </li>
-<li><a href="http://www.letsreadgreek.com/phrasebook/greekenglishphrasebook.pdf">Greek-English phrasebook</a> (pdf download) translated from the German <a href="https://archive.org/details/sprechensieatti00johngoog/page/n5"><em>Sprechen sie Atisch</em></a></li>
-</ul>
-                <div class="clear"></div>
-
-                <div class="info">
-                    <a href="/recommended-resources-on-koine-greek.html">posted at 00:00</a>
-                    &nbsp;&middot;&nbsp;<a href="/category/greek.html" rel="tag">greek</a>
-                    &nbsp;&middot;
-                    &nbsp;<a href="/tag/greek.html" class="tags">greek</a>
-                    &nbsp;<a href="/tag/books.html" class="tags">books</a>
                 </div>
             </article>
 
