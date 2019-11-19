@@ -120,7 +120,7 @@
 
 
 &lt;h1&gt;κ.τ.λ.&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;ChunkType&lt;/code&gt; could also be changed to &lt;code&gt;chapter&lt;/code&gt; if you'd like to compare chapter.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ChunkType&lt;/code&gt; could also be changed to &lt;code&gt;chapter&lt;/code&gt; if you'd like to compare chapters.&lt;/p&gt;
 &lt;p&gt;All of the above uses lemmas. If you are interested in forms, then simply replacing &lt;code&gt;TokenType.lemma&lt;/code&gt; form &lt;code&gt;TokenType.form&lt;/code&gt; in this line will do the trick.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;gnt_verses&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;get_tokens_by_chunk&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;TokenType&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;form&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ChunkType&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pericope&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
