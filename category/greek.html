@@ -32,7 +32,140 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">Nov 19, 2019</h4>
+        <div id="content">            <h4 class="date">Nov 22, 2019</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="/fun-with-vocab-tools-comparing-chapter-vocab-and-glossing-it.html" rel="bookmark" title="Permanent Link to &quot;Fun with vocab-tools: comparing chapter vocab and glossing it&quot;">Fun with vocab-tools: comparing chapter vocab and glossing it</a>
+                </h2>
+
+                
+                
+
+                <p>More fun with James Tauber's <a href="https://github.com/jtauber/vocabulary-tools">vocabulary-tools</a>. So what if you're reading through an NT book chapter by chapter and you wonder what new vocab you're likely to encounter in the next chapter that wasn't in the previous one? Vocabulary-tools can help you figure that out.</p>
+<p>Vocabulary-tools doesn't include a glossing tool (as far as I know), but here is a simple one based on gloss list from the Abbott-Smith NT Greek lexicon (which you can get <a href="https://github.com/fhardison/abbot-smith-gloss-list/blob/master/gloss-dict.tab">here</a>).</p>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">greek_normalisation.utils</span> <span class="kn">import</span> <span class="n">nfc</span>
+
+<span class="k">class</span> <span class="nc">Glosser</span><span class="p">():</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;gloss-dict.tab&quot;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;UTF-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">:</span>
+                <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">maxsplit</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">parts</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="n">nfc</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">])]</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">l</span><span class="p">):</span>
+        <span class="n">normed</span> <span class="o">=</span> <span class="n">nfc</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">normed</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="n">normed</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;{normed} not found in Abott Smith&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="s1">&#39;&#39;</span>
+</pre></div>
+
+
+<p>Now we can combine that with the following code and run by typing <code>py analyze_chapter.py &lt;new-cpt-num&gt;</code> and it will print out a list of words that occur less than <code>LIM</code> times in the NT, the number of occurrences, and the gloss from Abbott-Smith (if found). I'm currently reading Acts; if you want a different book, then you'll need to replace <code>BOOK_ABBV['ACT']</code> with the book code for the book you want to read. You can figure out this code from the vocabular-tools module.</p>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<span class="kn">from</span> <span class="nn">gnt_data</span> <span class="kn">import</span> <span class="n">get_tokens</span><span class="p">,</span> <span class="n">get_tokens_by_chunk</span><span class="p">,</span> <span class="n">TokenType</span><span class="p">,</span> <span class="n">ChunkType</span>
+<span class="kn">from</span> <span class="nn">abott_glosser</span> <span class="kn">import</span> <span class="n">Glosser</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="n">new_cpt</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">BOOK_ABBV</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;GLA&quot;</span><span class="p">:</span> <span class="s2">&quot;69&quot;</span><span class="p">,</span> <span class="s2">&quot;1JN&quot;</span> <span class="p">:</span> <span class="s2">&quot;83&quot;</span><span class="p">,</span> <span class="s2">&quot;ACT&quot;</span><span class="p">:</span> <span class="s2">&quot;65&quot;</span><span class="p">}</span>
+
+<span class="c1"># Get all lemmas in GNT</span>
+<span class="n">gnt_lemmas</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">get_tokens</span><span class="p">(</span><span class="n">TokenType</span><span class="o">.</span><span class="n">lemma</span><span class="p">))</span>
+
+<span class="c1"># format last chatper marker</span>
+<span class="n">last_cpt</span> <span class="o">=</span> <span class="s2">&quot;0&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">new_cpt</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="k">if</span> <span class="n">new_cpt</span> <span class="o">-</span><span class="mi">1</span> <span class="o">&lt;</span> <span class="mi">10</span> <span class="k">else</span> <span class="nb">str</span><span class="p">(</span><span class="n">new_cpt</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="c1"># Get lemmmas for current and previous chapters</span>
+<span class="n">LAST_CHAPTER</span> <span class="o">=</span>  <span class="n">Counter</span><span class="p">(</span><span class="n">get_tokens</span><span class="p">(</span><span class="n">TokenType</span><span class="o">.</span><span class="n">lemma</span><span class="p">,</span> <span class="n">ChunkType</span><span class="o">.</span><span class="n">chapter</span><span class="p">,</span> <span class="n">BOOK_ABBV</span><span class="p">[</span><span class="s1">&#39;ACT&#39;</span><span class="p">]</span><span class="o">+</span> <span class="n">last_cpt</span><span class="p">))</span>
+<span class="n">NEW_CHAPTER</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">get_tokens</span><span class="p">(</span><span class="n">TokenType</span><span class="o">.</span><span class="n">lemma</span><span class="p">,</span> <span class="n">ChunkType</span><span class="o">.</span><span class="n">chapter</span><span class="p">,</span> <span class="n">BOOK_ABBV</span><span class="p">[</span><span class="s1">&#39;ACT&#39;</span><span class="p">]</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">new_cpt</span><span class="p">)))</span>
+
+<span class="c1"># get GNT freq, rather than freq in current chatper</span>
+<span class="k">def</span> <span class="nf">getNTFreq</span><span class="p">(</span><span class="n">nt</span><span class="p">,</span> <span class="n">tgt</span><span class="p">):</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tgt</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">lemma</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">lemma</span> <span class="ow">in</span> <span class="n">nt</span><span class="p">:</span>
+            <span class="n">out</span><span class="p">[</span><span class="n">lemma</span><span class="p">]</span> <span class="o">=</span> <span class="n">nt</span><span class="p">[</span><span class="n">lemma</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">out</span>
+
+<span class="c1">#subtract vocab from the last chatper from list</span>
+<span class="n">ACT_NT_FREQ</span> <span class="o">=</span> <span class="n">getNTFreq</span><span class="p">(</span><span class="n">gnt_lemmas</span><span class="p">,</span> <span class="n">NEW_CHAPTER</span> <span class="o">-</span> <span class="n">LAST_CHAPTER</span><span class="p">)</span>
+
+<span class="c1"># Filter lemmas based on those that occur less than LIM in the GNT as a whole</span>
+<span class="n">LIM</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">freq</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">&lt;</span> <span class="n">LIM</span>
+<span class="n">TGT</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="n">freq</span><span class="p">,</span><span class="n">ACT_NT_FREQ</span><span class="o">.</span><span class="n">items</span><span class="p">())),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+<span class="k">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">TGT</span><span class="p">))</span>
+
+<span class="c1"># setup glosser</span>
+<span class="n">glosser</span> <span class="o">=</span> <span class="n">Glosser</span><span class="p">()</span>
+
+<span class="c1"># output results</span>
+<span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">TGT</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;{l[0]}</span><span class="se">\t</span><span class="s2">{l[1]}</span><span class="se">\t</span><span class="s2">{glosser.get(l[0])}&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Running <code>py analyze_chapter.py 11</code> on Acts 11 got the following output.</p>
+<div class="highlight"><pre><span></span><span class="mi">21</span>
+Κλαύδιος        <span class="mi">3</span>       <span class="nv">Claudius</span> <span class="o">|</span> <span class="nv">C</span>. <span class="nv">Lysias</span>
+
+Κυρηναῖος       <span class="mi">6</span>       <span class="nv">of</span> <span class="nv">Cyrene</span> <span class="o">|</span> <span class="nv">a</span> <span class="nv">Cyren</span>æ<span class="nv">an</span>
+
+Κύπριος <span class="mi">3</span>       <span class="nv">of</span> <span class="nv">Cyprus</span> <span class="o">|</span> <span class="nv">Cyprian</span>
+
+Κύπρος  <span class="mi">5</span>       <span class="nv">Cyprus</span>
+
+Στέφανος        <span class="mi">7</span>       <span class="nv">Stephen</span>
+
+Ταρσός  <span class="mi">3</span>       <span class="nv">Tarsus</span>
+
+Φοινίκη <span class="nv">not</span> <span class="nv">found</span> <span class="nv">in</span> <span class="nv">Abott</span> <span class="nv">Smith</span>
+Φοινίκη <span class="mi">3</span>
+Χριστιανός      <span class="mi">3</span>       <span class="nv">a</span> <span class="nv">Christian</span>
+
+διασπείρω       <span class="mi">3</span>       <span class="nv">to</span> <span class="nv">scatter</span> <span class="nv">abroad</span>, <span class="nv">disperse</span>
+
+εὐπορέομαι <span class="nv">not</span> <span class="nv">found</span> <span class="nv">in</span> <span class="nv">Abott</span> <span class="nv">Smith</span>
+εὐπορέομαι      <span class="mi">1</span>
+καθεξῆς <span class="mi">5</span>       <span class="nv">successively</span> <span class="o">|</span> <span class="nv">in</span> <span class="nv">order</span> <span class="o">|</span> <span class="nv">afterwards</span>
+
+προσμένω        <span class="mi">7</span>       <span class="nv">to</span> <span class="k">wait</span> <span class="nv">longer</span> <span class="o">|</span> <span class="k">continue</span> <span class="o">|</span> <span class="nv">remain</span> <span class="nv">still</span> <span class="o">|</span> <span class="nv">to</span> <span class="nv">remain</span> <span class="nv">with</span> <span class="o">|</span> <span class="nv">to</span> <span class="nv">remain</span> <span class="nv">attached</span> <span class="nv">to</span> <span class="o">|</span> <span class="nv">cleave</span> <span class="nv">unto</span> <span class="o">|</span> <span class="nv">abide</span> <span class="nv">in</span>
+
+πρώτως  <span class="mi">1</span>       <span class="nv">first</span>
+
+σημαίνω <span class="mi">6</span>       <span class="nv">to</span> <span class="nv">give</span> <span class="nv">a</span> <span class="nv">sign</span>, <span class="nv">signify</span>, <span class="nv">indicate</span>
+
+ἀναζητέω        <span class="mi">3</span>       <span class="nv">to</span> <span class="nv">look</span> <span class="k">for</span> <span class="o">|</span> <span class="nv">seek</span> <span class="nv">carefully</span>
+
+ἀνασπάω <span class="mi">2</span>       <span class="nv">to</span> <span class="nv">draw</span> <span class="nv">up</span>
+
+Ἅγαβος <span class="nv">not</span> <span class="nv">found</span> <span class="nv">in</span> <span class="nv">Abott</span> <span class="nv">Smith</span>
+Ἅγαβος  <span class="mi">2</span>
+ἐκτίθημι        <span class="mi">4</span>       <span class="nv">to</span> <span class="nv">set</span> <span class="nv">out</span>, <span class="nv">expose</span> <span class="o">|</span> <span class="nv">to</span> <span class="nv">set</span> <span class="nv">forth</span>, <span class="nv">expound</span>
+
+Ἑλληνιστής      <span class="mi">3</span>       <span class="nv">a</span> <span class="nv">Hellenist</span> <span class="o">|</span>  <span class="nv">Grecian</span> <span class="nv">Jew</span>
+
+ἡσυχάζω <span class="mi">5</span>       <span class="nv">to</span> <span class="nv">be</span> <span class="nv">still</span> <span class="o">|</span> <span class="nv">to</span> <span class="nv">rest</span> <span class="nv">from</span> <span class="nv">labour</span> <span class="o">|</span> <span class="nv">to</span> <span class="nv">live</span> <span class="nv">quietly</span> <span class="o">|</span> <span class="nv">to</span> <span class="nv">be</span> <span class="nv">silent</span>
+
+ἴσος    <span class="mi">8</span>       <span class="nv">equal</span> <span class="o">|</span> <span class="nv">the</span> <span class="nv">same</span>
+</pre></div>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="/fun-with-vocab-tools-comparing-chapter-vocab-and-glossing-it.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/greek.html" rel="tag">greek</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="/tag/greek.html" class="tags">greek</a>
+                    &nbsp;<a href="/tag/python.html" class="tags">python</a>
+                </div>
+            </article>            <h4 class="date">Nov 19, 2019</h4>
 
             <article class="post">
                 <h2 class="title">
