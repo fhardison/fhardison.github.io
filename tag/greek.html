@@ -30,7 +30,66 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">Nov 22, 2019</h4>
+        <div id="content">            <h4 class="date">Dec 10, 2019</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="/fun-with-vocab-tools-vocab-info-for-a-book.html" rel="bookmark" title="Permanent Link to &quot;Fun with vocab-tools: vocab info for a book&quot;">Fun with vocab-tools: vocab info for a book</a>
+                </h2>
+
+                
+                
+
+                <p>More fun with James Tauber's <a href="https://github.com/jtauber/vocabulary-tools">vocabulary-tools</a>. I'm trying to read the whole NT in Greek. Titus is next. I started reading it, but there was a lot of unfamiliar vocab or at least vocab I didn't feel certain of. Vocabulary-tools to the rescue again. Sure I could buy a readers Greek New Testament, but where's the fun in that? Also using vocabulary tools lets me customize what words are added to the list.</p>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<span class="kn">from</span> <span class="nn">gnt_data</span> <span class="kn">import</span> <span class="n">get_tokens</span><span class="p">,</span> <span class="n">get_tokens_by_chunk</span><span class="p">,</span> <span class="n">TokenType</span><span class="p">,</span> <span class="n">ChunkType</span>
+<span class="kn">from</span> <span class="nn">abott_glosser</span> <span class="kn">import</span> <span class="n">Glosser</span>
+<span class="kn">from</span> <span class="nn">ref_tools</span> <span class="kn">import</span> <span class="n">get_book</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="c1"># Get all lemmas in GNT</span>
+<span class="n">gnt_lemmas</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">get_tokens</span><span class="p">(</span><span class="n">TokenType</span><span class="o">.</span><span class="n">lemma</span><span class="p">))</span>
+
+<span class="c1"># Get lemmas for chapter</span>
+<span class="n">NEW_CHAPTER</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">get_tokens</span><span class="p">(</span><span class="n">TokenType</span><span class="o">.</span><span class="n">lemma</span><span class="p">,</span> <span class="n">ChunkType</span><span class="o">.</span><span class="n">book</span><span class="p">,</span> <span class="n">get_book</span><span class="p">(</span><span class="s2">&quot;TIT&quot;</span><span class="p">,</span> <span class="mi">60</span><span class="p">)))</span>
+
+<span class="c1"># get GNT freq, rather than freq in current chatper</span>
+<span class="k">def</span> <span class="nf">getNTFreq</span><span class="p">(</span><span class="n">nt</span><span class="p">,</span> <span class="n">tgt</span><span class="p">):</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tgt</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">lemma</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">lemma</span> <span class="ow">in</span> <span class="n">nt</span><span class="p">:</span>
+            <span class="n">out</span><span class="p">[</span><span class="n">lemma</span><span class="p">]</span> <span class="o">=</span> <span class="n">nt</span><span class="p">[</span><span class="n">lemma</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">out</span>
+
+<span class="c1">#subtract vocab from the last chatper from list</span>
+<span class="n">ACT_NT_FREQ</span> <span class="o">=</span> <span class="n">getNTFreq</span><span class="p">(</span><span class="n">gnt_lemmas</span><span class="p">,</span> <span class="n">NEW_CHAPTER</span><span class="p">)</span>
+
+<span class="c1"># Filter lemmas based on those that occur less than LIM in the GNT as a whole</span>
+<span class="n">LIM</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">freq</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">&lt;</span> <span class="n">LIM</span>
+<span class="n">TGT</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="n">freq</span><span class="p">,</span><span class="n">ACT_NT_FREQ</span><span class="o">.</span><span class="n">items</span><span class="p">())),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+<span class="c1"># setup glosser</span>
+<span class="n">glosser</span> <span class="o">=</span> <span class="n">Glosser</span><span class="p">(</span><span class="s2">&quot;custom-glosses.tab&quot;</span><span class="p">)</span>
+
+<span class="c1"># output results</span>
+<span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">TGT</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;{l[0]}</span><span class="se">\t</span><span class="s2">{l[1]}</span><span class="se">\t</span><span class="s2">{glosser.get(l[0])}&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>By running <code>py get_chatper.py &gt; titus_vocab.txt</code> I now have a vocab list. Now I can print the list and stick it in my GNT for easy access. In theory I could also keep track of this list and filter these out when I move on to the next book. Or filter out those that I have only seen a certain number of times. Also by tweaking the <code>print</code> line to <code>print(f"{l[0]}\t{glosser.get(l[0])}")</code>, the file could be imported into Anki and boom! Instant flashcards.</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="/fun-with-vocab-tools-vocab-info-for-a-book.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/greek.html" rel="tag">greek</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="/tag/greek.html" class="tags selected">greek</a>
+                    &nbsp;<a href="/tag/python.html" class="tags">python</a>
+                </div>
+            </article>            <h4 class="date">Nov 22, 2019</h4>
 
             <article class="post">
                 <h2 class="title">
@@ -163,65 +222,6 @@
                     &nbsp;<a href="/tag/greek.html" class="tags selected">greek</a>
                     &nbsp;<a href="/tag/python.html" class="tags">python</a>
                     &nbsp;<a href="/tag/fun-with-vocabulary-tools.html" class="tags">fun-with-vocabulary-tools</a>
-                </div>
-            </article>            <h4 class="date">Nov 22, 2019</h4>
-
-            <article class="post">
-                <h2 class="title">
-                    <a href="/fun-with-vocab-tools-vocab-info-for-a-book.html" rel="bookmark" title="Permanent Link to &quot;Fun with vocab-tools: vocab info for a book&quot;">Fun with vocab-tools: vocab info for a book</a>
-                </h2>
-
-                
-                
-
-                <p>More fun with James Tauber's <a href="https://github.com/jtauber/vocabulary-tools">vocabulary-tools</a>. I'm trying to read the whole NT in Greek. Titus is next. I started reading it, but there was a lot of unfamiliar vocab or at least vocab I didn't feel certain of. Vocabulary-tools to the rescue again. Sure I could buy a readers Greek New Testament, but where's the fun in that? Also using vocabulary tools lets me customize what words are added to the list.</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
-<span class="kn">from</span> <span class="nn">gnt_data</span> <span class="kn">import</span> <span class="n">get_tokens</span><span class="p">,</span> <span class="n">get_tokens_by_chunk</span><span class="p">,</span> <span class="n">TokenType</span><span class="p">,</span> <span class="n">ChunkType</span>
-<span class="kn">from</span> <span class="nn">abott_glosser</span> <span class="kn">import</span> <span class="n">Glosser</span>
-<span class="kn">from</span> <span class="nn">ref_tools</span> <span class="kn">import</span> <span class="n">get_book</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-
-<span class="c1"># Get all lemmas in GNT</span>
-<span class="n">gnt_lemmas</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">get_tokens</span><span class="p">(</span><span class="n">TokenType</span><span class="o">.</span><span class="n">lemma</span><span class="p">))</span>
-
-<span class="c1"># Get lemmas for chapter</span>
-<span class="n">NEW_CHAPTER</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">get_tokens</span><span class="p">(</span><span class="n">TokenType</span><span class="o">.</span><span class="n">lemma</span><span class="p">,</span> <span class="n">ChunkType</span><span class="o">.</span><span class="n">book</span><span class="p">,</span> <span class="n">get_book</span><span class="p">(</span><span class="s2">&quot;TIT&quot;</span><span class="p">,</span> <span class="mi">60</span><span class="p">)))</span>
-
-<span class="c1"># get GNT freq, rather than freq in current chatper</span>
-<span class="k">def</span> <span class="nf">getNTFreq</span><span class="p">(</span><span class="n">nt</span><span class="p">,</span> <span class="n">tgt</span><span class="p">):</span>
-    <span class="n">out</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tgt</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-        <span class="n">lemma</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-        <span class="k">if</span> <span class="n">lemma</span> <span class="ow">in</span> <span class="n">nt</span><span class="p">:</span>
-            <span class="n">out</span><span class="p">[</span><span class="n">lemma</span><span class="p">]</span> <span class="o">=</span> <span class="n">nt</span><span class="p">[</span><span class="n">lemma</span><span class="p">]</span>
-    <span class="k">return</span> <span class="n">out</span>
-
-<span class="c1">#subtract vocab from the last chatper from list</span>
-<span class="n">ACT_NT_FREQ</span> <span class="o">=</span> <span class="n">getNTFreq</span><span class="p">(</span><span class="n">gnt_lemmas</span><span class="p">,</span> <span class="n">NEW_CHAPTER</span><span class="p">)</span>
-
-<span class="c1"># Filter lemmas based on those that occur less than LIM in the GNT as a whole</span>
-<span class="n">LIM</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">freq</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">&lt;</span> <span class="n">LIM</span>
-<span class="n">TGT</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="n">freq</span><span class="p">,</span><span class="n">ACT_NT_FREQ</span><span class="o">.</span><span class="n">items</span><span class="p">())),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-
-<span class="c1"># setup glosser</span>
-<span class="n">glosser</span> <span class="o">=</span> <span class="n">Glosser</span><span class="p">(</span><span class="s2">&quot;custom-glosses.tab&quot;</span><span class="p">)</span>
-
-<span class="c1"># output results</span>
-<span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">TGT</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;{l[0]}</span><span class="se">\t</span><span class="s2">{l[1]}</span><span class="se">\t</span><span class="s2">{glosser.get(l[0])}&quot;</span><span class="p">)</span>
-</pre></div>
-
-
-<p>By running <code>py get_chatper.py &gt; titus_vocab.txt</code> I now have a vocab list. Now I can print the list and stick it in my GNT for easy access. In theory I could also keep track of this list and filter these out when I move on to the next book. Or filter out those that I have only seen a certain number of times. Also by tweaking the <code>print</code> line to <code>print(f"{l[0]}\t{glosser.get(l[0])}")</code>, the file could be imported into Anki and boom! Instant flashcards.</p>
-                <div class="clear"></div>
-
-                <div class="info">
-                    <a href="/fun-with-vocab-tools-vocab-info-for-a-book.html">posted at 00:00</a>
-                    &nbsp;&middot;&nbsp;<a href="/category/greek.html" rel="tag">greek</a>
-                    &nbsp;&middot;
-                    &nbsp;<a href="/tag/greek.html" class="tags selected">greek</a>
-                    &nbsp;<a href="/tag/python.html" class="tags">python</a>
                 </div>
             </article>            <h4 class="date">Nov 19, 2019</h4>
 
