@@ -1,0 +1,49 @@
+# site settings
+title: A Mind for Language
+subtitle: 
+email: fletcher@amindforlanguage.com
+description: A site about languages (ancient mostly), language learning, and and scripts for playing around with language data.
+#baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://amindforlanguage.com" # the base hostname & protocol for your site
+author: Fletcher Hardison
+street_address:
+city: Car
+state: 
+zip_code: 
+country: USA
+#phone: 434-390-8652
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/fhardison
+  
+  Instagram:
+  LinkedIn: 
+  Twitter: 
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+collections:  
+  greek:
+    output: true
+    permalink: /:collection/:name
+
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
