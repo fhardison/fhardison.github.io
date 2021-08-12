@@ -3,7 +3,7 @@ title: A Mind for Language
 subtitle: 
 email: fletcher@amindforlanguage.com
 description: A site about languages (ancient mostly), language learning, and and scripts for playing around with language data.
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://amindforlanguage.com" # the base hostname & protocol for your site
 author: Fletcher Hardison
 street_address:
