@@ -1,6 +1,6 @@
 ---
+layout: allgreek
 title: Greek
-permalink: /greek/
 description: null
 image: null
 author: null
