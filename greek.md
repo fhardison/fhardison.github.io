@@ -1,13 +1,12 @@
 ---
-layout: allgreek
+layout: allposts
 title: Greek
+landing-title: 'Greek'
+nav-menu: true
 description: null
 image: null
 author: null
-layout: allgreek
-landing-title: 'Greek'
-nav-menu: true
+show_tile: false
 ---
 
-
-<h1> All posts</h1>
+<h1>All posts</h1>
