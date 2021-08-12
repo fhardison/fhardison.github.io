@@ -1,5 +1,5 @@
 ---
-layout: allposts
+layout: allgreek
 title: Greek
 landing-title: 'Greek'
 nav-menu: true
