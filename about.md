@@ -2,21 +2,11 @@
 layout: page
 title: About
 permalink: /about/
+show_title: false
 ---
 
-<style>
-    table, th, td {
-    border: 0px solid black
-    }
-    h1  {text-align: center;}
-</style>
-<table>
-    <tr><td style="vertical-align:middle" ><h2 class="alt">Hi! I'm Fletcher Hardison: avid reader, translator, and language enthusiast</h2></td>
-    <td style="vertical-align:middle"><img src="assets/images/tfh.jpg"/></td></tr>
-</table>
 
-
-Welcome to A Mind for Language.
+# Welcome to A Mind for Language.
 
 I'm a translator, teacher, amateur writer, and linguist. I love reading, learning, and tinkering with programming. On the blog, you'll find my thoughts on languages, language learning, memory techniques, and other things I've been learning or find interesting.
 
