@@ -42,18 +42,18 @@ ap.add_argument('--target', type=str, default='dev')
 args = ap.parse_args()
 assert args.target in build_targets
 
-if args.target == 'dev':
-	mathjax_url = 'js/MathJax/MathJax.js'
-else:
-	mathjax_url = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js'
+#if args.target == 'dev':
+#	mathjax_url = 'js/MathJax/MathJax.js'
+#else:
+#	mathjax_url = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js'
 
 site_url = site_definitions[args.target]['site']['url']
 
 # Using web fonts is much slower than the default.
 #mathjax_config = os.path.join(site_url, 'js/MathJax/config/custom/TeX-AMS_HTML-full-GyrePagella.js')
 
-mathjax_config = 'TeX-AMS_HTML-full'
-global_pandoc_args.append('--mathjax={}?config={}'.format(mathjax_url, mathjax_config))
+#mathjax_config = 'TeX-AMS_HTML-full'
+#global_pandoc_args.append('--mathjax={}?config={}'.format(mathjax_url, mathjax_config))
 
 def fix_h2_subtitles(soup):
 	"""
