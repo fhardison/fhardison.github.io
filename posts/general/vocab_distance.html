@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="Fletcher Hardison" name="author"/>
-<title>Means and median distance between lemma occurances</title>
+<title>Means and median distance between lemma clusters</title>
 <base href="https://amindforlanguage.com/" target="_self"/>
 <link href="css/reset.css" rel="stylesheet"/>
 <link href="css/tufte.css" rel="stylesheet"/>
@@ -22,13 +22,13 @@
 </nav>
 </header>
 <article>
-<section class="level1" id="means-and-median-distance-between-lemma-occurances">
-<h1>Means and median distance between lemma occurances</h1>
+<section class="level1" id="means-median-distance-between-lemma-clusters">
+<h1>Means, median distance between lemma clusters</h1>
 <p class="subtitle">Fletcher Hardison</p><section class="level2" id="fletcher-hardison">
 
-<p>I was reading a Koine Greek text last night and I realized that I was able to get a handle on certain new voccabulary because it was frequent within the section I was reading. I have no idea if it would be a frequent word within the work as a while, but the distance between encounters with the word in that section was not great. This got me wondering if this idea of distance would be helpful as a metric for vocabulary ordering or for creating reading orders.</p>
-<p>So I wrote some code using the <code>gnt_data</code> from <a href="https://github.com/jtauber/vocabulary-tools">vocab-tools</a><label class="margin-toggle sidenote-number" for="sidenote-1"></label><input class="margin-toggle" id="sidenote-1" type="checkbox"/><span class="sidenote">James Tauber’s work.</span>. The code is available in <a href="https://gist.github.com/fhardison/c12e0e04b4163b7c5d5d6e78ddd06d97">this gist</a>.</p>
-<p>The two tables below show the results 25th-50th rows of the output sorted by mean and median respectively. Looking at the output, it seems that the mean distance follows overall frequency (total) which makes sense. But is not the case for the median distnace which generally follows, but not quite as closely.</p>
+<p>I was reading a Koine Greek text last night and I realized that I was able to get a handle on certain new vocabulary because it was frequent within the section I was reading. I have no idea if it is frequent within the work as a whole, but the distance between encounters with the word short pretty short in the section I was reading. This got me wondering if this idea of distance would be helpful as a metric for vocabulary teaching/learning.</p>
+<p>I wrote some code using the <code>gnt_data</code> from JTauber’s <a href="https://github.com/jtauber/vocabulary-tools">vocabulary-tools</a>. It’s available in <a href="https://gist.github.com/fhardison/c12e0e04b4163b7c5d5d6e78ddd06d97">this gist</a>.</p>
+<p>The two tables below show the results of 25th-50th rows of the output. The first is sorted by mean and second by median. Looking at the output, it seems that the mean distance follows overall frequency (total). This which makes sense. It is, however, not the case for the median distance.</p>
 <figure>
 <table>
 <thead>
@@ -193,7 +193,7 @@
 </tbody>
 </table>
 </figure>
-<p>Notice that sorted by median, does not follow frequency at all. The total number of occurance and mean vary widely. The lower the median, the higher the probably that a word occurs multiple times close together. So we might expect a word like <em>θηρίον</em> to be rare within the corpus, but in certain sections it might be common.</p>
+<p>Notice that the median does not follow frequency at all. The total number of occurrences and mean vary widely. The lower the median, the higher the probably that a word occurs multiple times close together. So we might expect a word like <em>θηρίον</em> to be rare within the corpus, but in certain sections it might be common.</p>
 <figure>
 <table>
 <thead>
@@ -358,10 +358,13 @@
 </tbody>
 </table>
 </figure>
-<p>In the end is this data particulary useful? Probably not. It could be helpful as a starting point to see if if a word tends to cluster. If so, then it should be possoble to use <code>vocab-tools</code> to find which pericopes, paragraphs, chapters etc. where the word clusters. This could be helpful in finding readings so that we can use a familar corpus such as the GNT to teach words that might be rare within that corpus while being more common within the wider Greek corpus. Of course this could all be hogwash. Hopefully, I can write the code to find pericopes where the words cluster.</p>
+<p>Just for kicks here is the median data, but this time showing rows 0 through 25.</p>
+<figure>
+<p>μήτε 3885 4 34 ὁ 7 5 19769 οὔτε 1555.2 5 87 εἴτε 535.8 5 65 καί 15.3 10 8973 αὐτός 24.8 13 5546 γεννάω 1320 17 97 σύ 47.4 17 2894 ἐγώ 53.3 19 2572 ἀσπάζομαι 2151.9 22.5 59 λέγω 58.6 26 2345 ἐν 50.2 26 2733 δέ 49.4 27 2766 μέλος 3609.9 31 34 σπείρω 2319.3 34 52 εἰμί 55.9 35 2456 νόμος 622.8 36 193 ἑπτά 1492.5 40 88 οὐ 85.3 44 1605 θεός 105 45 1307 εἰς 78.1 45 1754 Αἴγυπτος 5474.6 45 25 Πιλᾶτος 1774.8 45 55 Καῖσαρ 3370.3 52 29 μνημεῖον 1768.3 53 40</p>
+</figure>
+<p>In the end is this data particularly useful? Probably not. It could be helpful as a starting point to see if a word tends to cluster. If so, then it should be possible to use <code>vocab-tools</code> to find which pericopes, paragraphs, chapters etc. where the word clusters. This could be helpful in finding readings so that we can use a familiar corpus such as the GNT to teach words that might be rare within that corpus while being more common within the wider Greek corpus. Of course this could all be hogwash. Hopefully, I can write the code to find pericopes where the words cluster.</p>
 </section>
 </section>
-
 </article>
 <footer>
 <hr/>
