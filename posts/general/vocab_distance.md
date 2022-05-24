@@ -5,7 +5,7 @@ author: Fletcher Hardison
 
 # Means, median distance between lemma clusters
 
-## Fletcher Hardison {.subtitle}
+## Fletcher Hardison 
 
 
 I was reading a Koine Greek text last night and I realized that I was able to get a handle on certain new vocabulary because it was frequent within the section I was reading. I have no idea if it is frequent within the work as a whole, but the distance between encounters with the word short pretty short in the section I was reading. This got me wondering if this idea of distance would be helpful as a metric for vocabulary teaching/learning.

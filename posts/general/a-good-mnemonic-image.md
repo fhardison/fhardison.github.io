@@ -4,7 +4,7 @@ title: What makes a good mnemonic image?
 
 # What makes a good mnemonic image?
 
-## Fletcher Hardison {.subtitle}
+## Fletcher Hardison
 
 What if I told you that a simple, still image can be all you need to create a mnemonic with real sticking power? 
 

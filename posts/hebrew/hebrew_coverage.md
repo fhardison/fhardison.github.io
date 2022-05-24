@@ -5,7 +5,7 @@ author: Fletcher Hardison
 
 # Hebrew vocabulary coverage
 
-## Fletcher Hardson {.subtitle}
+## Fletcher Hardson
 
 Using code from James Tauber's `vocabulary-tools`[^tauber] and the Hebrew Bible `hebrew-vocab-tools`[^hebtools], I was able to generate the following vocabulary coverage table. 
 

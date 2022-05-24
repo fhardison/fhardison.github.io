@@ -4,7 +4,7 @@ title: Anki cloze cards for learning paradigms
 
 # Cloze flashcards in Anki for learning paradigms
 
-## Fletcher Hardison {.subtitle}
+## Fletcher Hardison
 
 Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can't morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on *understanding* the *meaning* of what we read or hear, not on understanding the grammar.
 
