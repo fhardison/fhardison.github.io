@@ -45,7 +45,7 @@ posts = load_posts(POSTPATH, md, lambda x, y: inject_bits(TEMPLATE, x, meta=y, n
 def fix_link(link):
     return link[link.index('docs') + 4:].replace('\\', '/')
 
-with open('index.md', 'r', encoding="UTF-8") as f, open(Path('./docs/index.html'), 'w', encoding="UTF-8") as g:
+with open('contents.md', 'r', encoding="UTF-8") as f, open(Path('./docs/index.html'), 'w', encoding="UTF-8") as g:
 
     formatted_posts = '\n'.join([f"<li><a href='{fix_link(link)}'>{title}</a></li>" for (title, link) in posts])
     wrapped = f"""<ul>
