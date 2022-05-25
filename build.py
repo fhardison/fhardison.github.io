@@ -22,9 +22,9 @@ POSTPATH = Path('./posts/')
 def make_meta(metadata):
     output = []
     if 'title' in metadata:
-        output.append(f"<title>{metadata['title']}</title>")
+        output.append(f"<title>{metadata['title'][0]}</title>")
     if 'author' in metadata:
-        output.append(f"<meta name='author'>{metadata['author']}</meta>")
+        output.append(f"<meta name='author'>{metadata['author'][0]}</meta>")
     return '\n'.join(output)
 
 def load_posts(postPath, processor, template):

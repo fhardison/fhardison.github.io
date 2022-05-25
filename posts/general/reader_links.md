@@ -13,3 +13,4 @@ Recently I've wanted to read some Ancient Greek texts with some additional helps
     * Art of Grammar by Dionysios Thrax
     * 4 works by Apollonius Dyscolus
 * [Anabasis, Book 1 (Diglot with Alpheios)](http://amindforlanguage.com/anabasis/)
+* [Argonautica, Book 1 with Alpheios](http://amindforlanguage.com/argonautica/)
