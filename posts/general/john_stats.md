@@ -16,9 +16,9 @@ The table below shows some basic stats about the words and lemmas in John and th
 
 
 <table>
-<tr><td></td><td>Words</td><td>unique lemmas</td><td>unique forms</td>/tr>
+<tr><td></td><td>Words</td><td>unique lemmas</td><td>unique forms</td></tr>
 <tr><td>John</td><td>15,438</td><td>999</td><td>2,571</td></tr>
-<tr><td>GNT</td><td>137,554</td><td>5,461</td><td>17,566</td></td>
+<tr><td>GNT</td><td>137,554</td><td>5,461</td><td>17,566</td></tr>
 </table>
  
 
