@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-23T20:59:21-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">Anki cloze cards for learning paradigms</title><link href="http://localhost:4000/greek/2022/08/23/anki_tables.html" rel="alternate" type="text/html" title="Anki cloze cards for learning paradigms" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/greek/2022/08/23/anki_tables</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/23/anki_tables.html"><![CDATA[<p>Comprehensible input is the way to go. The research in second
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amindforlanguage.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amindforlanguage.com/" rel="alternate" type="text/html" /><updated>2022-08-23T21:19:18-04:00</updated><id>https://amindforlanguage.com/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">Anki cloze cards for learning paradigms</title><link href="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html" rel="alternate" type="text/html" title="Anki cloze cards for learning paradigms" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/anki_tables</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html"><![CDATA[<p>Comprehensible input is the way to go. The research in second
 language acquisition indicates that consciously memorized knowledge
 can’t morph into facility with a language in the brain. The brain builds
 its own black-box model of a language through our interaction with it.
@@ -415,7 +415,7 @@ the <code>c</code> so that it looks like <code>αρχη ην</code>.</p>
 <p>Should creating and studying flashcard in Anki replace other learning
 activities that focus on comprehensible input? No. But they might be a
 useful parallel activity.</p>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can’t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.]]></summary></entry><entry><title type="html">Exploring John’s vocabulary vs the rest of the GNT</title><link href="http://localhost:4000/greek/2022/08/23/john-stats.html" rel="alternate" type="text/html" title="Exploring John’s vocabulary vs the rest of the GNT" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/greek/2022/08/23/john-stats</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/23/john-stats.html"><![CDATA[<p>I’ve been considering the virtues of a NT Greek textbook oriented
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can’t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.]]></summary></entry><entry><title type="html">Exploring John’s vocabulary vs the rest of the GNT</title><link href="https://amindforlanguage.com/greek/2022/08/23/john-stats.html" rel="alternate" type="text/html" title="Exploring John’s vocabulary vs the rest of the GNT" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/john-stats</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/john-stats.html"><![CDATA[<p>I’ve been considering the virtues of a NT Greek textbook oriented
 around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook
 (Pharr 1929) is built around reading Iliad, Book 1 and I think this has
 some really helpful features.</p>
@@ -517,30 +517,4 @@ John’s Gospel would be plausible and valuable for students.</p>
 Pharr, Clyde. 1920. <em>Homeric Greek: A Book for Beginners</em>.
 Boston; New York; Chicago: D. C. Heath &amp; Co., Publishers.
 </div>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I’ve been considering the virtues of a NT Greek textbook oriented around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022/08/23/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/jekyll/update/2022/08/23/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/08/23/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code>_posts</code> directory. Go ahead
-and edit it and re-build the site to see your changes. You can rebuild
-the site in many different ways, but the most common way is to run
-<code>jekyll serve</code>, which launches a web server and
-auto-regenerates your site when a file is updated.</p>
-<p>Jekyll requires blog post files to be named according to the
-following format:</p>
-<p><code>YEAR-MONTH-DAY-title.MARKUP</code></p>
-<p>Where <code>YEAR</code> is a four-digit number, <code>MONTH</code>
-and <code>DAY</code> are both two-digit numbers, and <code>MARKUP</code>
-is the file extension representing the format used in the file. After
-that, include the necessary front matter. Take a look at the source for
-this post to get an idea about how it works.</p>
-<p>Jekyll also offers powerful support for code snippets:</p>
-<figure class="highlight">
-<pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre>
-</figure>
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll
-docs</a> for more info on how to get the most out of Jekyll. File all
-bugs/feature requests at <a
-href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you
-have questions, you can ask them on <a
-href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I’ve been considering the virtues of a NT Greek textbook oriented around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.]]></summary></entry></feed>
