@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-23T20:59:21-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">Anki cloze cards for learning paradigms</title><link href="http://localhost:4000/greek/2022/08/23/anki_tables.html" rel="alternate" type="text/html" title="Anki cloze cards for learning paradigms" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/greek/2022/08/23/anki_tables</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/23/anki_tables.html"><![CDATA[<p>Comprehensible input is the way to go. The research in second
+language acquisition indicates that consciously memorized knowledge
+can’t morph into facility with a language in the brain. The brain builds
+its own black-box model of a language through our interaction with it.
+This process relies on <em>understanding</em> the <em>meaning</em> of
+what we read or hear, not on understanding the grammar.</p>
+<p>In my experience, having familiarity with the paradigms and tables
+<em>helps</em> figure out what an unfamiliar form in the text it. At
+least it helps me think through whether this is a new form or a
+completely new word. This in turns helps make unfamiliar things more
+understandable. This increasing my ability to understand is the pay off,
+not the conscious knowledge of the grammar.</p>
+<p>Memorizing tables is a pain and is probably not worth too much
+effort. Familiarity, however, has been helpful to me. The following is a
+method to use Anki<span
+class="sidenote-wrapper"><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span
+class="sidenote">Free, SRS flashcard software, <a
+href="https://apps.ankiweb.net/"
+class="uri">https://apps.ankiweb.net/</a><br />
+<br />
+</span></span> and cloze deletion flashcards to help with this process
+of building familiarity.</p>
+<section id="what-is-a-cloze-card" class="level1">
+<h1>What is a cloze card?</h1>
+<p>A cloze card is a flashcard where the piece of information to be
+learned it blanked out or deleted. This blanked out info is called a
+“cloze deletion”. When studying our task is to recall the missing
+piece.</p>
+<p>Our brain remembers things better if we can form associations between
+the new information and other things that we know. The more connections,
+the stronger the memory and the easier the recall.</p>
+<p>So instead of trying to memorize and recall a whole paradigm, I
+propose that we use cloze deletions and blank out only a few pieces of
+the paradigm.</p>
+<p>The advantage is that we are only asking ourselves to recall a few
+forms at a time. This lowers our stress and makes our minds more open to
+receiving the information. Also we are seeing the other forms on the
+table and thus seeing the connections between the current form and the
+rest of the paradigm.</p>
+<p>For example if we wanted to learn or become familiar with the
+following paradigm:</p>
+<h2 id="one">
+<br>
+</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">
+</th>
+<th style="text-align: left;">
+Masc
+</th>
+<th style="text-align: left;">
+Fem
+</th>
+<th style="text-align: left;">
+Neut
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">
+NOM SG
+</td>
+<td style="text-align: left;">
+εῖς
+</td>
+<td style="text-align: left;">
+μία
+</td>
+<td style="text-align: left;">
+έν
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">
+GEN SG
+</td>
+<td style="text-align: left;">
+ενός
+</td>
+<td style="text-align: left;">
+μιᾶς
+</td>
+<td style="text-align: left;">
+ενός
+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">
+DAT SG
+</td>
+<td style="text-align: left;">
+ενί
+</td>
+<td style="text-align: left;">
+μιᾷ
+</td>
+<td style="text-align: left;">
+ενί
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">
+ACC SG
+</td>
+<td style="text-align: left;">
+ένα
+</td>
+<td style="text-align: left;">
+μίαν
+</td>
+<td style="text-align: left;">
+έν
+</td>
+</tr>
+</tbody>
+</table>
+<p>We could create cloze cards as follows in order to learn the Masc and
+Neut, NOM SG forms:</p>
+<h2 id="one">
+<br>
+</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">
+</th>
+<th style="text-align: left;">
+Masc
+</th>
+<th style="text-align: left;">
+Fem
+</th>
+<th style="text-align: left;">
+Neut
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">
+NOM SG
+</td>
+<td style="text-align: left;">
+[…]
+</td>
+<td style="text-align: left;">
+μία
+</td>
+<td style="text-align: left;">
+[…]
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">
+GEN SG
+</td>
+<td style="text-align: left;">
+ενός
+</td>
+<td style="text-align: left;">
+μιᾶς
+</td>
+<td style="text-align: left;">
+ενός
+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">
+DAT SG
+</td>
+<td style="text-align: left;">
+ενί
+</td>
+<td style="text-align: left;">
+μιᾷ
+</td>
+<td style="text-align: left;">
+ενί
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">
+ACC SG
+</td>
+<td style="text-align: left;">
+ένα
+</td>
+<td style="text-align: left;">
+μίαν
+</td>
+<td style="text-align: left;">
+έν
+</td>
+</tr>
+</tbody>
+</table>
+<p>Then the following could be used for the Masc and Neut Gen SG
+forms:</p>
+<h2 id="one">
+<br>
+</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">
+</th>
+<th style="text-align: left;">
+Masc
+</th>
+<th style="text-align: left;">
+Fem
+</th>
+<th style="text-align: left;">
+Neut
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">
+NOM SG
+</td>
+<td style="text-align: left;">
+εῖς
+</td>
+<td style="text-align: left;">
+μία
+</td>
+<td style="text-align: left;">
+έν
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">
+GEN SG
+</td>
+<td style="text-align: left;">
+[…]
+</td>
+<td style="text-align: left;">
+μιᾶς
+</td>
+<td style="text-align: left;">
+[…]
+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">
+DAT SG
+</td>
+<td style="text-align: left;">
+ενί
+</td>
+<td style="text-align: left;">
+μιᾷ
+</td>
+<td style="text-align: left;">
+ενί
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">
+ACC SG
+</td>
+<td style="text-align: left;">
+ένα
+</td>
+<td style="text-align: left;">
+μίαν
+</td>
+<td style="text-align: left;">
+έν
+</td>
+</tr>
+</tbody>
+</table>
+<p>And the following to learn the Fem, Gen SG form:</p>
+<h2 id="one">
+<br>
+</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">
+</th>
+<th style="text-align: left;">
+Masc
+</th>
+<th style="text-align: left;">
+Fem
+</th>
+<th style="text-align: left;">
+Neut
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">
+NOM SG
+</td>
+<td style="text-align: left;">
+εῖς
+</td>
+<td style="text-align: left;">
+[…]
+</td>
+<td style="text-align: left;">
+έν
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">
+GEN SG
+</td>
+<td style="text-align: left;">
+ενός
+</td>
+<td style="text-align: left;">
+μιᾶς
+</td>
+<td style="text-align: left;">
+ενός
+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">
+DAT SG
+</td>
+<td style="text-align: left;">
+ενί
+</td>
+<td style="text-align: left;">
+μιᾷ
+</td>
+<td style="text-align: left;">
+ενί
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">
+ACC SG
+</td>
+<td style="text-align: left;">
+ένα
+</td>
+<td style="text-align: left;">
+μίαν
+</td>
+<td style="text-align: left;">
+έν
+</td>
+</tr>
+</tbody>
+</table>
+<p>We could proceed by adding cloze deletions for the other pieces of
+the paradigm that we want to recall. Note that it may not be necessary
+to create a cloze deletion for every piece of the table. Remember that
+the goal is familiarity.</p>
+</section>
+<section id="creating-tables-in-anki" class="level1">
+<h1>Creating tables in Anki</h1>
+<p>Anki includes a cloze deletion card type. The trick is the table. You
+can either use spaces or tabs to format the table manually or you can
+use HTML.</p>
+<section id="spaces-and-tabs" class="level2">
+<h2>Spaces and tabs</h2>
+<p>Spaces and tables would be the simplest, but the result may not look
+as nice. You have to manually line up the columns. I the result would be
+as follows.</p>
+<pre><code>       Masc Fem  Neut
+NOM SG εῖς  μία     έν
+GEN SG ενός μιᾶς ενός
+DAT SG ενί  μιᾷ    ενί
+ACC SG ένα  μίαν έν</code></pre>
+</section>
+<section id="html-tables" class="level2">
+<h2>HTML tables</h2>
+<p>The following instruction assume you are using the Desktop version of
+Anki to create the cards. Once you sync your collection to your phone,
+you can view the html tables there too.</p>
+<p>Either you have to write the HTML manually, or you can use an HTML
+table generator such as <a
+href="https://www.tablesgenerator.com/html_tables">tablesgenerator.com</a>.</p>
+<p>Once you have your html code, click <code>Add</code> to add a card.
+Select the cloze card type. Then click on the field under the label
+<code>Text</code>. After that, click on the three horizontal bars on the
+right size of the formatting bar. After that select
+<code>Edit HTML</code> or hit <code>CTRL + SHIFT + X</code> then paste
+the html code into the pop-up and click <code>close</code>.</p>
+</section>
+</section>
+<section id="creating-the-cloze-deletions" class="level1">
+<h1>Creating the cloze deletions</h1>
+<p>The following assume the desktop app, but the process is very similar
+for creating cloze deletions on the mobile apps.</p>
+<p>To create a cloze deletion, you first select the text you want to
+turn into recall and click on the button <code>[...]</code> button on
+the format bar or hit <code>CTRL + SHIFT + C</code>. This will wrap the
+info in a cloze code that looks like ``.</p>
+<p>You can create multiple cloze deletions per card. <code>c1</code>
+will be the first, then <code>c2</code> will be the second, and so
+forth.</p>
+<p>If you want to have multiple pieces of the table blanked out at the
+same time, edit the number following the <code>c</code> so they that
+they are the same. For example, if I wanted ‘εν’ and ‘λογος’ to be cloze
+deletions at the same time, I need to manually edit the number following
+the <code>c</code> so that it looks like <code>αρχη ην</code>.</p>
+</section>
+<section id="final-thoughts" class="level1">
+<h1>Final thoughts</h1>
+<p>Should creating and studying flashcard in Anki replace other learning
+activities that focus on comprehensible input? No. But they might be a
+useful parallel activity.</p>
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can’t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.]]></summary></entry><entry><title type="html">Exploring John’s vocabulary vs the rest of the GNT</title><link href="http://localhost:4000/greek/2022/08/23/john-stats.html" rel="alternate" type="text/html" title="Exploring John’s vocabulary vs the rest of the GNT" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/greek/2022/08/23/john-stats</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/23/john-stats.html"><![CDATA[<p>I’ve been considering the virtues of a NT Greek textbook oriented
+around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook
+(Pharr 1929) is built around reading Iliad, Book 1 and I think this has
+some really helpful features.</p>
+<p>The main advantage is that the exercises and readings all center
+around a real text to be read and thus maintain a coherent storyline and
+set of vocabulary. This approach is skewed in that it teaches for a
+particular book, but in my mind the tradeoff is worth it.</p>
+<p>That said I was wondering how the how many of the GNT lemmas one
+would encounter reading John. In other words, how skewed would such an
+approach be. So I clobbed together some code using James Tauber’s
+<code>vocabulary tools</code><span
+class="sidenote-wrapper"><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span
+class="sidenote"><a href="https://github.com/jtauber/vocabulary-tools"
+class="uri">https://github.com/jtauber/vocabulary-tools</a><br />
+<br />
+</span></span></p>
+<section id="the-numbers" class="level1">
+<h1>The numbers</h1>
+<p>The table below shows some basic stats about the words and lemmas in
+John and the GNT.<span
+class="sidenote-wrapper"><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span
+class="sidenote"><a
+href="https://gist.github.com/fhardison/2e36ad765e1b4ab6dd5a06ae061cb44c">This
+gist</a> has the code that generated the following statistics.<br />
+<br />
+</span></span></p>
+<table>
+<tr>
+<td>
+</td>
+<td>
+Words
+</td>
+<td>
+Unique lemmas
+</td>
+<td>
+Unique forms
+</td>
+</tr>
+<tr>
+<td>
+John
+</td>
+<td>
+15,438
+</td>
+<td>
+999
+</td>
+<td>
+2,571
+</td>
+</tr>
+<tr>
+<td>
+GNT
+</td>
+<td>
+137,554
+</td>
+<td>
+5,461
+</td>
+<td>
+17,566
+</td>
+</tr>
+</table>
+<p>After learning John’s lemmas a learner would know 18.29% of the GNT’s
+unique lemmas. Which is not so great.</p>
+<p>The picture changes if we look at what percentage of the total words
+in the GNT are occurrences of the lemmas in John.</p>
+<p>The lemmas that occur in John cover 85.82% of the total of 137,554
+lemmas that occur in the GNT. That’s not too shabby.</p>
+<p>So after reading John, assuming a learner has a perfect memory, they
+should be able to read 85.82% of the words they encounter in the rest of
+the GNT.</p>
+<p>But what about word forms? How many of the forms of words would a
+reader encounter in John?</p>
+<p>By reading John a reader would encounter 14.64% of the unique forms
+found in the GNT. But these forms account for 74.63% of the 137,554
+forms that occur in the GNT.</p>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>By taking these two percentages of lemmas and forms vs total
+occurrences in the GNT, it seems that John’s Gospel has a reasonable
+amount of high frequency vocabulary and grammar. It seems that a learner
+would be in a good place after reading John’s Gospel from whence to
+explore the rest of the GNT, especially with the help of a reader’s
+edition.</p>
+<p>To me this shows that a NT Greek textbook oriented around reading
+John’s Gospel would be plausible and valuable for students.</p>
+</section>
+<section id="bibliography" class="level1">
+<h1>Bibliography</h1>
+<div id="ref-pharr1920" class="csl-entry" role="doc-biblioentry">
+Pharr, Clyde. 1920. <em>Homeric Greek: A Book for Beginners</em>.
+Boston; New York; Chicago: D. C. Heath &amp; Co., Publishers.
+</div>
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I’ve been considering the virtues of a NT Greek textbook oriented around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022/08/23/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/jekyll/update/2022/08/23/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/08/23/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code>_posts</code> directory. Go ahead
+and edit it and re-build the site to see your changes. You can rebuild
+the site in many different ways, but the most common way is to run
+<code>jekyll serve</code>, which launches a web server and
+auto-regenerates your site when a file is updated.</p>
+<p>Jekyll requires blog post files to be named according to the
+following format:</p>
+<p><code>YEAR-MONTH-DAY-title.MARKUP</code></p>
+<p>Where <code>YEAR</code> is a four-digit number, <code>MONTH</code>
+and <code>DAY</code> are both two-digit numbers, and <code>MARKUP</code>
+is the file extension representing the format used in the file. After
+that, include the necessary front matter. Take a look at the source for
+this post to get an idea about how it works.</p>
+<p>Jekyll also offers powerful support for code snippets:</p>
+<figure class="highlight">
+<pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre>
+</figure>
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll
+docs</a> for more info on how to get the most out of Jekyll. File all
+bugs/feature requests at <a
+href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you
+have questions, you can ask them on <a
+href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
