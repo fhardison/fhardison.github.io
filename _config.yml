@@ -23,11 +23,12 @@ email: fhardison@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Posts by Fletcher Hardison on language learning, Python, and memory stuff. 
 baseurl: "" # the subpath of your site, e.g. /blog
+domain: amindforlanguage.com
 url: "https://amindforlanguage.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: fhardison
 
 # Build settings
-theme: tufte-pandoc-jekyll
+remote_theme: tufte-pandoc-jekyll
 plugins:
   - jekyll-feed
 
