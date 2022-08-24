@@ -28,7 +28,10 @@ url: "https://amindforlanguage.com" # the base hostname & protocol for your site
 github_username: fhardison
 
 # Build settings
-remote_theme: tufte-pandoc-jekyll
+theme: tufte-pandoc-jekyll
+
+
+destination: docs/
 plugins:
   - jekyll-feed
 
