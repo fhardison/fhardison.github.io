@@ -12,7 +12,7 @@ The main advantage is that the exercises and readings all center around a real t
 
 That said I was wondering how the how many of the GNT lemmas one would encounter reading John. In other words, how skewed would such an approach be. So I clobbed together some code using James Tauber's `vocabulary tools`^[<https://github.com/jtauber/vocabulary-tools>]
 
-# The numbers
+## The numbers
 
 The table below shows some basic stats about the words and lemmas in John and the GNT.^[[This gist](https://gist.github.com/fhardison/2e36ad765e1b4ab6dd5a06ae061cb44c) has the code that generated the following statistics.]
 
@@ -36,13 +36,13 @@ But what about word forms? How many of the forms of words would a reader encount
 
 By reading John a reader would encounter 14.64% of the unique forms found in the GNT. But these forms account for 74.63% of the 137,554 forms that occur in the GNT. 
 
-# Conclusion
+## Conclusion
 
 By taking these two percentages of lemmas and forms vs total occurrences in the GNT, it seems that John's Gospel has a reasonable amount of high frequency vocabulary and grammar. It seems that a learner would be in a good place after reading John's Gospel from whence to explore the rest of the GNT, especially with the help of a reader's edition.  
 
 To me this shows that a NT Greek textbook oriented around reading John's Gospel would be plausible and valuable for students.
 
-# Bibliography
+## Bibliography
 
 <div id="ref-pharr1920" class="csl-entry" role="doc-biblioentry">
 Pharr, Clyde. 1920. <em>Homeric Greek: A Book for Beginners</em>.
