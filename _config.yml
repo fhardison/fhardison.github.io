@@ -29,7 +29,7 @@ github_username: fhardison
 
 # Build settings
 theme: tufte-pandoc-jekyll
-
+remote_theme: tufte-pandoc-jekyll
 
 destination: docs/
 plugins:
