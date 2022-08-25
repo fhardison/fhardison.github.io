@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-25T10:22:36-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">Some of my favorite Greek resources</title><link href="http://localhost:4000/greek/2022/08/25/favorite-greek-resources.html" rel="alternate" type="text/html" title="Some of my favorite Greek resources" /><published>2022-08-25T00:00:00-04:00</published><updated>2022-08-25T00:00:00-04:00</updated><id>http://localhost:4000/greek/2022/08/25/favorite-greek-resources</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/25/favorite-greek-resources.html"><![CDATA[<p>This post is a place to collect some of my favorite Greek resources
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amindforlanguage.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amindforlanguage.com/" rel="alternate" type="text/html" /><updated>2022-08-25T14:15:28-04:00</updated><id>https://amindforlanguage.com/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">Some of my favorite Greek resources</title><link href="https://amindforlanguage.com/greek/2022/08/25/favorite-greek-resources.html" rel="alternate" type="text/html" title="Some of my favorite Greek resources" /><published>2022-08-25T00:00:00-04:00</published><updated>2022-08-25T00:00:00-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/25/favorite-greek-resources</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/25/favorite-greek-resources.html"><![CDATA[<p>This post is a place to collect some of my favorite Greek resources
 from around the web</p>
 <section id="readers" class="level2">
 <h2>Readers</h2>
@@ -14,10 +14,13 @@ Project</a></li>
 <h2>Video</h2>
 <ul>
 <li><a href="https://www.youtube.com/c/alphawithangela">Alpha with
-Angela Youtube Series</a></li>
+Angela</a> (YouTube series)</li>
 <li><a
 href="https://www.youtube.com/channel/UCKvJmmtC1JYVLMdTTT98bAw">The
-Patrologist</a></li>
+Patrologist</a> (YouTube)</li>
+<li>Carla Hurt’s video <a
+href="https://www.youtube.com/watch?v=H3jMlF0qVYU">“How to do pitch
+accents in Ancient Greek restored pronunciation”</a> (YouTube)</li>
 </ul>
 </section>
 <section id="about-greek" class="level2">
@@ -35,17 +38,28 @@ Koine</a></li>
 <section id="textbooks" class="level2">
 <h2>Textbooks</h2>
 <ul>
-<li><span class="citation" data-cites="pharr1920">Pharr
-(1920)</span></li>
+<li><span class="citation" data-cites="pharr1920">Pharr (1920)</span> -
+<em>Homeric Greek: a Book for Beginners</em>.</li>
+<li><span class="citation" data-cites="runge2010">Runge (2010)</span> -
+<em>Discourse Grammar of the Greek New Testament</em>.</li>
 </ul>
+</section>
+<section id="bibliography" class="level2 unnumbered">
+<h2 class="unnumbered">Bibliography</h2>
 <div id="refs" class="references csl-bib-body hanging-indent"
 role="doc-bibliography">
 <div id="ref-pharr1920" class="csl-entry" role="doc-biblioentry">
 Pharr, Clyde. 1920. <em>Homeric greek: A book for beginners</em>.
 Boston; New York; Chicago: D. C. Heath &amp; Co., Publishers.
 </div>
+<div id="ref-runge2010" class="csl-entry" role="doc-biblioentry">
+Runge, Steven E. 2010. <em>Discourse Grammar of the Greek New Testament:
+A Practical Introduction for Teaching and Exegesis (English and Greek
+Edition)</em>. Hendrickson Publishers, Inc. (), Edition: Bilingual, 384
+pages.
 </div>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[This post is a place to collect some of my favorite Greek resources from around the web]]></summary></entry><entry><title type="html">Anki cloze cards for learning paradigms</title><link href="http://localhost:4000/greek/2022/08/23/anki_tables.html" rel="alternate" type="text/html" title="Anki cloze cards for learning paradigms" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/greek/2022/08/23/anki_tables</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/23/anki_tables.html"><![CDATA[<p>Comprehensible input is the way to go. The research in second
+</div>
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[This post is a place to collect some of my favorite Greek resources from around the web]]></summary></entry><entry><title type="html">Anki cloze cards for learning paradigms</title><link href="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html" rel="alternate" type="text/html" title="Anki cloze cards for learning paradigms" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/anki_tables</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html"><![CDATA[<p>Comprehensible input is the way to go. The research in second
 language acquisition indicates that consciously memorized knowledge
 can’t morph into facility with a language in the brain. The brain builds
 its own black-box model of a language through our interaction with it.
@@ -462,7 +476,7 @@ the <code>c</code> so that it looks like <code>αρχη ην</code>.</p>
 <p>Should creating and studying flashcard in Anki replace other learning
 activities that focus on comprehensible input? No. But they might be a
 useful parallel activity.</p>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can’t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.]]></summary></entry><entry><title type="html">Exploring John’s vocabulary vs the rest of the GNT</title><link href="http://localhost:4000/greek/2022/08/23/john-stats.html" rel="alternate" type="text/html" title="Exploring John’s vocabulary vs the rest of the GNT" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/greek/2022/08/23/john-stats</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/23/john-stats.html"><![CDATA[<p>I’ve been considering the virtues of a NT Greek textbook oriented
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can’t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.]]></summary></entry><entry><title type="html">Exploring John’s vocabulary vs the rest of the GNT</title><link href="https://amindforlanguage.com/greek/2022/08/23/john-stats.html" rel="alternate" type="text/html" title="Exploring John’s vocabulary vs the rest of the GNT" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/john-stats</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/john-stats.html"><![CDATA[<p>I’ve been considering the virtues of a NT Greek textbook oriented
 around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook
 (Pharr 1929) is built around reading Iliad, Book 1 and I think this has
 some really helpful features.</p>
@@ -564,7 +578,7 @@ John’s Gospel would be plausible and valuable for students.</p>
 Pharr, Clyde. 1920. <em>Homeric Greek: A Book for Beginners</em>.
 Boston; New York; Chicago: D. C. Heath &amp; Co., Publishers.
 </div>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I’ve been considering the virtues of a NT Greek textbook oriented around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.]]></summary></entry><entry><title type="html">Hebrew vocabulary statistics notes</title><link href="http://localhost:4000/hebrew/2022/08/01/hebrew-coverage.html" rel="alternate" type="text/html" title="Hebrew vocabulary statistics notes" /><published>2022-08-01T11:23:32-04:00</published><updated>2022-08-01T11:23:32-04:00</updated><id>http://localhost:4000/hebrew/2022/08/01/hebrew-coverage</id><content type="html" xml:base="http://localhost:4000/hebrew/2022/08/01/hebrew-coverage.html"><![CDATA[<p>Using code from James Tauber’s <a
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I’ve been considering the virtues of a NT Greek textbook oriented around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.]]></summary></entry><entry><title type="html">Hebrew vocabulary statistics notes</title><link href="https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage.html" rel="alternate" type="text/html" title="Hebrew vocabulary statistics notes" /><published>2022-08-01T11:23:32-04:00</published><updated>2022-08-01T11:23:32-04:00</updated><id>https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage</id><content type="html" xml:base="https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage.html"><![CDATA[<p>Using code from James Tauber’s <a
 href="https://github.com/jtauber/vocabulary-tools"><code>vocabulary-tools</code></a>
 and the Hebrew Bible <a
 href="https://github.com/fhardison/hebrew-vocab-tools"><code>hebrew-vocab-tools</code></a>,

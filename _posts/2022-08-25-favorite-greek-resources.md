@@ -15,8 +15,9 @@ This post is a place to collect some of my favorite Greek resources from around 
 
 ## Video
 
-* [Alpha with Angela Youtube Series](https://www.youtube.com/c/alphawithangela)
-* [The Patrologist](https://www.youtube.com/channel/UCKvJmmtC1JYVLMdTTT98bAw)
+* [Alpha with Angela](https://www.youtube.com/c/alphawithangela) (YouTube series)
+* [The Patrologist](https://www.youtube.com/channel/UCKvJmmtC1JYVLMdTTT98bAw) (YouTube)
+* Carla Hurt's video ["How to do pitch accents in Ancient Greek restored pronunciation"](https://www.youtube.com/watch?v=H3jMlF0qVYU) (YouTube)
 
 ## About Greek
 
@@ -28,4 +29,7 @@ This post is a place to collect some of my favorite Greek resources from around 
 
 ## Textbooks
 
-* @pharr1920
+* @pharr1920 - _Homeric Greek: a Book for Beginners_.
+* @runge2010 -  _Discourse Grammar of the Greek New Testament_.
+
+## Bibliography
