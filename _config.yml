@@ -42,8 +42,12 @@ markdown: Pandoc
 pandoc:
   extensions:
     - section-divs
-    - from: 'markdown+tex_math_single_backslash+inline_notes'
+    - from: 'markdown+tex_math_single_backslash+inline_notes+pipe_tables'
     - filter: 'pandoc-sidenote'
+    - bibliograph: 'tfh_refs.json'
+    - citeproc
+    - csl: "unified-style-sheet-for-linguistics.csl"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
