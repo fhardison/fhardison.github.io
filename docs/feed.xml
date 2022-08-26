@@ -1,4 +1,209 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amindforlanguage.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amindforlanguage.com/" rel="alternate" type="text/html" /><updated>2022-08-25T14:15:28-04:00</updated><id>https://amindforlanguage.com/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">Some of my favorite Greek resources</title><link href="https://amindforlanguage.com/greek/2022/08/25/favorite-greek-resources.html" rel="alternate" type="text/html" title="Some of my favorite Greek resources" /><published>2022-08-25T00:00:00-04:00</published><updated>2022-08-25T00:00:00-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/25/favorite-greek-resources</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/25/favorite-greek-resources.html"><![CDATA[<p>This post is a place to collect some of my favorite Greek resources
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-26T14:33:43-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">Vocabulary statistics of reading through John’s Gospel</title><link href="http://localhost:4000/greek/2022/08/26/more_intereasting_John-_tats.html" rel="alternate" type="text/html" title="Vocabulary statistics of reading through John’s Gospel" /><published>2022-08-26T00:00:00-04:00</published><updated>2022-08-26T00:00:00-04:00</updated><id>http://localhost:4000/greek/2022/08/26/more_intereasting_John%20_tats</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/26/more_intereasting_John-_tats.html"><![CDATA[<section id="more-interesting-john-stats" class="level2">
+<h2>More interesting John stats</h2>
+<p>I was wondering what would happen to our vocabulary as we read
+through John’s Gospel.</p>
+<p>The following table shows the percentage of unknown lemmas one can
+expect to encounter in a given chapter after reading all preceding
+chapters. So after reading chapters 1-5, we can expect that 21% of the
+lemmas in chapter 6 will be unknown.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Chapter</th>
+<th style="text-align: left;">%</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">56.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">37.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">43.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">27.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">28.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">21.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">11.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">17.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">19.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">24.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">16.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">17.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">6.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">8.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">8.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">2.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">24.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">19</td>
+<td style="text-align: left;">27.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">20</td>
+<td style="text-align: left;">11.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">21</td>
+<td style="text-align: left;">15.0</td>
+</tr>
+</tbody>
+</table>
+<p>John displays drop in unknown items after chapter 4 to around 20-25%
+per chapter. Keep in mind these numbers include names and
+hapaxlegomena.</p>
+<p>To me this shows that reading through John as a way to teach students
+Koine Greek is a decent strategy. They will need much more support in
+the early chapters, but should begin to feel some success in chapters
+8-9 and again in 14-17.</p>
+<p>Of course this is based on lemmata. What about forms?</p>
+<p>The following table shows the number of unknown forms encountered in
+a given chapter after reading app the preceding chapters. Again it
+tapers off as did the numbers for the lemmata, but the percentage of
+unknown items is 20-35% and drops below 40% after chapter 6 rather than
+chapter 4.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Chapter</th>
+<th style="text-align: left;">%</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">68.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">53.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">58.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">47.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">42.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">35.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">29.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">31.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">35.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">38.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">32.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">30.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">22.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">25.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">20.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">24.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">32.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">19</td>
+<td style="text-align: left;">36.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">20</td>
+<td style="text-align: left;">24.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">21</td>
+<td style="text-align: left;">28.0</td>
+</tr>
+</tbody>
+</table>
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[More interesting John stats]]></summary></entry><entry><title type="html">Some of my favorite Greek resources</title><link href="http://localhost:4000/greek/2022/08/25/favorite-greek-resources.html" rel="alternate" type="text/html" title="Some of my favorite Greek resources" /><published>2022-08-25T00:00:00-04:00</published><updated>2022-08-25T00:00:00-04:00</updated><id>http://localhost:4000/greek/2022/08/25/favorite-greek-resources</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/25/favorite-greek-resources.html"><![CDATA[<p>This post is a place to collect some of my favorite Greek resources
 from around the web</p>
 <section id="readers" class="level2">
 <h2>Readers</h2>
@@ -59,7 +264,7 @@ Edition)</em>. Hendrickson Publishers, Inc. (), Edition: Bilingual, 384
 pages.
 </div>
 </div>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[This post is a place to collect some of my favorite Greek resources from around the web]]></summary></entry><entry><title type="html">Anki cloze cards for learning paradigms</title><link href="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html" rel="alternate" type="text/html" title="Anki cloze cards for learning paradigms" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/anki_tables</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html"><![CDATA[<p>Comprehensible input is the way to go. The research in second
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[This post is a place to collect some of my favorite Greek resources from around the web]]></summary></entry><entry><title type="html">Anki cloze cards for learning paradigms</title><link href="http://localhost:4000/greek/2022/08/23/anki_tables.html" rel="alternate" type="text/html" title="Anki cloze cards for learning paradigms" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/greek/2022/08/23/anki_tables</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/23/anki_tables.html"><![CDATA[<p>Comprehensible input is the way to go. The research in second
 language acquisition indicates that consciously memorized knowledge
 can’t morph into facility with a language in the brain. The brain builds
 its own black-box model of a language through our interaction with it.
@@ -476,7 +681,7 @@ the <code>c</code> so that it looks like <code>αρχη ην</code>.</p>
 <p>Should creating and studying flashcard in Anki replace other learning
 activities that focus on comprehensible input? No. But they might be a
 useful parallel activity.</p>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can’t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.]]></summary></entry><entry><title type="html">Exploring John’s vocabulary vs the rest of the GNT</title><link href="https://amindforlanguage.com/greek/2022/08/23/john-stats.html" rel="alternate" type="text/html" title="Exploring John’s vocabulary vs the rest of the GNT" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/john-stats</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/john-stats.html"><![CDATA[<p>I’ve been considering the virtues of a NT Greek textbook oriented
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can’t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.]]></summary></entry><entry><title type="html">Exploring John’s vocabulary vs the rest of the GNT</title><link href="http://localhost:4000/greek/2022/08/23/john-stats.html" rel="alternate" type="text/html" title="Exploring John’s vocabulary vs the rest of the GNT" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/greek/2022/08/23/john-stats</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/23/john-stats.html"><![CDATA[<p>I’ve been considering the virtues of a NT Greek textbook oriented
 around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook
 (Pharr 1929) is built around reading Iliad, Book 1 and I think this has
 some really helpful features.</p>
@@ -578,7 +783,7 @@ John’s Gospel would be plausible and valuable for students.</p>
 Pharr, Clyde. 1920. <em>Homeric Greek: A Book for Beginners</em>.
 Boston; New York; Chicago: D. C. Heath &amp; Co., Publishers.
 </div>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I’ve been considering the virtues of a NT Greek textbook oriented around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.]]></summary></entry><entry><title type="html">Hebrew vocabulary statistics notes</title><link href="https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage.html" rel="alternate" type="text/html" title="Hebrew vocabulary statistics notes" /><published>2022-08-01T11:23:32-04:00</published><updated>2022-08-01T11:23:32-04:00</updated><id>https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage</id><content type="html" xml:base="https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage.html"><![CDATA[<p>Using code from James Tauber’s <a
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I’ve been considering the virtues of a NT Greek textbook oriented around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.]]></summary></entry><entry><title type="html">Hebrew vocabulary statistics notes</title><link href="http://localhost:4000/hebrew/2022/08/01/hebrew-coverage.html" rel="alternate" type="text/html" title="Hebrew vocabulary statistics notes" /><published>2022-08-01T11:23:32-04:00</published><updated>2022-08-01T11:23:32-04:00</updated><id>http://localhost:4000/hebrew/2022/08/01/hebrew-coverage</id><content type="html" xml:base="http://localhost:4000/hebrew/2022/08/01/hebrew-coverage.html"><![CDATA[<p>Using code from James Tauber’s <a
 href="https://github.com/jtauber/vocabulary-tools"><code>vocabulary-tools</code></a>
 and the Hebrew Bible <a
 href="https://github.com/fhardison/hebrew-vocab-tools"><code>hebrew-vocab-tools</code></a>,
