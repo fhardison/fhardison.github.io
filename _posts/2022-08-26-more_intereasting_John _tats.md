@@ -10,7 +10,7 @@ categories: greek
 I was wondering what would happen to our vocabulary as we read through John's Gospel. 
 
 
-The following table shows the percentage of unknown lemmas one can expect to encounter in a given chapter after reading all preceding chapters. So after reading chapters 1-5, we can expect that 21% of the lemmas in chapter 6 will be unknown.
+The following table shows the percentage of unknown lemmas one can expect to encounter in a given chapter after reading all preceding chapters. So after reading chapters 1-5, we can expect that 28.7% of the lemmas in chapter 6 will be unknown.
 
 
 |Chapter| % |

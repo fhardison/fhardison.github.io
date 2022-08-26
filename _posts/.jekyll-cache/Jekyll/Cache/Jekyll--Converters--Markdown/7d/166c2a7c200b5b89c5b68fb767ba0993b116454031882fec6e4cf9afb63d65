@@ -1,0 +1,52 @@
+I"�<p>Using code from James Tauber’s <a href="https://github.com/jtauber/vocabulary-tools"><code class="language-plaintext highlighter-rouge">vocabulary-tools</code></a> and the Hebrew Bible <a href="https://github.com/fhardison/hebrew-vocab-tools"><code class="language-plaintext highlighter-rouge">hebrew-vocab-tools</code></a>, I was able to generate the following vocabulary coverage table.</p>
+
+<p>This table explores what percentage of verses in the Hebrew Bible one could read once one has mastered a give number of lemmas. Note that these numbers are based on the lemmas in the verses so it is not accounting for inflected forms that might be unknown to the reader.</p>
+
+<p>If we know only 100 lemmas, then we can read less than 1% of the Hebrew Bible with 95% understanding. This isn’t all that surprising considering our code reports that there are over 9,500 lemmas in the Hebrew Bible.</p>
+
+<p><strong>Hebrew Bible lemma coverage table</strong></p>
+
+<table>
+<tr><td></td><td>50.00%</td><td>80.00%</td><td>90.00%</td><td>95.00%</td><td>100.00%</td><td>&lt;/tr&gt;
+<tr><td>100</td><td>90.96%</td><td>17.58%</td><td>2.73%</td><td>0.94%</td><td>0.69%</td></tr>
+<tr><td>200</td><td>95.29%</td><td>41.08%</td><td>11.09%</td><td> 3.44%</td><td> 1.79%</td></tr>
+<tr><td>500</td><td>98.38%</td><td>70.55%</td><td>37.60%</td><td>17.38%</td><td> 9.20%</td></tr>
+<tr><td>1000</td><td>99.35%</td><td>85.13%</td><td>61.78%</td><td>37.72%</td><td>24.43%</td></tr>
+<tr><td>2000</td><td>99.83%</td><td>93.77%</td><td>81.09%</td><td>63.10%</td><td>49.86%</td></tr>
+<tr><td>5000</td><td>99.98%</td><td>98.97%</td><td>95.83%</td><td>89.25%</td><td>83.12%</td></tr>
+<tr><td>ALL</td><td>100.00%</td><td>100.00%</td><td>100.00%</td><td>100.00%</td><td>100.00%
+&lt;/table&gt;
+
+Once we are comfortable with 1,000 lemmas, then we can read 37.72% with a 95% comprehension level. What is interesting is that this corresponds to the same number that Tauber reported for the Greek New Testament (see[examples](https://github.com/jtauber/vocabulary-tools/blob/master/examples.rst)); he notes that with 1,000 lemmas, one can read 37.3% of verses in the GNT. It's interesting that 1,000 Hebrew lemmas gets one slightly more verses. This is especially true considering that there are almost twice the number of lemmas in the Hebrew Bible as in the GNT.
+
+I'm going to copy Tauber's GNT coverage table below for comparison.
+
+**Greek New Testament lemma coverage table**
+
+<table>
+<tr><td></td><td>50.00%</td><td>80.00%</td><td>90.00%</td><td>95.00%</td><td>98.00%</td><td>100.00%</td></tr>
+<tr><td>100</td><td>91.07%</td><td>13.23%</td><td> 2.14%</td><td> 0.66%</td><td> 0.49%</td><td> 0.49%</td></tr>
+<tr><td>200</td><td>96.85%</td><td>35.12%</td><td> 9.87%</td><td> 3.47%</td><td> 2.56%</td><td> 2.56%</td></tr>
+<tr><td>500</td><td>99.13%</td><td>70.88%</td><td>36.75%</td><td>17.86%</td><td>13.85%</td><td>13.84%</td></tr>
+<tr><td>1000</td><td>99.72%</td><td>88.39%</td><td>62.68%</td><td>37.30%</td><td>30.04%</td><td>30.01%</td></tr>
+<tr><td>2000</td><td>99.91%</td><td>96.61%</td><td>84.98%</td><td>65.86%</td><td>57.01%</td><td>56.97%</td></tr>
+<tr><td>5000</td><td>100.00%</td><td>99.82%</td><td>99.03%</td><td>96.86%</td><td>96.09%</td><td>96.06%</td></tr>
+<tr><td>ALL</td><td>100.00%</td><td>100.00%</td><td>100.00%</td><td>100.00%</td><td>100.00%</td><td>100.00%</td></tr>
+</table>
+
+It's interesting how the comprehension numbers drop for the Hebrew Bible compared to the GNT for at the 2,000 and 5,000 levels. This is presumably due to the number of lemmas in the respective corpora (see the table below). 5,000 lemmas is almost the all the lemmas in the GNT, but is only over half of the total in the Hebrew Bible.
+
+**Some basic corpus statistics**
+
+<table>
+<tr><td></td><td>Greek</td><td>Hebrew</td></tr>
+<tr><td>Hapaxlegomena</td><td>1966</td><td>3182</td></tr>
+<tr><td>Total lemmas</td><td>5461</td><td>9536</td></tr>
+<tr><td>% hapax</td><td>36%</td><td>33%</td></tr>
+</table>
+
+It's interesting that hapaxlegomena make up roughly the same percentage of both corpora.
+
+In summary, what can we conclude from these tables? Learning 5000 lemmas gets us quite a bit of both corpora, but the number of verses gained at the 95% comprehension level is lower in the Hebrew Bible simply because the sheer number of lemmas. It's also interesting how learning 1,000 lemmas creates about the same percentage of verses in both corpora. But, we also have to recognize that there are more verses in the Hebrew Bible so there is more novel texts to read at this comprehension level.
+</td></tr></td></tr></table>
+:ET
