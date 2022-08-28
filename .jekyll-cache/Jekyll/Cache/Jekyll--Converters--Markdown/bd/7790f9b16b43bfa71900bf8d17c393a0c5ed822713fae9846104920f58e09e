@@ -1,58 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-<meta name="generator" content="pandoc">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<meta name="author" content="">
-
-<meta name="dcterms.date" content="2022-08-26 00:00:00 -0400">
-
-
-
-<title>Vocabulary statistics of reading through John's Gospel – A mind for language</title>
-
-
-<!-- TODO(jez): canonical URL -->
-<!-- TODO(jez): OpenGraph tags -->
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/font-et-book/0.1/et-book.min.css">
-<link rel="stylesheet" href="/assets/css/main.css">
-
-<!-- -->
-
-
-
-<!--[if lt IE 9]>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-<![endif]-->
-
-
-
-
-
-</head>
-<body>
-  
-
-
-
-
-
-  <article>
-    
-  <header>
-    <h1 class="title">Vocabulary statistics of reading through John's Gospel</h1>
-    
-    
-      <p class="byline">August 26, 2022</p>
-    
-  </header>
-
-
-
-
-    <section id="more-interesting-john-stats" class="level2">
+I"<section id="more-interesting-john-stats" class="level2">
 <h2>More interesting John stats</h2>
 <p>I was wondering what would happen to our vocabulary as we read
 through John’s Gospel.</p>
@@ -258,22 +204,4 @@ chapter 4.</p>
 </tbody>
 </table>
 </section>
-
-
-    
-    <section>
-      <p class="signoff"><em><a href="/">Return home</a></em></p>
-    </section>
-    
-  </article>
-
-  
-
-
-
-
-  
-
-</body>
-</html>
-
+:ET
