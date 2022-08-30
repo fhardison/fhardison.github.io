@@ -5,7 +5,7 @@ date:   2022-08-28 00:00:01
 categories: greek
 ---
 
-
+_Update: [here](https://docs.google.com/spreadsheets/d/1q-_yUPwKB9tAmem4XWVzmSVI3k6hIuvd1gaPd5h4YbA/edit?usp=sharing) is a Google sheet with this data and more that you can sort in different ways based on whether you want to included or exclude hapaxlegomena. Also you can choose whether to exclude them relative to the book, GNT, LXX, or the whole Greek Bible._
 
 Yesterday^[<https://amindforlanguage.com/greek/2022/08/26/john-reading-stats.html>] I wrote about what books would be easiest to read after having only read John's Gospel or 1st John. 
 
