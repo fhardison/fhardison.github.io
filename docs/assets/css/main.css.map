@@ -3,11 +3,11 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"../../../.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/tufte-pandoc-jekyll-0.13.0/_sass/_tufte.scss",
-		"../../../.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/tufte-pandoc-jekyll-0.13.0/_sass/_tufte-extra.scss",
-		"../../../.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/tufte-pandoc-jekyll-0.13.0/_sass/_tufte-pandoc-jekyll-extra.scss",
-		"../../../.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/tufte-pandoc-jekyll-0.13.0/_sass/_pandoc.scss",
-		"../../../.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/tufte-pandoc-jekyll-0.13.0/_sass/_pandoc-solarized.scss"
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/tufte-pandoc-jekyll-0.13.0/_sass/_tufte.scss",
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/tufte-pandoc-jekyll-0.13.0/_sass/_tufte-extra.scss",
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/tufte-pandoc-jekyll-0.13.0/_sass/_tufte-pandoc-jekyll-extra.scss",
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/tufte-pandoc-jekyll-0.13.0/_sass/_pandoc.scss",
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/tufte-pandoc-jekyll-0.13.0/_sass/_pandoc-solarized.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\n\n@import\n  \"tufte\",\n  \"tufte-extra\",\n  \"tufte-pandoc-jekyll-extra\",\n  \"pandoc\",\n  \"pandoc-solarized\"\n;\n\n",

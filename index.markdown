@@ -4,7 +4,11 @@ title: "A mind for language"
 subtitle: Fletcher Hardison
 ---
 
-Posts by Fletcher Hardison on language learning, Python, and memory stuff.
+Posts by Fletcher Hardison on Ancient Greek, language learning, Python, and memory stuff.
+
+## Pages
+
+* [Projects](/projects.html)
 
 {% capture numposts %}{{ site.posts | size }}{% endcapture %}
 {% if numposts != '0' %}
