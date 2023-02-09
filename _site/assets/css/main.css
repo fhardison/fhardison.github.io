@@ -45,7 +45,7 @@ blockquote p { width: 55%; margin-right: 40px; }
 
 blockquote footer { width: 55%; font-size: 1.1rem; text-align: right; }
 
-section > p, section > footer, section > table { width: 55%; }
+section > h2, section > h3, section > p, section > footer, section > table { width: 55%; }
 
 /* 50 + 5 == 55, to be the same width as paragraph */
 section > dl, section > ol, section > ul { width: 50%; -webkit-padding-start: 5%; }
@@ -149,7 +149,7 @@ p.signoff { font-size: 1.2rem; }
 body { max-width: 1150px; }
 
 /** Makes it so that top-level <p> don't need to be wrapped in <section> */
-article > p, article > li, article > footer, article > table { width: 55%; }
+article > p, article > li, article > footer, article > table, article > h2, article > h3 { width: 55%; }
 
 /* Enable hyphens on supported platforms */
 article { -webkit-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
