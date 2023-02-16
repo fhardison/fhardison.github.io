@@ -42,6 +42,7 @@ In the list below the two numbers at the end are the number of words formed with
 - [_-της_](https://en.wiktionary.org/wiki/-%CF%84%CE%AE%CF%82#Ancient_Greek) (142, 893)
 	- when added to a verb it forms a noun describing someone who does the action of a verb
 	- when added to a noun it forms either the name of a person from a place or a person related to the noun.
+	- when added to an adjective it forms a noun that descibes "the abstract notinon of the adjective" ([Smyth](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007:smythp=840)), like words ending in -ity, -ship, -ness, or -hood in English.
 - [_-μος_](https://en.wiktionary.org/wiki/-%CE%BC%CF%8C%CF%82#Ancient_Greek) forms an abstract noun. (63, 392)
 - [_-ιον_](https://en.wiktionary.org/wiki/-%CE%B9%CE%BF%CE%BD#Ancient_Greek) forms diminutive or the name of a related place. (93, 576)
 - [_-εια_](https://en.wiktionary.org/wiki/-%CE%B5%CE%B9%CE%B1#Ancient_Greek) added to a variety of words to form a feminine noun for a person or thing related to the stem. (35, 299)

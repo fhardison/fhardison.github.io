@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amindforlanguage.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amindforlanguage.com/" rel="alternate" type="text/html" /><updated>2023-02-09T11:28:10-05:00</updated><id>https://amindforlanguage.com/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">7 derivational morphemes that will help you read New Testament Greek more easily.</title><link href="https://amindforlanguage.com/greek/2023/02/08/dirivational-morph.html" rel="alternate" type="text/html" title="7 derivational morphemes that will help you read New Testament Greek more easily." /><published>2023-02-08T19:00:02-05:00</published><updated>2023-02-08T19:00:02-05:00</updated><id>https://amindforlanguage.com/greek/2023/02/08/dirivational-morph</id><content type="html" xml:base="https://amindforlanguage.com/greek/2023/02/08/dirivational-morph.html"><![CDATA[<p>You open to your current reading project and you encounter a new
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amindforlanguage.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amindforlanguage.com/" rel="alternate" type="text/html" /><updated>2023-02-15T23:34:14-05:00</updated><id>https://amindforlanguage.com/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">7 derivational morphemes that will help you read New Testament Greek more easily.</title><link href="https://amindforlanguage.com/greek/2023/02/08/dirivational-morph.html" rel="alternate" type="text/html" title="7 derivational morphemes that will help you read New Testament Greek more easily." /><published>2023-02-08T19:00:02-05:00</published><updated>2023-02-08T19:00:02-05:00</updated><id>https://amindforlanguage.com/greek/2023/02/08/dirivational-morph</id><content type="html" xml:base="https://amindforlanguage.com/greek/2023/02/08/dirivational-morph.html"><![CDATA[<p>You open to your current reading project and you encounter a new
 word. What do you do if:</p>
 <ul>
 <li>the word isn’t footnoted?</li>
@@ -75,6 +75,10 @@ href="https://en.wiktionary.org/wiki/-%CF%84%CE%AE%CF%82#Ancient_Greek"><em>-τ�
 action of a verb</li>
 <li>when added to a noun it forms either the name of a person from a
 place or a person related to the noun.</li>
+<li>when added to an adjective it forms a noun that descibes “the
+abstract notinon of the adjective” (<a
+href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007:smythp=840">Smyth</a>),
+like words ending in -ity, -ship, -ness, or -hood in English.</li>
 </ul></li>
 <li><a
 href="https://en.wiktionary.org/wiki/-%CE%BC%CF%8C%CF%82#Ancient_Greek"><em>-μος</em></a>
