@@ -2,7 +2,7 @@
 layout: post
 title: 7 derivational morphemes that will help you read New Testament Greek more easily.
 date:   2023-02-09 00:00:02 
-categories: greek
+categories: greek, derivational-morphology
 ---
 
 You open to your current reading project and you encounter a new word. What do you do if:

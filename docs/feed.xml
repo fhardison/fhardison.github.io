@@ -1,4 +1,128 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amindforlanguage.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amindforlanguage.com/" rel="alternate" type="text/html" /><updated>2023-02-15T23:34:14-05:00</updated><id>https://amindforlanguage.com/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">7 derivational morphemes that will help you read New Testament Greek more easily.</title><link href="https://amindforlanguage.com/greek/2023/02/08/dirivational-morph.html" rel="alternate" type="text/html" title="7 derivational morphemes that will help you read New Testament Greek more easily." /><published>2023-02-08T19:00:02-05:00</published><updated>2023-02-08T19:00:02-05:00</updated><id>https://amindforlanguage.com/greek/2023/02/08/dirivational-morph</id><content type="html" xml:base="https://amindforlanguage.com/greek/2023/02/08/dirivational-morph.html"><![CDATA[<p>You open to your current reading project and you encounter a new
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-28T22:38:51-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">6 more derivational morphemes that will help you read New Testament Greek more easily</title><link href="http://localhost:4000/greek,/derivational-morphology/2023/02/28/verb-morph.html" rel="alternate" type="text/html" title="6 more derivational morphemes that will help you read New Testament Greek more easily" /><published>2023-02-28T00:00:00-05:00</published><updated>2023-02-28T00:00:00-05:00</updated><id>http://localhost:4000/greek,/derivational-morphology/2023/02/28/verb-morph</id><content type="html" xml:base="http://localhost:4000/greek,/derivational-morphology/2023/02/28/verb-morph.html"><![CDATA[<p>In the <a
+href="https://amindforlanguage.com/greek/2023/02/08/dirivational-morph.html">last
+post</a> we discussed noun forming morphology. This post focuses on
+morphemes that form verbs.</p>
+<p>There are 28,056 verbs in the GNT that represent 1,853 lexical items.
+Of these, 425 only occur once.</p>
+<p>The table below shows how many lexical items in the GNT are formed
+using a given suffix and how many times that verb occurs in the GNT.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Suffix</strong></th>
+<th style="text-align: left;"><strong>Lemmas</strong></th>
+<th style="text-align: left;"><strong>Occurrences</strong></th>
+<th style="text-align: left;"><strong>Hapax</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">έω</td>
+<td style="text-align: left;">334</td>
+<td style="text-align: left;">3867</td>
+<td style="text-align: left;">115</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">άω</td>
+<td style="text-align: left;">91</td>
+<td style="text-align: left;">1483</td>
+<td style="text-align: left;">28</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">όω</td>
+<td style="text-align: left;">88</td>
+<td style="text-align: left;">551</td>
+<td style="text-align: left;">27</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ζω</td>
+<td style="text-align: left;">225</td>
+<td style="text-align: left;">1594</td>
+<td style="text-align: left;">82</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ίζω</td>
+<td style="text-align: left;">130</td>
+<td style="text-align: left;">842</td>
+<td style="text-align: left;">48</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">άζω</td>
+<td style="text-align: left;">85</td>
+<td style="text-align: left;">618</td>
+<td style="text-align: left;">29</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">εύω</td>
+<td style="text-align: left;">75</td>
+<td style="text-align: left;">668</td>
+<td style="text-align: left;">36</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">πτω</td>
+<td style="text-align: left;">57</td>
+<td style="text-align: left;">404</td>
+<td style="text-align: left;">18</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">σσω</td>
+<td style="text-align: left;">41</td>
+<td style="text-align: left;">308</td>
+<td style="text-align: left;">12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">λλω</td>
+<td style="text-align: left;">39</td>
+<td style="text-align: left;">676</td>
+<td style="text-align: left;">11</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">αίνω</td>
+<td style="text-align: left;">30</td>
+<td style="text-align: left;">354</td>
+<td style="text-align: left;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">νυμι</td>
+<td style="text-align: left;">30</td>
+<td style="text-align: left;">138</td>
+<td style="text-align: left;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">σκω</td>
+<td style="text-align: left;">28</td>
+<td style="text-align: left;">769</td>
+<td style="text-align: left;">6</td>
+</tr>
+</tbody>
+</table>
+<p>By looking at the table we can see that <em>-εω</em> forms 334 of the
+1,853 lexemes in the GNT, thought 115 of these occur only once. This
+makes it a helpful suffix to know as it will help us guess the meaning
+of uncommon vocabulary. The same can be said of other morphemes as
+well.</p>
+<p>The list below seems to be the most helpful for the learner since
+Smythe and Wiktionary do not give a specific meaning to the others that
+would help learners.</p>
+<p><a
+href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007:smythp=866">Smythe's
+grammar</a> notes the following about these suffixes:</p>
+<ul>
+<li><p><em>-εω</em> are often intransitive and describe a "condition or
+an activity".</p></li>
+<li><p><em>-αω</em> verbs express "to do, to be, or to have, that which
+is expressed by the stem."</p></li>
+<li><p><em>-οω</em> verbs often express "to causes or to make".</p></li>
+<li><p><em>-ιζω</em> and <em>-ιαζω</em> verbs express "an adoption of
+language, manners, opinions, or politics"</p></li>
+<li><p><em>-αινω</em> verbs <em>seem</em> to express "to cause X to be
+Y" looking at the examples given by Smythe. Smythe gives, but he does
+not make that statement. Take this with a grain of salt.</p></li>
+<li><p>(Wiktionary) says that <a
+href="https://en.wiktionary.org/wiki/-%CE%B5%CF%8D%CF%89#Ancient_Greek"><em>-ευω</em></a>
+verbs are usually added to nouns and mean either indicate that the
+subject is the noun does the usual activity of the noun.</p></li>
+</ul>]]></content><author><name></name></author><category term="greek," /><category term="derivational-morphology" /><summary type="html"><![CDATA[In the last post we discussed noun forming morphology. This post focuses on morphemes that form verbs.]]></summary></entry><entry><title type="html">7 derivational morphemes that will help you read New Testament Greek more easily.</title><link href="http://localhost:4000/greek,/derivational-morphology/2023/02/08/dirivational-morph.html" rel="alternate" type="text/html" title="7 derivational morphemes that will help you read New Testament Greek more easily." /><published>2023-02-08T19:00:02-05:00</published><updated>2023-02-08T19:00:02-05:00</updated><id>http://localhost:4000/greek,/derivational-morphology/2023/02/08/dirivational-morph</id><content type="html" xml:base="http://localhost:4000/greek,/derivational-morphology/2023/02/08/dirivational-morph.html"><![CDATA[<p>You open to your current reading project and you encounter a new
 word. What do you do if:</p>
 <ul>
 <li>the word isn’t footnoted?</li>
@@ -91,7 +215,7 @@ href="https://en.wiktionary.org/wiki/-%CE%B5%CE%B9%CE%B1#Ancient_Greek"><em>-ε�
 added to a variety of words to form a feminine noun for a person or
 thing related to the stem. (35, 299)</li>
 </ul>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[You open to your current reading project and you encounter a new word. What do you do if:]]></summary></entry><entry><title type="html">What to read after John’s Gospel and Hapaxlegomena</title><link href="https://amindforlanguage.com/greek/2022/08/27/john-reading-hapax.html" rel="alternate" type="text/html" title="What to read after John’s Gospel and Hapaxlegomena" /><published>2022-08-27T20:00:01-04:00</published><updated>2022-08-27T20:00:01-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/27/john-reading-hapax</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/27/john-reading-hapax.html"><![CDATA[<p><em>Update: <a
+</section>]]></content><author><name></name></author><category term="greek," /><category term="derivational-morphology" /><summary type="html"><![CDATA[You open to your current reading project and you encounter a new word. What do you do if:]]></summary></entry><entry><title type="html">What to read after John’s Gospel and Hapaxlegomena</title><link href="http://localhost:4000/greek/2022/08/27/john-reading-hapax.html" rel="alternate" type="text/html" title="What to read after John’s Gospel and Hapaxlegomena" /><published>2022-08-27T20:00:01-04:00</published><updated>2022-08-27T20:00:01-04:00</updated><id>http://localhost:4000/greek/2022/08/27/john-reading-hapax</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/27/john-reading-hapax.html"><![CDATA[<p><em>Update: <a
 href="https://docs.google.com/spreadsheets/d/1q-_yUPwKB9tAmem4XWVzmSVI3k6hIuvd1gaPd5h4YbA/edit?usp=sharing">here</a>
 is a Google sheet with this data and more that you can sort in different
 ways based on whether you want to included or exclude hapaxlegomena.
@@ -996,7 +1120,7 @@ maximizing comprehensibility.</p>
 <td style="text-align: left;">5110</td>
 </tr>
 </tbody>
-</table>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Update: here is a Google sheet with this data and more that you can sort in different ways based on whether you want to included or exclude hapaxlegomena. Also you can choose whether to exclude them relative to the book, GNT, LXX, or the whole Greek Bible.]]></summary></entry><entry><title type="html">What to read next after John’s Gospel</title><link href="https://amindforlanguage.com/greek/2022/08/26/john-reading-stats.html" rel="alternate" type="text/html" title="What to read next after John’s Gospel" /><published>2022-08-26T20:00:01-04:00</published><updated>2022-08-26T20:00:01-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/26/john-reading-stats</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/26/john-reading-stats.html"><![CDATA[<p>I was wondering which OT (LXX) book would have the least unfamiliar
+</table>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Update: here is a Google sheet with this data and more that you can sort in different ways based on whether you want to included or exclude hapaxlegomena. Also you can choose whether to exclude them relative to the book, GNT, LXX, or the whole Greek Bible.]]></summary></entry><entry><title type="html">What to read next after John’s Gospel</title><link href="http://localhost:4000/greek/2022/08/26/john-reading-stats.html" rel="alternate" type="text/html" title="What to read next after John’s Gospel" /><published>2022-08-26T20:00:01-04:00</published><updated>2022-08-26T20:00:01-04:00</updated><id>http://localhost:4000/greek/2022/08/26/john-reading-stats</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/26/john-reading-stats.html"><![CDATA[<p>I was wondering which OT (LXX) book would have the least unfamiliar
 vocabulary after reading John. Then I was wondering about GNT books as
 well.<span
 class="sidenote-wrapper"><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span
@@ -2243,7 +2367,7 @@ unknown word. No wonder the percentages are similar</p>
 <h2>Conclusion</h2>
 <p>I find these numbers interesting. I hope they are useful to you as
 you decide what Biblical Text to read in Greek next.</p>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I was wondering which OT (LXX) book would have the least unfamiliar vocabulary after reading John. Then I was wondering about GNT books as well.The following stats were generated using vocabulary-tools and lxx data from Open Scriptures’ Greek Resources]]></summary></entry><entry><title type="html">Vocabulary statistics of reading through John’s Gospel</title><link href="https://amindforlanguage.com/greek/2022/08/26/more_intereasting_John-_tats.html" rel="alternate" type="text/html" title="Vocabulary statistics of reading through John’s Gospel" /><published>2022-08-26T00:00:00-04:00</published><updated>2022-08-26T00:00:00-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/26/more_intereasting_John%20_tats</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/26/more_intereasting_John-_tats.html"><![CDATA[<section id="more-interesting-john-stats" class="level2">
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I was wondering which OT (LXX) book would have the least unfamiliar vocabulary after reading John. Then I was wondering about GNT books as well.The following stats were generated using vocabulary-tools and lxx data from Open Scriptures’ Greek Resources]]></summary></entry><entry><title type="html">Vocabulary statistics of reading through John’s Gospel</title><link href="http://localhost:4000/greek/2022/08/26/more_intereasting_John-_tats.html" rel="alternate" type="text/html" title="Vocabulary statistics of reading through John’s Gospel" /><published>2022-08-26T00:00:00-04:00</published><updated>2022-08-26T00:00:00-04:00</updated><id>http://localhost:4000/greek/2022/08/26/more_intereasting_John%20_tats</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/26/more_intereasting_John-_tats.html"><![CDATA[<section id="more-interesting-john-stats" class="level2">
 <h2>More interesting John stats</h2>
 <p>I was wondering what would happen to our vocabulary as we read
 through John’s Gospel.</p>
@@ -2448,7 +2572,7 @@ chapter 4.</p>
 </tr>
 </tbody>
 </table>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[More interesting John stats]]></summary></entry><entry><title type="html">Some of my favorite Greek resources</title><link href="https://amindforlanguage.com/greek/2022/08/25/favorite-greek-resources.html" rel="alternate" type="text/html" title="Some of my favorite Greek resources" /><published>2022-08-25T00:00:00-04:00</published><updated>2022-08-25T00:00:00-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/25/favorite-greek-resources</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/25/favorite-greek-resources.html"><![CDATA[<p>This post is a place to collect some of my favorite Greek resources
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[More interesting John stats]]></summary></entry><entry><title type="html">Some of my favorite Greek resources</title><link href="http://localhost:4000/greek/2022/08/25/favorite-greek-resources.html" rel="alternate" type="text/html" title="Some of my favorite Greek resources" /><published>2022-08-25T00:00:00-04:00</published><updated>2022-08-25T00:00:00-04:00</updated><id>http://localhost:4000/greek/2022/08/25/favorite-greek-resources</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/25/favorite-greek-resources.html"><![CDATA[<p>This post is a place to collect some of my favorite Greek resources
 from around the web</p>
 <section id="readers" class="level2">
 <h2>Readers</h2>
@@ -2509,7 +2633,7 @@ Edition)</em>. Hendrickson Publishers, Inc. (), Edition: Bilingual, 384
 pages.
 </div>
 </div>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[This post is a place to collect some of my favorite Greek resources from around the web]]></summary></entry><entry><title type="html">Anki cloze cards for learning paradigms</title><link href="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html" rel="alternate" type="text/html" title="Anki cloze cards for learning paradigms" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/anki_tables</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html"><![CDATA[<p>Comprehensible input is the way to go. The research in second
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[This post is a place to collect some of my favorite Greek resources from around the web]]></summary></entry><entry><title type="html">Anki cloze cards for learning paradigms</title><link href="http://localhost:4000/greek/2022/08/23/anki_tables.html" rel="alternate" type="text/html" title="Anki cloze cards for learning paradigms" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/greek/2022/08/23/anki_tables</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/23/anki_tables.html"><![CDATA[<p>Comprehensible input is the way to go. The research in second
 language acquisition indicates that consciously memorized knowledge
 can’t morph into facility with a language in the brain. The brain builds
 its own black-box model of a language through our interaction with it.
@@ -2926,7 +3050,7 @@ the <code>c</code> so that it looks like <code>αρχη ην</code>.</p>
 <p>Should creating and studying flashcard in Anki replace other learning
 activities that focus on comprehensible input? No. But they might be a
 useful parallel activity.</p>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can’t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.]]></summary></entry><entry><title type="html">Exploring John’s vocabulary vs the rest of the GNT</title><link href="https://amindforlanguage.com/greek/2022/08/23/john-stats.html" rel="alternate" type="text/html" title="Exploring John’s vocabulary vs the rest of the GNT" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/john-stats</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/john-stats.html"><![CDATA[<p>I’ve been considering the virtues of a NT Greek textbook oriented
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can’t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.]]></summary></entry><entry><title type="html">Exploring John’s vocabulary vs the rest of the GNT</title><link href="http://localhost:4000/greek/2022/08/23/john-stats.html" rel="alternate" type="text/html" title="Exploring John’s vocabulary vs the rest of the GNT" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>http://localhost:4000/greek/2022/08/23/john-stats</id><content type="html" xml:base="http://localhost:4000/greek/2022/08/23/john-stats.html"><![CDATA[<p>I’ve been considering the virtues of a NT Greek textbook oriented
 around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook
 (Pharr 1929) is built around reading Iliad, Book 1 and I think this has
 some really helpful features.</p>
@@ -3028,7 +3152,7 @@ John’s Gospel would be plausible and valuable for students.</p>
 Pharr, Clyde. 1920. <em>Homeric Greek: A Book for Beginners</em>.
 Boston; New York; Chicago: D. C. Heath &amp; Co., Publishers.
 </div>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I’ve been considering the virtues of a NT Greek textbook oriented around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.]]></summary></entry><entry><title type="html">Hebrew vocabulary statistics notes</title><link href="https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage.html" rel="alternate" type="text/html" title="Hebrew vocabulary statistics notes" /><published>2022-08-01T11:23:32-04:00</published><updated>2022-08-01T11:23:32-04:00</updated><id>https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage</id><content type="html" xml:base="https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage.html"><![CDATA[<p>Using code from James Tauber’s <a
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I’ve been considering the virtues of a NT Greek textbook oriented around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.]]></summary></entry><entry><title type="html">Hebrew vocabulary statistics notes</title><link href="http://localhost:4000/hebrew/2022/08/01/hebrew-coverage.html" rel="alternate" type="text/html" title="Hebrew vocabulary statistics notes" /><published>2022-08-01T11:23:32-04:00</published><updated>2022-08-01T11:23:32-04:00</updated><id>http://localhost:4000/hebrew/2022/08/01/hebrew-coverage</id><content type="html" xml:base="http://localhost:4000/hebrew/2022/08/01/hebrew-coverage.html"><![CDATA[<p>Using code from James Tauber’s <a
 href="https://github.com/jtauber/vocabulary-tools"><code>vocabulary-tools</code></a>
 and the Hebrew Bible <a
 href="https://github.com/fhardison/hebrew-vocab-tools"><code>hebrew-vocab-tools</code></a>,
@@ -3459,7 +3583,7 @@ simply because the sheer number of lemmas. It’s also interesting how
 learning 1,000 lemmas creates about the same percentage of verses in
 both corpora. But, we also have to recognize that there are more verses
 in the Hebrew Bible so there is more novel texts to read at this
-comprehension level.</p>]]></content><author><name></name></author><category term="hebrew" /><summary type="html"><![CDATA[Using code from James Tauber’s vocabulary-tools and the Hebrew Bible hebrew-vocab-tools, I was able to generate the following vocabulary coverage table.]]></summary></entry><entry><title type="html">Links to readers</title><link href="https://amindforlanguage.com/greek/2022/07/31/reader-links.html" rel="alternate" type="text/html" title="Links to readers" /><published>2022-07-31T20:00:02-04:00</published><updated>2022-07-31T20:00:02-04:00</updated><id>https://amindforlanguage.com/greek/2022/07/31/reader-links</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/07/31/reader-links.html"><![CDATA[<p>Recently I’ve wanted to read some Ancient Greek texts with some
+comprehension level.</p>]]></content><author><name></name></author><category term="hebrew" /><summary type="html"><![CDATA[Using code from James Tauber’s vocabulary-tools and the Hebrew Bible hebrew-vocab-tools, I was able to generate the following vocabulary coverage table.]]></summary></entry><entry><title type="html">Links to readers</title><link href="http://localhost:4000/greek/2022/07/31/reader-links.html" rel="alternate" type="text/html" title="Links to readers" /><published>2022-07-31T20:00:02-04:00</published><updated>2022-07-31T20:00:02-04:00</updated><id>http://localhost:4000/greek/2022/07/31/reader-links</id><content type="html" xml:base="http://localhost:4000/greek/2022/07/31/reader-links.html"><![CDATA[<p>Recently I’ve wanted to read some Ancient Greek texts with some
 additional helps as my currently fluency level requires some support to
 reach these texts. I’ve created a few repos that have Alpheios reading
 tools added and a diglot or two (one is even sentence aligned). Here are
