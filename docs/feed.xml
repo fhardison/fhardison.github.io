@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amindforlanguage.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amindforlanguage.com/" rel="alternate" type="text/html" /><updated>2023-03-09T08:59:17-05:00</updated><id>https://amindforlanguage.com/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">6 more derivational morphemes that will help you read New Testament Greek more easily</title><link href="https://amindforlanguage.com/greek,/derivational-morphology/2023/02/28/verb-morph.html" rel="alternate" type="text/html" title="6 more derivational morphemes that will help you read New Testament Greek more easily" /><published>2023-02-28T00:00:00-05:00</published><updated>2023-02-28T00:00:00-05:00</updated><id>https://amindforlanguage.com/greek,/derivational-morphology/2023/02/28/verb-morph</id><content type="html" xml:base="https://amindforlanguage.com/greek,/derivational-morphology/2023/02/28/verb-morph.html"><![CDATA[<p>In the <a
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amindforlanguage.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amindforlanguage.com/" rel="alternate" type="text/html" /><updated>2023-03-15T23:30:06-04:00</updated><id>https://amindforlanguage.com/feed.xml</id><title type="html">A mind for language</title><subtitle>Posts by Fletcher Hardison on language learning, Python, and memory stuff. </subtitle><entry><title type="html">How to make Anki so much better and more effective</title><link href="https://amindforlanguage.com/greek,/anki,/flashcards/2023/03/15/anki-setup.html" rel="alternate" type="text/html" title="How to make Anki so much better and more effective" /><published>2023-03-15T00:00:00-04:00</published><updated>2023-03-15T00:00:00-04:00</updated><id>https://amindforlanguage.com/greek,/anki,/flashcards/2023/03/15/anki-setup</id><content type="html" xml:base="https://amindforlanguage.com/greek,/anki,/flashcards/2023/03/15/anki-setup.html"><![CDATA[<p>This is how I made my Anki setup 1,000% more effective.</p>
+<p>Ok, I don’t actually know if 1,000% is accurate, but it certainly
+works significantly better than it did.</p>
+<p>Words stick more easily, and it’s more fun.</p>
+<p>The only downside is that cards take more time to create, but the
+payoff is worth it.</p>
+<p><em>The key is the note setup.</em></p>
+<p>Anki lets us customize notes and how they are transformed into cards.
+This means that I can fill in the relevant data for a word and then Anki
+does the rest.</p>
+<p><em>In this case I have 5 fields on my notes:</em></p>
+<ul>
+<li>word</li>
+<li>meaning</li>
+<li>picture</li>
+<li>audio</li>
+<li>personal connection (which I often don’t use)</li>
+</ul>
+<p><em>Then I have Anki setup to create 3 cards:</em></p>
+<ul>
+<li>Card 1:
+<ul>
+<li>Front: Word + audio + input box for meaning</li>
+<li>Back: meaning + image + personal connection</li>
+</ul></li>
+<li>Card 2:
+<ul>
+<li>Front: Image + input box for word</li>
+<li>Back: word + audio + meaning + personal connection</li>
+</ul></li>
+<li>Card 3:
+<ul>
+<li>Front: Audio + input box for meaning</li>
+<li>Back: word + image + meaning + personal connection</li>
+</ul></li>
+</ul>
+<p>I found this setup from [Josh Muller’s
+post](https://joshmuller.ca/writings/2022/koine-greek-resources/#flashcard-software
+and added the input boxes after staring to use <a
+href="https://biblingo.org/">Biblingo</a> to increase the level of
+active recall required. Biblingo has input boxes and I typing in the
+answer has been beneficial so I tried to duplicate it in Anki.</p>
+<p><strong>Active recall is the key here.</strong></p>
+<p>This setup requires active recall of:</p>
+<ul>
+<li>Word (audio, text) -&gt; Meaning</li>
+<li>Meaning (image) -&gt; Word</li>
+</ul>
+<p>Also I’m increasing my personal connection to the words when I create
+the cards because I’m searching for an image online that makes sense to
+me to represent the meaning of the word.</p>
+<p><em>And</em> I record myself saying the word. That saves time, and,
+anyway, I’m learning dead languages where native speakers don’t exist
+anymore.</p>]]></content><author><name></name></author><category term="greek," /><category term="anki," /><category term="flashcards" /><summary type="html"><![CDATA[This is how I made my Anki setup 1,000% more effective.]]></summary></entry><entry><title type="html">6 more derivational morphemes that will help you read New Testament Greek more easily</title><link href="https://amindforlanguage.com/greek,/derivational-morphology/2023/02/28/verb-morph.html" rel="alternate" type="text/html" title="6 more derivational morphemes that will help you read New Testament Greek more easily" /><published>2023-02-28T00:00:00-05:00</published><updated>2023-02-28T00:00:00-05:00</updated><id>https://amindforlanguage.com/greek,/derivational-morphology/2023/02/28/verb-morph</id><content type="html" xml:base="https://amindforlanguage.com/greek,/derivational-morphology/2023/02/28/verb-morph.html"><![CDATA[<p>In the <a
 href="https://amindforlanguage.com/greek/2023/02/08/dirivational-morph.html">last
 post</a> we discussed noun forming morphology. This post focuses on
 morphemes that form verbs.</p>
@@ -2633,7 +2686,109 @@ Edition)</em>. Hendrickson Publishers, Inc. (), Edition: Bilingual, 384
 pages.
 </div>
 </div>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[This post is a place to collect some of my favorite Greek resources from around the web]]></summary></entry><entry><title type="html">Anki cloze cards for learning paradigms</title><link href="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html" rel="alternate" type="text/html" title="Anki cloze cards for learning paradigms" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/anki_tables</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html"><![CDATA[<p>Comprehensible input is the way to go. The research in second
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[This post is a place to collect some of my favorite Greek resources from around the web]]></summary></entry><entry><title type="html">Exploring John’s vocabulary vs the rest of the GNT</title><link href="https://amindforlanguage.com/greek/2022/08/23/john-stats.html" rel="alternate" type="text/html" title="Exploring John’s vocabulary vs the rest of the GNT" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/john-stats</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/john-stats.html"><![CDATA[<p>I’ve been considering the virtues of a NT Greek textbook oriented
+around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook
+(Pharr 1929) is built around reading Iliad, Book 1 and I think this has
+some really helpful features.</p>
+<p>The main advantage is that the exercises and readings all center
+around a real text to be read and thus maintain a coherent storyline and
+set of vocabulary. This approach is skewed in that it teaches for a
+particular book, but in my mind the tradeoff is worth it.</p>
+<p>That said I was wondering how the how many of the GNT lemmas one
+would encounter reading John. In other words, how skewed would such an
+approach be. So I clobbed together some code using James Tauber’s
+<code>vocabulary tools</code><span
+class="sidenote-wrapper"><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span
+class="sidenote"><a href="https://github.com/jtauber/vocabulary-tools"
+class="uri">https://github.com/jtauber/vocabulary-tools</a><br />
+<br />
+</span></span></p>
+<section id="the-numbers" class="level2">
+<h2>The numbers</h2>
+<p>The table below shows some basic stats about the words and lemmas in
+John and the GNT.<span
+class="sidenote-wrapper"><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span
+class="sidenote"><a
+href="https://gist.github.com/fhardison/2e36ad765e1b4ab6dd5a06ae061cb44c">This
+gist</a> has the code that generated the following statistics.<br />
+<br />
+</span></span></p>
+<table>
+<tr>
+<td>
+</td>
+<td>
+Words
+</td>
+<td>
+Unique lemmas
+</td>
+<td>
+Unique forms
+</td>
+</tr>
+<tr>
+<td>
+John
+</td>
+<td>
+15,438
+</td>
+<td>
+999
+</td>
+<td>
+2,571
+</td>
+</tr>
+<tr>
+<td>
+GNT
+</td>
+<td>
+137,554
+</td>
+<td>
+5,461
+</td>
+<td>
+17,566
+</td>
+</tr>
+</table>
+<p>After learning John’s lemmas a learner would know 18.29% of the GNT’s
+unique lemmas. Which is not so great.</p>
+<p>The picture changes if we look at what percentage of the total words
+in the GNT are occurrences of the lemmas in John.</p>
+<p>The lemmas that occur in John cover 85.82% of the total of 137,554
+lemmas that occur in the GNT. That’s not too shabby.</p>
+<p>So after reading John, assuming a learner has a perfect memory, they
+should be able to read 85.82% of the words they encounter in the rest of
+the GNT.</p>
+<p>But what about word forms? How many of the forms of words would a
+reader encounter in John?</p>
+<p>By reading John a reader would encounter 14.64% of the unique forms
+found in the GNT. But these forms account for 74.63% of the 137,554
+forms that occur in the GNT.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2>Conclusion</h2>
+<p>By taking these two percentages of lemmas and forms vs total
+occurrences in the GNT, it seems that John’s Gospel has a reasonable
+amount of high frequency vocabulary and grammar. It seems that a learner
+would be in a good place after reading John’s Gospel from whence to
+explore the rest of the GNT, especially with the help of a reader’s
+edition.</p>
+<p>To me this shows that a NT Greek textbook oriented around reading
+John’s Gospel would be plausible and valuable for students.</p>
+</section>
+<section id="bibliography" class="level2">
+<h2>Bibliography</h2>
+<div id="ref-pharr1920" class="csl-entry" role="doc-biblioentry">
+Pharr, Clyde. 1920. <em>Homeric Greek: A Book for Beginners</em>.
+Boston; New York; Chicago: D. C. Heath &amp; Co., Publishers.
+</div>
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I’ve been considering the virtues of a NT Greek textbook oriented around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.]]></summary></entry><entry><title type="html">Anki cloze cards for learning paradigms</title><link href="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html" rel="alternate" type="text/html" title="Anki cloze cards for learning paradigms" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/anki_tables</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/anki_tables.html"><![CDATA[<p>Comprehensible input is the way to go. The research in second
 language acquisition indicates that consciously memorized knowledge
 can’t morph into facility with a language in the brain. The brain builds
 its own black-box model of a language through our interaction with it.
@@ -3050,109 +3205,7 @@ the <code>c</code> so that it looks like <code>αρχη ην</code>.</p>
 <p>Should creating and studying flashcard in Anki replace other learning
 activities that focus on comprehensible input? No. But they might be a
 useful parallel activity.</p>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can’t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.]]></summary></entry><entry><title type="html">Exploring John’s vocabulary vs the rest of the GNT</title><link href="https://amindforlanguage.com/greek/2022/08/23/john-stats.html" rel="alternate" type="text/html" title="Exploring John’s vocabulary vs the rest of the GNT" /><published>2022-08-23T11:23:32-04:00</published><updated>2022-08-23T11:23:32-04:00</updated><id>https://amindforlanguage.com/greek/2022/08/23/john-stats</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/08/23/john-stats.html"><![CDATA[<p>I’ve been considering the virtues of a NT Greek textbook oriented
-around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook
-(Pharr 1929) is built around reading Iliad, Book 1 and I think this has
-some really helpful features.</p>
-<p>The main advantage is that the exercises and readings all center
-around a real text to be read and thus maintain a coherent storyline and
-set of vocabulary. This approach is skewed in that it teaches for a
-particular book, but in my mind the tradeoff is worth it.</p>
-<p>That said I was wondering how the how many of the GNT lemmas one
-would encounter reading John. In other words, how skewed would such an
-approach be. So I clobbed together some code using James Tauber’s
-<code>vocabulary tools</code><span
-class="sidenote-wrapper"><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span
-class="sidenote"><a href="https://github.com/jtauber/vocabulary-tools"
-class="uri">https://github.com/jtauber/vocabulary-tools</a><br />
-<br />
-</span></span></p>
-<section id="the-numbers" class="level2">
-<h2>The numbers</h2>
-<p>The table below shows some basic stats about the words and lemmas in
-John and the GNT.<span
-class="sidenote-wrapper"><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span
-class="sidenote"><a
-href="https://gist.github.com/fhardison/2e36ad765e1b4ab6dd5a06ae061cb44c">This
-gist</a> has the code that generated the following statistics.<br />
-<br />
-</span></span></p>
-<table>
-<tr>
-<td>
-</td>
-<td>
-Words
-</td>
-<td>
-Unique lemmas
-</td>
-<td>
-Unique forms
-</td>
-</tr>
-<tr>
-<td>
-John
-</td>
-<td>
-15,438
-</td>
-<td>
-999
-</td>
-<td>
-2,571
-</td>
-</tr>
-<tr>
-<td>
-GNT
-</td>
-<td>
-137,554
-</td>
-<td>
-5,461
-</td>
-<td>
-17,566
-</td>
-</tr>
-</table>
-<p>After learning John’s lemmas a learner would know 18.29% of the GNT’s
-unique lemmas. Which is not so great.</p>
-<p>The picture changes if we look at what percentage of the total words
-in the GNT are occurrences of the lemmas in John.</p>
-<p>The lemmas that occur in John cover 85.82% of the total of 137,554
-lemmas that occur in the GNT. That’s not too shabby.</p>
-<p>So after reading John, assuming a learner has a perfect memory, they
-should be able to read 85.82% of the words they encounter in the rest of
-the GNT.</p>
-<p>But what about word forms? How many of the forms of words would a
-reader encounter in John?</p>
-<p>By reading John a reader would encounter 14.64% of the unique forms
-found in the GNT. But these forms account for 74.63% of the 137,554
-forms that occur in the GNT.</p>
-</section>
-<section id="conclusion" class="level2">
-<h2>Conclusion</h2>
-<p>By taking these two percentages of lemmas and forms vs total
-occurrences in the GNT, it seems that John’s Gospel has a reasonable
-amount of high frequency vocabulary and grammar. It seems that a learner
-would be in a good place after reading John’s Gospel from whence to
-explore the rest of the GNT, especially with the help of a reader’s
-edition.</p>
-<p>To me this shows that a NT Greek textbook oriented around reading
-John’s Gospel would be plausible and valuable for students.</p>
-</section>
-<section id="bibliography" class="level2">
-<h2>Bibliography</h2>
-<div id="ref-pharr1920" class="csl-entry" role="doc-biblioentry">
-Pharr, Clyde. 1920. <em>Homeric Greek: A Book for Beginners</em>.
-Boston; New York; Chicago: D. C. Heath &amp; Co., Publishers.
-</div>
-</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[I’ve been considering the virtues of a NT Greek textbook oriented around reading John’s Gospel. Clyde Pharr’s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.]]></summary></entry><entry><title type="html">Hebrew vocabulary statistics notes</title><link href="https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage.html" rel="alternate" type="text/html" title="Hebrew vocabulary statistics notes" /><published>2022-08-01T11:23:32-04:00</published><updated>2022-08-01T11:23:32-04:00</updated><id>https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage</id><content type="html" xml:base="https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage.html"><![CDATA[<p>Using code from James Tauber’s <a
+</section>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can’t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.]]></summary></entry><entry><title type="html">Hebrew vocabulary statistics notes</title><link href="https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage.html" rel="alternate" type="text/html" title="Hebrew vocabulary statistics notes" /><published>2022-08-01T11:23:32-04:00</published><updated>2022-08-01T11:23:32-04:00</updated><id>https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage</id><content type="html" xml:base="https://amindforlanguage.com/hebrew/2022/08/01/hebrew-coverage.html"><![CDATA[<p>Using code from James Tauber’s <a
 href="https://github.com/jtauber/vocabulary-tools"><code>vocabulary-tools</code></a>
 and the Hebrew Bible <a
 href="https://github.com/fhardison/hebrew-vocab-tools"><code>hebrew-vocab-tools</code></a>,
@@ -3583,20 +3636,4 @@ simply because the sheer number of lemmas. It’s also interesting how
 learning 1,000 lemmas creates about the same percentage of verses in
 both corpora. But, we also have to recognize that there are more verses
 in the Hebrew Bible so there is more novel texts to read at this
-comprehension level.</p>]]></content><author><name></name></author><category term="hebrew" /><summary type="html"><![CDATA[Using code from James Tauber’s vocabulary-tools and the Hebrew Bible hebrew-vocab-tools, I was able to generate the following vocabulary coverage table.]]></summary></entry><entry><title type="html">Links to readers</title><link href="https://amindforlanguage.com/greek/2022/07/31/reader-links.html" rel="alternate" type="text/html" title="Links to readers" /><published>2022-07-31T20:00:02-04:00</published><updated>2022-07-31T20:00:02-04:00</updated><id>https://amindforlanguage.com/greek/2022/07/31/reader-links</id><content type="html" xml:base="https://amindforlanguage.com/greek/2022/07/31/reader-links.html"><![CDATA[<p>Recently I’ve wanted to read some Ancient Greek texts with some
-additional helps as my currently fluency level requires some support to
-reach these texts. I’ve created a few repos that have Alpheios reading
-tools added and a diglot or two (one is even sentence aligned). Here are
-the links:</p>
-<ul>
-<li><a href="https://amindforlanguage.com/thrax_grammar/">Some Ancient
-Greek grammars</a>
-<ul>
-<li>Art of Grammar by Dionysios Thrax</li>
-<li>4 works by Apollonius Dyscolus</li>
-</ul></li>
-<li><a href="https://amindforlanguage.com/anabasis/">Anabasis, Book 1
-(Diglot with Alpheios</a></li>
-<li><a href="https://amindforlanguage.com/argonautica/">Argonautica,
-Book 1 with Alpheios</a></li>
-</ul>]]></content><author><name></name></author><category term="greek" /><summary type="html"><![CDATA[Recently I’ve wanted to read some Ancient Greek texts with some additional helps as my currently fluency level requires some support to reach these texts. I’ve created a few repos that have Alpheios reading tools added and a diglot or two (one is even sentence aligned). Here are the links:]]></summary></entry></feed>
+comprehension level.</p>]]></content><author><name></name></author><category term="hebrew" /><summary type="html"><![CDATA[Using code from James Tauber’s vocabulary-tools and the Hebrew Bible hebrew-vocab-tools, I was able to generate the following vocabulary coverage table.]]></summary></entry></feed>
