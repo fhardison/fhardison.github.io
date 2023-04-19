@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Mind for Language</title>
+    <link>https://amindforlanguage.com/</link>
+    <description>Recent content on A Mind for Language</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://amindforlanguage.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I started learning Greek</title>
+      <link>https://amindforlanguage.com/posts/2023-04-19-how-i-started-greek/</link>
+      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2023-04-19-how-i-started-greek/</guid>
+      <description>I began learning Koine Greek from a book when I was 16 or so (2004-2005).
+I made little progress.
+Then, I audited in a seminary class, that used that same book. I was homeschooled and had the freedom to do stuff like that. Don&#39;t judge.
+It was a traditional grammar/translation class with lots of memorization and decoding.
+Not what I&#39;d recommend today.
+I think I got around a 90 for my grade and liked it a lot better than the Spanish I&#39;d had in elementary school.</description>
+    </item>
+    
+    <item>
+      <title>How to make Anki so much better and more effective</title>
+      <link>https://amindforlanguage.com/posts/2023-03-15-anki-setup/</link>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2023-03-15-anki-setup/</guid>
+      <description>This is how I made my Anki setup 1,000% more effective.
+Ok, I don&amp;rsquo;t actually know if 1,000% is accurate, but it certainly works significantly better than it did.
+Words stick more easily, and it&amp;rsquo;s more fun.
+The only downside is that cards take more time to create, but the payoff is worth it.
+The key is the note setup.
+Anki lets us customize notes and how they are transformed into cards.</description>
+    </item>
+    
+    <item>
+      <title>6 more derivational morphemes that will help you read New Testament Greek more easily</title>
+      <link>https://amindforlanguage.com/posts/2023-02-28-verb-morph/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2023-02-28-verb-morph/</guid>
+      <description>In the last post we discussed noun forming morphology. This post focuses on morphemes that form verbs.
+There are 28,056 verbs in the GNT that represent 1,853 lexical items. Of these, 425 only occur once.
+The table below shows how many lexical items in the GNT are formed using a given suffix and how many times that verb occurs in the GNT.
+Suffix Lemmas Occurrences Hapax
+έω 334 3867 115 άω 91 1483 28 όω 88 551 27 ζω 225 1594 82 ίζω 130 842 48 άζω 85 618 29 εύω 75 668 36 πτω 57 404 18 σσω 41 308 12 λλω 39 676 11 αίνω 30 354 6 νυμι 30 138 7 σκω 28 769 6</description>
+    </item>
+    
+    <item>
+      <title>7 derivational morphemes that will help you read New Testament Greek more easily.</title>
+      <link>https://amindforlanguage.com/posts/2023-02-08-dirivational-morph/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:02 +0000</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2023-02-08-dirivational-morph/</guid>
+      <description>You open to your current reading project and you encounter a new word. What do you do if:
+the word isn&amp;rsquo;t footnoted? or if your reading online reading tools can&amp;rsquo;t find it? Enter derivational morphology.
+Derivational morphemes are the parts of words that form the word and don&amp;rsquo;t change based on its function in an utterance. Often adding a derivational morpheme will change the part of speech of the word (like -er in English).</description>
+    </item>
+    
+    <item>
+      <title>What to read after John&#39;s Gospel and Hapaxlegomena</title>
+      <link>https://amindforlanguage.com/posts/2022-08-28-john-reading-hapax/</link>
+      <pubDate>Sun, 28 Aug 2022 00:00:01 +0000</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2022-08-28-john-reading-hapax/</guid>
+      <description>Update: here is a Google sheet with this data and more that you can sort in different ways based on whether you want to included or exclude hapaxlegomena. Also you can choose whether to exclude them relative to the book, GNT, LXX, or the whole Greek Bible.
+Yesterday^[https://amindforlanguage.com/greek/2022/08/26/john-reading-stats.html] I wrote about what books would be easiest to read after having only read John&amp;rsquo;s Gospel or 1st John.
+This got me wondering about the number of hapaxlegomena in each book.</description>
+    </item>
+    
+    <item>
+      <title>What to read next after John&#39;s Gospel</title>
+      <link>https://amindforlanguage.com/posts/2022-08-27-john-reading-stats/</link>
+      <pubDate>Sat, 27 Aug 2022 00:00:01 +0000</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2022-08-27-john-reading-stats/</guid>
+      <description>I was wondering which OT (LXX) book would have the least unfamiliar vocabulary after reading John. Then I was wondering about GNT books as well.^[The following stats were generated using vocabulary-tools and lxx data from Open Scriptures&amp;rsquo; Greek Resources]
+The two sections in the post present the same data, but starting from different points. The first section shows the stats calculated on knowing teh vocabulary in John&amp;rsquo;s Gospel and the second sections presents them based on knowing the vocab in 1st John.</description>
+    </item>
+    
+    <item>
+      <title>Vocabulary statistics of reading through John&#39;s Gospel</title>
+      <link>https://amindforlanguage.com/posts/2022-08-26-more_intereasting_john-_tats/</link>
+      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2022-08-26-more_intereasting_john-_tats/</guid>
+      <description>More interesting John stats I was wondering what would happen to our vocabulary as we read through John&amp;rsquo;s Gospel.
+The following table shows the percentage of unknown lemmas one can expect to encounter in a given chapter after reading all preceding chapters. So after reading chapters 1-5, we can expect that 28.7% of the lemmas in chapter 6 will be unknown.
+Chapter % 1 100 2 56.9 3 37.4 4 43.</description>
+    </item>
+    
+    <item>
+      <title>Vocabulary statistics of reading through John&#39;s Gospel</title>
+      <link>https://amindforlanguage.com/posts/more_intereasting_john-_tats/</link>
+      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/more_intereasting_john-_tats/</guid>
+      <description>More interesting John stats I was wondering what would happen to our vocabulary as we read through John&amp;rsquo;s Gospel.
+The following table shows the percentage of unknown lemmas one can expect to encounter in a given chapter after reading all preceding chapters. So after reading chapters 1-5, we can expect that 21% of the lemmas in chapter 6 will be unknown.
+Chapter % 1 100 2 56.9 3 37.4 4 43.</description>
+    </item>
+    
+    <item>
+      <title>Some of my favorite Greek resources</title>
+      <link>https://amindforlanguage.com/posts/2022-08-25-favorite-greek-resources/</link>
+      <pubDate>Thu, 25 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2022-08-25-favorite-greek-resources/</guid>
+      <description>This post is a place to collect some of my favorite Greek resources from around the web
+Readers Lingua Gracae Per Se Illustrata Greek Learner Texts Project Video Alpha with Angela (YouTube series) The Patrologist (YouTube) Carla Hurt&amp;rsquo;s video &amp;ldquo;How to do pitch accents in Ancient Greek restored pronunciation&amp;rdquo; (YouTube) About Greek Koine-Greek.com The Patrologist Koine Greek.com Communicative Koine James Tauber&amp;rsquo;s blog Textbooks @pharr1920 - Homeric Greek: a Book for Beginners.</description>
+    </item>
+    
+    <item>
+      <title>Anki cloze cards for learning paradigms</title>
+      <link>https://amindforlanguage.com/posts/2022-08-23-anki_tables/</link>
+      <pubDate>Tue, 23 Aug 2022 11:23:32 -0400</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2022-08-23-anki_tables/</guid>
+      <description>Comprehensible input is the way to go. The research in second language acquisition indicates that consciously memorized knowledge can&amp;rsquo;t morph into facility with a language in the brain. The brain builds its own black-box model of a language through our interaction with it. This process relies on understanding the meaning of what we read or hear, not on understanding the grammar.
+In my experience, having familiarity with the paradigms and tables helps figure out what an unfamiliar form in the text it.</description>
+    </item>
+    
+    <item>
+      <title>Exploring John&#39;s vocabulary vs the rest of the GNT</title>
+      <link>https://amindforlanguage.com/posts/2022-08-23-john-stats/</link>
+      <pubDate>Tue, 23 Aug 2022 11:23:32 -0400</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2022-08-23-john-stats/</guid>
+      <description>I&amp;rsquo;ve been considering the virtues of a NT Greek textbook oriented around reading John&amp;rsquo;s Gospel. Clyde Pharr&amp;rsquo;s Homeric Greek textbook (Pharr 1929) is built around reading Iliad, Book 1 and I think this has some really helpful features.
+The main advantage is that the exercises and readings all center around a real text to be read and thus maintain a coherent storyline and set of vocabulary. This approach is skewed in that it teaches for a particular book, but in my mind the tradeoff is worth it.</description>
+    </item>
+    
+    <item>
+      <title>Hebrew vocabulary statistics notes</title>
+      <link>https://amindforlanguage.com/posts/2022-08-01-hebrew-coverage/</link>
+      <pubDate>Mon, 01 Aug 2022 11:23:32 -0400</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2022-08-01-hebrew-coverage/</guid>
+      <description>Using code from James Tauber&amp;rsquo;s vocabulary-tools and the Hebrew Bible hebrew-vocab-tools, I was able to generate the following vocabulary coverage table.
+This table explores what percentage of verses in the Hebrew Bible one could read once one has mastered a give number of lemmas. Note that these numbers are based on the lemmas in the verses so it is not accounting for inflected forms that might be unknown to the reader.</description>
+    </item>
+    
+    <item>
+      <title>Links to readers</title>
+      <link>https://amindforlanguage.com/posts/2022-08-28-reader-links/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:02 +0000</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2022-08-28-reader-links/</guid>
+      <description>Recently I&amp;rsquo;ve wanted to read some Ancient Greek texts with some additional helps as my currently fluency level requires some support to reach these texts. I&amp;rsquo;ve created a few repos that have Alpheios reading tools added and a diglot or two (one is even sentence aligned). Here are the links:
+Some Ancient Greek grammars Art of Grammar by Dionysios Thrax 4 works by Apollonius Dyscolus Anabasis, Book 1 (Diglot with Alpheios Argonautica, Book 1 with Alpheios </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://amindforlanguage.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://amindforlanguage.com/about/</guid>
+      <description>Learning languages is hard. It requires time, effort, and above all – commitment.
+Here you’ll find posts by me, Fletcher Hardison, on how to learn languages more easily.
+Specially you’ll find my thoughts on Ancient Greek, language learning, and memory stuff, oh and the odd bit of Python (yes I’m a nerd).</description>
+    </item>
+    
+  </channel>
+</rss>

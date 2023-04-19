@@ -2,6 +2,7 @@ baseURL = 'https://amindforlanguage.com/'
 languageCode = 'en-us'
 title = 'A Mind for Language'
 theme = "cogito"
+publishDir = "docs"
 
 [params]
 # css = ["css/custom.css"]
@@ -14,6 +15,7 @@ tagsOverview = false
 tocInline = true
 showProjectsList = true
 projectsUrl = "https://github.com/fhardison"
+
 
 [[params.social]]
   name = "github"
