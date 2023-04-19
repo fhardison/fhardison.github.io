@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://amindforlanguage.com/'
 languageCode = 'en-us'
 title = 'A Mind for Language'
 theme = "cogito"
