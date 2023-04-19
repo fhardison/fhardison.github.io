@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hebrew on A Mind for Language</title>
+    <link>https://amindforlanguage.com/tags/hebrew/</link>
+    <description>Recent content in hebrew on A Mind for Language</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Aug 2022 11:23:32 -0400</lastBuildDate><atom:link href="https://amindforlanguage.com/tags/hebrew/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hebrew vocabulary statistics notes</title>
+      <link>https://amindforlanguage.com/posts/2022-08-01-hebrew-coverage/</link>
+      <pubDate>Mon, 01 Aug 2022 11:23:32 -0400</pubDate>
+      
+      <guid>https://amindforlanguage.com/posts/2022-08-01-hebrew-coverage/</guid>
+      <description>Using code from James Tauber&amp;rsquo;s vocabulary-tools and the Hebrew Bible hebrew-vocab-tools, I was able to generate the following vocabulary coverage table.
+This table explores what percentage of verses in the Hebrew Bible one could read once one has mastered a give number of lemmas. Note that these numbers are based on the lemmas in the verses so it is not accounting for inflected forms that might be unknown to the reader.</description>
+    </item>
+    
+  </channel>
+</rss>
