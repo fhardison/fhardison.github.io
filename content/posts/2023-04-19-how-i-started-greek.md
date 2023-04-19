@@ -55,9 +55,8 @@ The grammar I read helped make things more comprehensible.
 **Other things that happened during this period:**
 
 -   I started reading some Greek linguistics (like [Rouse](https://www.logos.com/product/4599/discourse-grammar-of-the-greek-new-testament-a-practical-introduction-for-teaching-and-exegesis), [Aubrey et al.](https://www.logos.com/product/129137/linguistics-and-biblical-exegesis))
--   I found [James Tauber](https://jktauber.com/) and [Seumas
--   I read Athanaze vol. 1-2 and started JACT\'s [Reading
-    Greek](https://www.amazon.com/Reading-Greek-Association-Classical-Teachers/dp/0521698510).
+-   I found [James Tauber](https://jktauber.com/) and [Seumas Macdonald](https://thepatrologist.com/)'s work
+-   I read Athanaze vol. 1-2 and started JACT\'s [Reading Greek](https://www.amazon.com/Reading-Greek-Association-Classical-Teachers/dp/0521698510).
 
 (I bought the JACT book on Kindle. Not a good format for it.)
 
