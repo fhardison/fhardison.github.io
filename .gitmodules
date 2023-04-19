@@ -1,0 +1,3 @@
+[submodule "themes/cogito"]
+	path = themes/cogito
+	url = https://github.com/slashformotion/cogito
