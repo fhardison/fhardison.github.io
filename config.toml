@@ -5,7 +5,7 @@ theme = "cogito"
 publishDir = "docs"
 
 [params]
-# css = ["css/custom.css"]
+css = ["static/custom.css"]
 description = "Hi, I'm Fletcher, avowed Greek nerd.  Here you'll find my thougths on Ancient Greek, language learning, and Pythony things. On, and resoruces to help make learning Greek easier."
 mainSection = "posts"
 mainSectionTitle = "Blog"
