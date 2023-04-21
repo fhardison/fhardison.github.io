@@ -10,8 +10,8 @@ I began learning Koine Greek from a book when I was 16 or so
 
 I made little progress.
 
-Then, I audited in a seminary class, that used that same book. I was
-homeschooled and had the freedom to do stuff like that. Don\'t judge.
+**Then, I audited in a seminary class, that used that same book. I was
+homeschooled and had the freedom to do stuff like that. Don\'t judge.**
 
 It was a traditional grammar/translation class with lots of memorization
 and decoding.
