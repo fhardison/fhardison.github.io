@@ -31,5 +31,6 @@ This post is a place to collect some of my favorite Greek resources from around 
 
 * @pharr1920 - _Homeric Greek: a Book for Beginners_.
 * @runge2010 -  _Discourse Grammar of the Greek New Testament_.
+* [A. Sidgwick's An Introduction to Greek Verse Composition with Exercises](https://books.google.com/books?id=pNMIAAAAQAAJ)
 
 ## Bibliography
