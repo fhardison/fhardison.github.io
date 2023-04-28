@@ -1,3 +1,5 @@
+Hi friend, 
+
 I have an infrequent podcast for Greek learners:
 
 **Greeking out**
