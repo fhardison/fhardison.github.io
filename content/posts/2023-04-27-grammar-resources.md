@@ -10,7 +10,7 @@ I'm trying to get better at talking about Greek in Greek.
 
 These are some of my favorite tools. 
 
-The first is Dionysios Thrax's grammar with Alpheios Reading tools and English translation as diglot.
+The first is Dionysios Thrax's grammar with Alpheios Reading tools and English translation as a diglot.
 
 * Thrax' Art of Grammar: <https://amindforlanguage.com/thrax_grammar/diglot.ghtml>
 
