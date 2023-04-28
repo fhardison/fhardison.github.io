@@ -41,7 +41,7 @@ name = "Tags"
 url = "/tags"
 weight = 3
 
-[[main.main]]
+[[menu.main]]
 name = "Podcast"
 url = "/podcast"
 weight = 5
