@@ -71,6 +71,9 @@
     <loc>/about/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>/podcast/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>/categories/</loc>
   </url>
 </urlset>
