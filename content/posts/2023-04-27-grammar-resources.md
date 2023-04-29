@@ -12,7 +12,7 @@ These are some of my favorite tools.
 
 The first is Dionysios Thrax's grammar with Alpheios Reading tools and English translation as a diglot.
 
-* Thrax' Art of Grammar: <https://amindforlanguage.com/thrax_grammar/diglot.ghtml>
+* Thrax' Art of Grammar: <https://amindforlanguage.com/thrax_grammar/diglot.html>
 
 This is where I'm learning which words to use and how to use them. The English diglot makes it easy to find word's I want to learn using the Find feature of my browser.
 
