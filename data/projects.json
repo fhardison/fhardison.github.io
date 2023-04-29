@@ -3,6 +3,25 @@
 		{"name": "Rouse's A Greek Boy at Home",
 		 "url": "https://github.com/fhardison/rouse-a-greek-boy-at-home",
 		 "desc": "Digitization of Rouse's A Greek Boy at Home with Apheios reading tools"
+		},
+		{"name": "On the Incarnation by St. Athanasius",
+		"url": "https://github.com/fhardison/on-the-incarnaton",
+		"desc": "Digitization of On the Incarnation with Alpheios reading tools built it."
+		},
+		{"name": "Exercises for Lingua Graeca Per Se Illustrata",
+		"url": "https://github.com/fhardison/lgpsi-melethma",
+		"desc": "Exercises for Seumas Macdonald's LGPSI"
+		},
+		{"name": "A First Greek Writer", 
+		"url": "https://github.com/fhardison/sidgwick-writer",
+		"desc": "Digitization of Authur Sidwick's A first Greek Writer"},
+		{"name": "Peshitta tools",
+			"url": "https://github.com/fhardison/peshitta-tools",
+			"desc": "Tools for processing the Syriac peshitta and building a reader"
+		},
+		{"name":"Byz GNT tools",
+			"url": "https://github.com/fhardison/byz_gnt",
+			"desc": "Tools for processing the Robinson and Pierpont version of the Byzantine text of the GNT"
 		}
 	]
 }
