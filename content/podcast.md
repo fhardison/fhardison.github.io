@@ -18,4 +18,6 @@ You can expect to find the following and maybe more too!
 - [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9kZjllNGYxNC9wb2RjYXN0L3Jzcw?sa=X&ved=0CBoQ27cFahcKEwiIqeeskO7-AhUAAAAAHQAAAAAQLA)
 - [RSS feed](https://anchor.fm/s/df9e4f14/podcast/rss)
 
+# LGPSI playlist
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0xMFaNdnod77Syam6FBEBx?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
