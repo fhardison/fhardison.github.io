@@ -4,6 +4,11 @@ title = 'A Mind for Language'
 theme = "cogito"
 publishDir = "docs"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 css = ["custom.css"]
 description = "Hi, I'm Fletcher, avowed Greek nerd.  Here you'll find my thougths on Ancient Greek, language learning, and Pythony things. On, and resoruces to help make learning Greek easier."
