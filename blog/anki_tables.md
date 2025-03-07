@@ -2,7 +2,7 @@
 layout: post
 date:   2022-08-23 11:23:32 -0400
 tags: greek
-title: "Anki cloze cards for learning paradigms"
+title: Anki cloze cards for learning paradigms
 ---
 
 

@@ -1,3 +1,6 @@
+---
+title: About
+---
 Learning languages is hard. It requires time, effort, and above all – commitment.
 
 Here you’ll find posts by me, Fletcher Hardison, on how to learn languages more easily.
