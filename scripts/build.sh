@@ -26,3 +26,9 @@ for file in "../blog"/*.md; do
     # pandoc "$file" -o "$output_file" --from markdown --to pdf 
   fi
 done
+
+for file in "../blog"/*.pdf; do
+  if [[ -f "$file" ]]; then
+    cp "$file" "../docs/blog/"
+  fi
+done
