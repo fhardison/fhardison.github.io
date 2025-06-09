@@ -8,6 +8,72 @@
   <style type="text/css">code{white-space: pre;}</style>
     <link rel="stylesheet" href="/normalize.css">
     <link rel="stylesheet" href="/magick.min.css">
+    <script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+        // Select all code blocks. You might need to adjust this selector
+        // based on how your code blocks are structured.
+        // Common selectors include 'pre code', '.code-block', or specific classes.
+        const codeBlocks = document.querySelectorAll('pre code');
+
+        codeBlocks.forEach((codeBlock, index) => {
+            // Create the copy button
+            const copyButton = document.createElement('button');
+            copyButton.textContent = 'Copy';
+            copyButton.classList.add('copy-code-button'); // Add a class for styling
+
+            // Optional: Add a unique ID to the button for more specific targeting if needed
+            copyButton.id = `copy-button-`;
+
+            // Insert the button right after the code block's parent element (the <pre> tag)
+            if (codeBlock.parentNode) {
+                codeBlock.parentNode.insertAdjacentElement('afterend', copyButton);
+            }
+
+            // Add the click event listener
+            copyButton.addEventListener('click', () => {
+                const codeToCopy = codeBlock.textContent;
+
+                // Use the modern Clipboard API
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(codeToCopy)
+                        .then(() => {
+                            copyButton.textContent = 'Copied!';
+                            // Reset button text after a short delay
+                            setTimeout(() => {
+                                copyButton.textContent = 'Copy';
+                            }, 2000);
+                        })
+                        .catch(err => {
+                            console.error('Failed to copy text: ', err);
+                            alert('Failed to copy code. Please try again or copy manually.');
+                        });
+                } else {
+                    // Fallback for older browsers (less reliable and generally discouraged now)
+                    const textArea = document.createElement('textarea');
+                    textArea.value = codeToCopy;
+                    textArea.style.position = 'fixed'; // Prevent scrolling to bottom of page
+                    textArea.style.left = '-999999px'; // Move off-screen
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+                    try {
+                        document.execCommand('copy');
+                        copyButton.textContent = 'Copied!';
+                        setTimeout(() => {
+                            copyButton.textContent = 'Copy';
+                        }, 2000);
+                    } catch (err) {
+                        console.error('Fallback: Failed to copy text: ', err);
+                        alert('Failed to copy code. Your browser does not support automatic copying. Please copy manually.');
+                    } finally {
+                        document.body.removeChild(textArea);
+                    }
+                }
+            });
+        });
+    });
+  </script>
 </head>
 <body>
 <main>
