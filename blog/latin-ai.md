@@ -151,7 +151,7 @@ Using the example output from Google Gemini (see below), here is an example.
 Assume a class with a director and a few students who have been given Latin names of Maria, Iulius, and Quintus. Things in brackets are actions I might do. I'd review the vocabulary quickly and explain how the chart works to the students. Explain that you're going to play a story building game using the chart and that they should answer based on what has been said in the story no matter how crazy it sounds. Then try to create a funny engaging story by asking questions and getting student input. This will become easier as you cover more vocabulary. Note that I'd accept students responding in English or with incorrect Latin grammar. The point is they're trying and they're understanding. Their brain will sort out the details as they go. 
 
 
-- Director: dē quō haec famula est?
+- Director: dē quō haec fabula est?
 - Maria: Me. 
 - Director: bene [thumbs up]. quid videt Maria? What does Maris see? Pick something from the Object column.
 - Iulius: She sees a nautam. 

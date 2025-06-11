@@ -1,0 +1,347 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <meta name="dcterms.date" content="2025-06-11">
+  <title>Prompt for Challenge A/B Latin converstaion table</title>
+  <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/magick.min.css">
+    <script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+        // Select all code blocks. You might need to adjust this selector
+        // based on how your code blocks are structured.
+        // Common selectors include 'pre code', '.code-block', or specific classes.
+        const codeBlocks = document.querySelectorAll('pre code');
+
+        codeBlocks.forEach((codeBlock, index) => {
+            // Create the copy button
+            const copyButton = document.createElement('button');
+            copyButton.textContent = 'Copy';
+            copyButton.classList.add('copy-code-button'); // Add a class for styling
+
+            // Optional: Add a unique ID to the button for more specific targeting if needed
+            copyButton.id = `copy-button-`;
+
+            // Insert the button right after the code block's parent element (the <pre> tag)
+            if (codeBlock.parentNode) {
+                codeBlock.parentNode.insertAdjacentElement('afterend', copyButton);
+            }
+
+            // Add the click event listener
+            copyButton.addEventListener('click', () => {
+                const codeToCopy = codeBlock.textContent;
+
+                // Use the modern Clipboard API
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(codeToCopy)
+                        .then(() => {
+                            copyButton.textContent = 'Copied!';
+                            // Reset button text after a short delay
+                            setTimeout(() => {
+                                copyButton.textContent = 'Copy';
+                            }, 2000);
+                        })
+                        .catch(err => {
+                            console.error('Failed to copy text: ', err);
+                            alert('Failed to copy code. Please try again or copy manually.');
+                        });
+                } else {
+                    // Fallback for older browsers (less reliable and generally discouraged now)
+                    const textArea = document.createElement('textarea');
+                    textArea.value = codeToCopy;
+                    textArea.style.position = 'fixed'; // Prevent scrolling to bottom of page
+                    textArea.style.left = '-999999px'; // Move off-screen
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+                    try {
+                        document.execCommand('copy');
+                        copyButton.textContent = 'Copied!';
+                        setTimeout(() => {
+                            copyButton.textContent = 'Copy';
+                        }, 2000);
+                    } catch (err) {
+                        console.error('Fallback: Failed to copy text: ', err);
+                        alert('Failed to copy code. Your browser does not support automatic copying. Please copy manually.');
+                    } finally {
+                        document.body.removeChild(textArea);
+                    }
+                }
+            });
+        });
+    });
+  </script>
+</head>
+<body>
+<main>
+<header>
+<h1>A mind for language</h1>
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about.html">About</a></li>
+<li><a href="/podcast.html">Podcast</a></li>
+<li><a href="/prompts.html">Prompts</a></li>
+</ul>
+</nav>
+
+</header>
+<section>
+<h2>Prompt for Challenge A/B Latin converstaion table</h2>
+<h3 class="date">2025-06-11</h3>
+</section>
+<section>
+<p>This prompt generates a converstion sheet for Latin language learning
+based on a vocab list. It’s designed for helping to generate a learning
+activity for Classical Conversations Challenge Latin seminars that use
+the Henle Latin text book. See <a href="../blog/latin-ai.html">this blog
+post</a> for more info</p>
+<p>```</p>
+<p>Create a Latin conversation table based on a provided vocabulary
+list, formatted in markdown with pipe syntax, matching the structure and
+rules of the example table below. The table must have five columns:
+Subject, Object, Adverb, Verbs, Gloss. Follow these requirements:</p>
+<ul>
+<li>Vocabulary List: Use the nouns and verbs from the provided
+vocabulary list. If the list has fewer than five verbs, add common Latin
+verbs that relate to the vocabulary to enable a simple, cohesive story
+(e.g., actions involving the nouns). Include English glosses for any
+added verbs in the Gloss column. Always add ‘to come’ and ‘to go’ in the
+verb list</li>
+<li>Subjects: Include nouns from the vocabulary list and pronouns (ego,
+tu, is, ea) as subjects. Place pronouns in parentheses (e.g., (ego)) as
+they are optional. Align subjects with the correct verb forms for 1st,
+2nd, and 3rd person singular. Group verbs by person (1st: ego, 2nd: tu,
+3rd: is/ea/id/nouns).</li>
+<li>Objects: Select nouns from the vocabulary list as objects, placed in
+the accusative case where appropriate for transitive verbs. Objects do
+not need to agree with verb forms. Leave some rows without objects if
+suitable.</li>
+<li>Verbs: Use verbs from the vocabulary list, supplemented with added
+verbs if needed. Conjugate verbs for 1st, 2nd, and 3rd person singular
+to match the subject. Include the English gloss for each verb (from the
+vocabulary or added).</li>
+<li>Adverbs: Include exactly five adverbs, one of which must be nōn
+(not). Each adverb must appear only once in the Adverb column, with its
+English gloss in parentheses (e.g., semper (always)). Place adverbs in
+rows where they complement the verb and context (e.g., “always” with
+praying, “now” with seeing). Leave some rows without adverbs if
+necessary.</li>
+<li>Story Potential: Ensure the table supports a simple narrative (e.g.,
+characters performing actions like praying, seeing, or moving, involving
+the nouns). Distribute verbs, adverbs, and objects to enable coherent
+sentences.</li>
+</ul>
+<p>Example Table (use this structure and style as a template):</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 24%" />
+<col style="width: 15%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Subject</th>
+<th style="text-align: left;">Object</th>
+<th style="text-align: left;">Adverb</th>
+<th style="text-align: left;">Verbs</th>
+<th style="text-align: left;">Gloss</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(ego)</td>
+<td style="text-align: left;">terram</td>
+<td style="text-align: left;">semper (always)</td>
+<td style="text-align: left;">ōrō</td>
+<td style="text-align: left;">I pray</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">servum</td>
+<td style="text-align: left;">bene (well)</td>
+<td style="text-align: left;">videō</td>
+<td style="text-align: left;">I see</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Deum</td>
+<td style="text-align: left;">nunc (now)</td>
+<td style="text-align: left;">laudō</td>
+<td style="text-align: left;">I praise</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Chrīstum</td>
+<td style="text-align: left;">nōn (not)</td>
+<td style="text-align: left;">amō</td>
+<td style="text-align: left;">I love</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">prōvinciam</td>
+<td style="text-align: left;">forte (by chance)</td>
+<td style="text-align: left;">eō</td>
+<td style="text-align: left;">I go</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">(tu)</td>
+<td style="text-align: left;">glōriam</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">ōrās</td>
+<td style="text-align: left;">you pray</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">nautam</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">vidēs</td>
+<td style="text-align: left;">you see</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Marīam</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">laudās</td>
+<td style="text-align: left;">you praise</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">amīcum</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">vocās</td>
+<td style="text-align: left;">you call</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">portam</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">īs</td>
+<td style="text-align: left;">you go</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">(is)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">ōrat</td>
+<td style="text-align: left;">he prays</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">(ea)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">videt</td>
+<td style="text-align: left;">she sees</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">(id)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">laudat</td>
+<td style="text-align: left;">he praises</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Marīa</td>
+<td style="text-align: left;">Chrīstum</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">amat</td>
+<td style="text-align: left;">loves</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">servus</td>
+<td style="text-align: left;">portam</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">ambulat</td>
+<td style="text-align: left;">walks</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Deus</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">venit</td>
+<td style="text-align: left;">comes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Chrīstus</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">vocat</td>
+<td style="text-align: left;">calls</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">porta</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">victōria</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">glōria</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">nauta</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">prōvincia</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">amīcus</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Chrīstiānus</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="prompt-instructions">Prompt Instructions:</h1>
+<p>When provided with a new vocabulary list, generate a table following
+the above rules and structure. - Ensure all nouns from the list appear
+as subjects (even if without verbs), and select appropriate objects from
+the list. - Choose five distinct adverbs (including nōn) that fit the
+verbs and context, using each only once. - If additional verbs are
+needed, select common Latin verbs that support a simple story with the
+nouns (e.g., movement or interaction verbs). - Provide a brief
+explanation after the table, noting which verbs (if any) were added, how
+adverbs were chosen, and how the table supports a simple story.</p>
+<h1 id="vocab-list">VOCAB LIST```</h1>
+</section>
+<footer>
+<div style="size:0.3em;align:center;margin-top:2em;">
+This site built with <a href="https://css.winterveil.net/">magick.css</a> and <a href="http://pandoc.org">Pandoc</a>.
+</div>
+</footer>
+</main>
+</body>
+</html>
