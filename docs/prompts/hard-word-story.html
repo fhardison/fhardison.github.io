@@ -1,0 +1,217 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <meta name="dcterms.date" content="2025-06-26">
+  <title>Language learning story for vocab list generation prompt</title>
+  <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/magick.min.css">
+    <script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+        // Select all code blocks. You might need to adjust this selector
+        // based on how your code blocks are structured.
+        // Common selectors include 'pre code', '.code-block', or specific classes.
+        const codeBlocks = document.querySelectorAll('pre code');
+
+        codeBlocks.forEach((codeBlock, index) => {
+            // Create the copy button
+            const copyButton = document.createElement('button');
+            copyButton.textContent = 'Copy';
+            copyButton.classList.add('copy-code-button'); // Add a class for styling
+
+            // Optional: Add a unique ID to the button for more specific targeting if needed
+            copyButton.id = `copy-button-`;
+
+            // Insert the button right after the code block's parent element (the <pre> tag)
+            if (codeBlock.parentNode) {
+                codeBlock.parentNode.insertAdjacentElement('afterend', copyButton);
+            }
+
+            // Add the click event listener
+            copyButton.addEventListener('click', () => {
+                const codeToCopy = codeBlock.textContent;
+
+                // Use the modern Clipboard API
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(codeToCopy)
+                        .then(() => {
+                            copyButton.textContent = 'Copied!';
+                            // Reset button text after a short delay
+                            setTimeout(() => {
+                                copyButton.textContent = 'Copy';
+                            }, 2000);
+                        })
+                        .catch(err => {
+                            console.error('Failed to copy text: ', err);
+                            alert('Failed to copy code. Please try again or copy manually.');
+                        });
+                } else {
+                    // Fallback for older browsers (less reliable and generally discouraged now)
+                    const textArea = document.createElement('textarea');
+                    textArea.value = codeToCopy;
+                    textArea.style.position = 'fixed'; // Prevent scrolling to bottom of page
+                    textArea.style.left = '-999999px'; // Move off-screen
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+                    try {
+                        document.execCommand('copy');
+                        copyButton.textContent = 'Copied!';
+                        setTimeout(() => {
+                            copyButton.textContent = 'Copy';
+                        }, 2000);
+                    } catch (err) {
+                        console.error('Fallback: Failed to copy text: ', err);
+                        alert('Failed to copy code. Your browser does not support automatic copying. Please copy manually.');
+                    } finally {
+                        document.body.removeChild(textArea);
+                    }
+                }
+            });
+        });
+    });
+  </script>
+</head>
+<body>
+<main>
+<header>
+<h1>A mind for language</h1>
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about.html">About</a></li>
+<li><a href="/podcast.html">Podcast</a></li>
+<li><a href="/prompts.html">Prompts</a></li>
+</ul>
+</nav>
+
+</header>
+<section>
+<h2>Language learning story for vocab list generation prompt</h2>
+<h3 class="date">2025-06-26</h3>
+</section>
+<section>
+<p>This prompt generates a decent story for language learners targeted
+for specific vocabulary. The idea is that you can use this to get more
+reps of specific words that are troublesome to learn. Just specify the
+TARGET LEARNER LEVEL, TARGET LANGUAGE being learned, the NUMBER OF
+WORDS, and provide the list of vocab. THis can be done at the top of the
+prompt and bottom. I’m not sure if you need to do both. I got prety good
+results on my first time using by only specifiing at the bottom of the
+promp.</p>
+<p>```` Role: You are an AI expert in creating educational materials for
+language learners. Your specialization is in writing engaging narratives
+that facilitate vocabulary acquisition through the principles of
+comprehensible input and strategic repetition.</p>
+<p>Task: Write a short story for a the specifed [TARGET LEARNER LEVEL]
+learner of [TARGET LANGUAGE]. The story must be written entirely in the
+[TARGET LANGUAGE]. The story should be [NUMBER OF WORDS] words.</p>
+<p>The primary goal of this story is to provide significant,
+natural-sounding repetition of the following target vocabulary words.
+You must seamlessly integrate these words into the narrative.</p>
+<p>Key Principles to Follow:</p>
+<ul>
+<li><p>Target Vocabulary Focus: The story’s plot must be built around
+providing a natural context for the target words to appear multiple
+times.</p></li>
+<li><p>Strategic Repetition:</p>
+<ul>
+<li>Integrate each target word at least 4-5 times.</li>
+<li>Repeat the words in slightly different, simple grammatical
+structures and contexts to demonstrate usage (e.g., as a noun, in a
+question, in a character’s dialogue).</li>
+</ul></li>
+<li><p>Ensure the repetition feels like a natural part of the story, not
+forced or robotic. Use techniques like character thoughts, dialogue, and
+narrative summary to re-introduce the words.</p></li>
+<li><p>Comprehensible Input:</p>
+<ul>
+<li>The language surrounding the target vocabulary should be simple and
+high-frequency for a learner at this level. Avoid complex or rare
+words.</li>
+<li>Use simple sentence structures (Subject-Verb-Object).</li>
+<li>The meaning of the target vocabulary should be extremely clear from
+the context, especially the first time each word is introduced.</li>
+</ul></li>
+<li><p>Engaging Narrative:</p>
+<ul>
+<li>The plot must be simple, clear, and engaging.</li>
+<li>It must have a clear beginning, middle, and end.</li>
+<li>Consider a simple plot structure like a character having a problem
+and finding a solution, a short journey, or a humorous situation.</li>
+</ul></li>
+</ul>
+<p>Output Format: * First, provide the complete story written in the
+[Target Language]. * After the story, provide a “Vocabulary Usage
+Summary” that lists each target word and the number of times it appeared
+in the story.</p>
+<p>Example of a Filled-In Prompt</p>
+<p>Role: You are an AI expert in creating educational materials for
+language learners. Your specialization is in writing engaging narratives
+that facilitate vocabulary acquisition through the principles of
+comprehensible input and strategic repetition.</p>
+<p>Task: Write a short story for a beginner/intermediate learner of
+Spanish. The story must be written entirely in Spanish.</p>
+<p>The primary goal of this story is to provide significant,
+natural-sounding repetition of the following target vocabulary words.
+You must seamlessly integrate these words into the narrative.</p>
+<p>Key Principles to Follow:</p>
+<ul>
+<li><p>Target Vocabulary Focus: The story’s plot must be built around
+providing a natural context for the target words to appear multiple
+times.</p></li>
+<li><p>Strategic Repetition:</p></li>
+<li><p>Integrate each target word at least 4-5 times.</p></li>
+<li><p>Repeat the words in slightly different, simple grammatical
+structures and contexts to demonstrate usage (e.g., as a noun, in a
+question, in a character’s dialogue).</p></li>
+<li><p>Ensure the repetition feels like a natural part of the story, not
+forced or robotic. Use techniques like character thoughts, dialogue, and
+narrative summary to re-introduce the words.</p></li>
+<li><p>Comprehensible Input:</p></li>
+<li><p>The language surrounding the target vocabulary should be simple
+and high-frequency for a learner at this level. Avoid complex or rare
+words.</p></li>
+<li><p>Use simple sentence structures (Subject-Verb-Object).</p></li>
+<li><p>The meaning of the target vocabulary should be extremely clear
+from the context, especially the first time each word is
+introduced.</p></li>
+<li><p>Engaging Narrative:</p></li>
+<li><p>The plot must be simple, clear, and engaging.</p></li>
+<li><p>It must have a clear beginning, middle, and end.</p></li>
+<li><p>Consider a simple plot structure like a character having a
+problem and finding a solution, a short journey, or a humorous
+situation.</p></li>
+</ul>
+<p>User-Defined Inputs:</p>
+<ul>
+<li>Target Language: Spanish</li>
+<li>Approximate Story Length: 200 words</li>
+<li>Target Vocabulary List: la llave, buscar, perdido, la puerta</li>
+</ul>
+<p>Output Format:</p>
+<ul>
+<li>First, provide the complete story written in the Spanish.</li>
+<li>After the story, provide a “Vocabulary Usage Summary” that lists
+each target word and the number of times it appeared in the story.</li>
+</ul>
+<h1 id="input">INPUT</h1>
+<ul>
+<li>Target Language:</li>
+<li>Approximate Story Length: 200 words</li>
+<li>Target Vocabulary List:</li>
+</ul>
+<p>```</p>
+</section>
+<footer>
+<div style="size:0.3em;align:center;margin-top:2em;">
+This site built with <a href="https://css.winterveil.net/">magick.css</a> and <a href="http://pandoc.org">Pandoc</a>.
+</div>
+</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,132 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <meta name="dcterms.date" content="2025-06-29">
+  <title>Fable Language Learner story generation prompt</title>
+  <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/magick.min.css">
+    <script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+        // Select all code blocks. You might need to adjust this selector
+        // based on how your code blocks are structured.
+        // Common selectors include 'pre code', '.code-block', or specific classes.
+        const codeBlocks = document.querySelectorAll('pre code');
+
+        codeBlocks.forEach((codeBlock, index) => {
+            // Create the copy button
+            const copyButton = document.createElement('button');
+            copyButton.textContent = 'Copy';
+            copyButton.classList.add('copy-code-button'); // Add a class for styling
+
+            // Optional: Add a unique ID to the button for more specific targeting if needed
+            copyButton.id = `copy-button-`;
+
+            // Insert the button right after the code block's parent element (the <pre> tag)
+            if (codeBlock.parentNode) {
+                codeBlock.parentNode.insertAdjacentElement('afterend', copyButton);
+            }
+
+            // Add the click event listener
+            copyButton.addEventListener('click', () => {
+                const codeToCopy = codeBlock.textContent;
+
+                // Use the modern Clipboard API
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(codeToCopy)
+                        .then(() => {
+                            copyButton.textContent = 'Copied!';
+                            // Reset button text after a short delay
+                            setTimeout(() => {
+                                copyButton.textContent = 'Copy';
+                            }, 2000);
+                        })
+                        .catch(err => {
+                            console.error('Failed to copy text: ', err);
+                            alert('Failed to copy code. Please try again or copy manually.');
+                        });
+                } else {
+                    // Fallback for older browsers (less reliable and generally discouraged now)
+                    const textArea = document.createElement('textarea');
+                    textArea.value = codeToCopy;
+                    textArea.style.position = 'fixed'; // Prevent scrolling to bottom of page
+                    textArea.style.left = '-999999px'; // Move off-screen
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+                    try {
+                        document.execCommand('copy');
+                        copyButton.textContent = 'Copied!';
+                        setTimeout(() => {
+                            copyButton.textContent = 'Copy';
+                        }, 2000);
+                    } catch (err) {
+                        console.error('Fallback: Failed to copy text: ', err);
+                        alert('Failed to copy code. Your browser does not support automatic copying. Please copy manually.');
+                    } finally {
+                        document.body.removeChild(textArea);
+                    }
+                }
+            });
+        });
+    });
+  </script>
+</head>
+<body>
+<main>
+<header>
+<h1>A mind for language</h1>
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about.html">About</a></li>
+<li><a href="/podcast.html">Podcast</a></li>
+<li><a href="/prompts.html">Prompts</a></li>
+</ul>
+</nav>
+
+</header>
+<section>
+<h2>Fable Language Learner story generation prompt</h2>
+<h3 class="date">2025-06-29</h3>
+</section>
+<section>
+<p>This prompt generates a decent story for language learners the style
+of Aesop’s Fables. Just specify the LEVEL, LANGUAGE being learned,
+NUMBER OF WORDS, and the vocabulary list.</p>
+<pre><code>
+No problem! Here&#39;s the updated AI prompt, now including glosses for animal names and comprehension questions in the target language:
+
+You are a master storyteller, capable of crafting engaging and morally instructive tales in the classic style of Aesop&#39;s Fables. Your task is to create a short story that incorporates a given list of vocabulary words. The story should be rich in repetition of these vocabulary words and their related concepts to maximize comprehensible input for language learners. Each story must also conclude with a clear moral, just like traditional fables.
+
+To further aid understanding, please provide glosses (brief explanations or translations) for any animal names used in the story directly after their first appearance in parentheses.
+
+Finally, after the story and its moral, generate three to five comprehension questions in the target language. These questions should assess understanding of the plot, characters, and the story&#39;s overall message, and encourage learners to use the new vocabulary.
+
+Focus on:
+
+Simple, direct language: Use clear sentence structures suitable for the specified language level.
+
+Contextual clues: Ensure the meaning of new vocabulary is evident from the surrounding text.
+
+Engaging narrative: Create a compelling mini-narrative with relatable characters (often animals) and a clear conflict or situation.
+
+Repetition with variation: While repeating vocabulary, try to vary the sentence structure or context slightly to reinforce understanding without becoming monotonous.
+
+Language: [Specify Language, e.g., English, Spanish, French]
+Learner Level: [Specify Level, e.g., Beginner, Intermediate, Advanced]
+Number of Words for the Story: [Specify Number, e.g., 200, 350, 500]
+Vocabulary List: [Provide a comma-separated list of words, e.g., &quot;brave, loyal, forest, journey, clever, trick, friendship, help, danger, reward&quot;]</code></pre>
+</section>
+<footer>
+<div style="size:0.3em;align:center;margin-top:2em;">
+This site built with <a href="https://css.winterveil.net/">magick.css</a> and <a href="http://pandoc.org">Pandoc</a>.
+</div>
+</footer>
+</main>
+</body>
+</html>
