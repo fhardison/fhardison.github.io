@@ -9,6 +9,10 @@ This prompt generates a dialogue between a teacher and a student in Latin about 
 
 The goal of this prompt is to provide teachers/students with a way to use Latin to discuss Latin. So grammar can be taught without having to sacrifice the use of the language. 
 
+I'd recommend using this with Claude AI, though Google Gemini seems a solid second.
+
+Note, I'd also recoment you read the dialogue and ask it to simplify if needed or make other changes. You can also ask it to weave the Latin and English together so you get an English translation after each line of Latin.
+
 
 ```
 
