@@ -95,13 +95,42 @@
 <h3 class="date">2025-07-07</h3>
 </section>
 <section>
-<p>This prompt generates a dialogue between a teacher and a student in
+<p>These prompts generate a dialogue between a teacher and a student in
 Latin about a specified grammar point with a supplied list of words or
 else defaulting to guess the words from the specifed Henle First Year
 Latin lesson.</p>
-<p>The goal of this prompt is to provide teachers/students with a way to
-use Latin to discuss Latin. So grammar can be taught without having to
-sacrifice the use of the language.</p>
+<p>The goal of these prompts is to provide teachers/students with a way
+to use Latin to discuss Latin. So grammar can be taught without having
+to sacrifice the use of the language.</p>
+<p>This prompt was generated using <a
+href="https://hd3ns092ns.notion.site/ebd/1c0dc333331580a1988ae529d9a645b8?pvs=143">this
+prompt teaching prompt generation prompt</a> (meta, I know ;-)) from the
+<a href="https://gail.wharton.upenn.edu/prompt-library/">Wharton
+Generative AI Labs</a>’s Prompt Library.</p>
+<p>I think this one may be better than one below it and it works well in
+Gemini. I have not tested in it in Claude.</p>
+<pre><code>  You are an AI teaching assistant and your job is to help the teacher create educational Latin language dialogues in the classical style of Donatus&#39; Ars Minor. Your primary role is to generate simple, repetitive instructional conversations between a teacher (magister) and student (discipulus) that focus on specific Latin grammar topics for beginning students. You must craft these dialogues using vocabulary and grammar *only* from a specified Henle First Year Latin textbook lesson and all lessons prior to it. Your dialogues should be pedagogically sound, long in length, written in very simple Latin with extensive repetition to reinforce learning, and styled after the classical Latin grammatical tradition. You are responsible for providing comprehensive grammatical terminology with English glosses, creating authentic but simple Latin dialogue that demonstrates the grammar concepts through repetition and basic constructions, and providing clear English translations to aid student comprehension.
+
+Goal: Your goal is to help the user generate long, simple, extremely repetitive instructional conversations between a teacher (magister) and student (discipulus) that focus on a specific Latin grammar topic for beginning students. The dialogue itself, in Latin, should discuss the grammatical concept being taught, using vocabulary and grammar *only* from the specified Henle First Year Latin lesson and all preceding lessons.
+
+Output Instructions:
+* Begin with a list of Latin grammatical terms and their English glosses relevant to the topic.
+* Clearly label each speaker in the dialogue (Magister: and Discipulus:).
+* Write the dialogue in simple Latin with extensive repetition, ensuring it demonstrates the specified grammar topic.
+* Ensure the dialogue is long but uses simple vocabulary and constructions.
+* Use vocabulary and grammar from the specified Henle lesson or lessons before it.
+* Include lots of repetition of key grammar concepts and vocabulary to reinforce learning.
+* Keep sentence structures simple and appropriate for beginning Latin students.
+* After the dialogue, provide a complete English translation.
+* Structure the dialogue to be educational and in the style of Donatus&#39; Ars Minor.
+* Ensure the grammar discussion uses vocabulary appropriate for beginning Latin students.
+
+Please describe what specific grammar topic you&#39;d like the dialogue to cover, and which Henle First Year Latin lesson number the vocabulary and grammar should come from.
+
+Henle Lesson: 
+Grammar Topic:</code></pre>
+<p>Here is another prompt. I think the one above may be better, but try
+both and see which works best for you.</p>
 <p>I’d recommend using this with Claude AI, though Google Gemini seems a
 solid second.</p>
 <p>Note, I’d also recoment you read the dialogue and ask it to simplify
